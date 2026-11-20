@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuryaGrid – Extraction Audit Report</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background: #0f172a; color: #f8fafc; padding: 2rem; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .header { border-bottom: 2px solid #334155; padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }
+  h1 { margin: 0; color: #38bdf8; font-size: 1.8rem; }
+  .badge { background: #0284c7; color: white; padding: 0.35rem 0.8rem; border-radius: 9999px; font-weight: 600; font-size: 0.85rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+  .card { background: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+  .card-title { color: #94a3b8; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin-bottom: 0.5rem; }
+  .card-value { font-size: 2rem; font-weight: 700; color: #f1f5f9; }
+  .card-sub { font-size: 0.85rem; color: #38bdf8; margin-top: 0.25rem; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: #1e293b; border-radius: 0.5rem; overflow: hidden; }
+  th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #334155; font-size: 0.9rem; }
+  th { background: #334155; color: #94a3b8; font-weight: 600; }
+  tr:hover { background: #243248; }
+  .alert { background: #451a03; border-left: 4px solid #f97316; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem; }
+  .alert-title { font-weight: bold; color: #fdba74; margin-bottom: 0.25rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>SuryaGrid – Substation Extraction Audit</h1>
+      <p style="color: #94a3b8; margin: 0.35rem 0 0;">PM-KUSUM Component-A PDF Extraction Verification Report</p>
+    </div>
+    <span class="badge">Phase 2: Complete (100% Extracted)</span>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Total Records Extracted</div>
+      <div class="card-value">2,555</div>
+      <div class="card-sub">From 30 PDF pages</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Unique Serial Numbers</div>
+      <div class="card-value">2,555</div>
+      <div class="card-sub">0 Duplicates (1 to 2555)</div>
+    </div>
+    <div class="card">
+      <div class="card-title">TGSPDCL (South)</div>
+      <div class="card-value">1,343</div>
+      <div class="card-sub">52.56% of total</div>
+    </div>
+    <div class="card">
+      <div class="card-title">TGNPDCL (North)</div>
+      <div class="card-value">1,212</div>
+      <div class="card-sub">47.44% of total</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Administrative Circles</div>
+      <div class="card-value">35</div>
+      <div class="card-sub">Top: Nizamabad (185), Siddipet (175)</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Divisions</div>
+      <div class="card-value">76</div>
+      <div class="card-sub">Operational divisions</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Subdivisions</div>
+      <div class="card-value">211</div>
+      <div class="card-sub">Subdivisions monitored</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Sections</div>
+      <div class="card-value">691</div>
+      <div class="card-sub">Local electrical sections</div>
+    </div>
+  </div>
+
+  <div class="alert">
+    <div class="alert-title">Extraction Anomaly Log (1 event handled)</div>
+    <p style="margin: 0; font-size: 0.9rem; color: #fed7aa;">
+      Record <strong>Sl.No. 88</strong> (Page 2, Mandoddi SS, Circle: Gadwal): Division was empty in the source document.
+      Surrounding records (87 & 89) confirm the Division is <strong>Gadwal</strong>. Preserved raw value as blank and flagged in audit log.
+    </p>
+  </div>
+
+  <h2 style="color: #38bdf8; font-size: 1.3rem;">Extracted Dataset Sample (First 20 Records)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Sl. No.</th>
+        <th>DISCOM</th>
+        <th>Circle</th>
+        <th>Division</th>
+        <th>Sub division</th>
+        <th>Section</th>
+        <th>Name of 33/11 Substation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV Devuni Yerravalli SS</strong></td></tr><tr><td>2</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV Chenvelly SS</strong></td></tr><tr><td>3</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV Chevella SS</strong></td></tr><tr><td>4</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV EARLAPALLY SUB STATION</strong></td></tr><tr><td>5</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV MUDIMYALA SUB STATION</strong></td></tr><tr><td>6</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>CHEVELLA</td><td><strong>33/11 KV Kandawada SS</strong></td></tr><tr><td>7</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV Shabad SS</strong></td></tr><tr><td>8</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV Chandanvally SS</strong></td></tr><tr><td>9</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV Bobbiligoam SS</strong></td></tr><tr><td>10</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV Tallapally SS</strong></td></tr><tr><td>11</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV HYTHABAD SS</strong></td></tr><tr><td>12</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11 KV Antharam SS</strong></td></tr><tr><td>13</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>CHEVELLA</td><td>SHABAD</td><td><strong>33/11KV CHANDANVALLY INDUSTRIAL PARK SS</strong></td></tr><tr><td>14</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>Ibhrahimbagh</td><td>NARSINGI</td><td><strong>Kokapet</strong></td></tr><tr><td>15</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>Ibhrahimbagh</td><td>NARSINGI</td><td><strong>Vattinagulapally</strong></td></tr><tr><td>16</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>MOKILA</td><td>CHILKUR</td><td><strong>33/11 KV Moinabad SS</strong></td></tr><tr><td>17</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>MOKILA</td><td>CHILKUR</td><td><strong>33/11 KV KANAKA MAMIDI SUB STATION</strong></td></tr><tr><td>18</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>MOKILA</td><td>CHILKUR</td><td><strong>33/11 KV Reddypally SS</strong></td></tr><tr><td>19</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>MOKILA</td><td>MOINABAD</td><td><strong>33/11 KV Amdapur SS</strong></td></tr><tr><td>20</td><td>TGSPDCL</td><td>CYBERCITY</td><td>Ibhrahimbagh</td><td>MOKILA</td><td>MOINABAD</td><td><strong>33/11 KV Kethi reddy palli SS</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

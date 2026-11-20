@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuryaGrid – Statewide Substation Discovery Report</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background: #0f172a; color: #f8fafc; padding: 2rem; }
+  .container { max-width: 1250px; margin: 0 auto; }
+  .header { border-bottom: 2px solid #334155; padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }
+  h1 { margin: 0; color: #38bdf8; font-size: 1.8rem; }
+  .badge { background: #10b981; color: white; padding: 0.35rem 0.8rem; border-radius: 9999px; font-weight: 600; font-size: 0.85rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+  .card { background: #1e293b; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #334155; }
+  .card-title { color: #94a3b8; font-size: 0.85rem; text-transform: uppercase; font-weight: 600; margin-bottom: 0.5rem; }
+  .card-value { font-size: 2rem; font-weight: 700; color: #f1f5f9; }
+  .card-sub { font-size: 0.85rem; margin-top: 0.25rem; color: #38bdf8; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; margin-bottom: 2rem; background: #1e293b; border-radius: 0.5rem; overflow: hidden; }
+  th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #334155; font-size: 0.88rem; }
+  th { background: #334155; color: #94a3b8; font-weight: 600; }
+  tr:hover { background: #243248; }
+  .tag-status { padding: 0.2rem 0.6rem; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; }
+  .tag-high { background: #065f46; color: #34d399; }
+  .tag-mod { background: #1e3a8a; color: #93c5fd; }
+  .tag-low { background: #854d0e; color: #fde047; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>SuryaGrid – Statewide Substation Discovery Audit</h1>
+      <p style="color: #94a3b8; margin: 0.35rem 0 0;">Telangana Statewide Multi-Tier Electrical Infrastructure Mapping</p>
+    </div>
+    <span class="badge">Coverage: All 33 Districts Queried</span>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Total Discovered Facilities</div>
+      <div class="card-value">1,045</div>
+      <div class="card-sub">Inside 112,297 sq km State Boundary</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Transmission Substations</div>
+      <div class="card-value" style="color: #60a5fa;">295</div>
+      <div class="card-sub">765 kV, 400 kV, 220 kV, 132 kV</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Distribution Substations</div>
+      <div class="card-value" style="color: #34d399;">12</div>
+      <div class="card-sub">33/11 kV, 110 kV, 66 kV</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Transformers</div>
+      <div class="card-value" style="color: #facc15;">209</div>
+      <div class="card-sub">Distribution transformers mapped</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Districts Represented</div>
+      <div class="card-value">33 / 33</div>
+      <div class="card-sub">100% of Telangana revenue districts</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Mandals Represented</div>
+      <div class="card-value">306</div>
+      <div class="card-sub">Out of 444 monitored blocks</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Known Voltage Tags</div>
+      <div class="card-value" style="color: #a7f3d0;">294</div>
+      <div class="card-sub">28.1% with verified voltage rating</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Unknown Voltage Facilities</div>
+      <div class="card-value" style="color: #fca5a5;">751</div>
+      <div class="card-sub">Preserved without guessing</div>
+    </div>
+  </div>
+
+  <h2 style="color: #38bdf8; font-size: 1.3rem;">District-by-District Infrastructure Inventory Breakdown</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>District</th>
+        <th>Total Facilities</th>
+        <th>Transmission (>=132kV)</th>
+        <th>Distribution (33/11kV)</th>
+        <th>Transformers</th>
+        <th>Unclassified</th>
+        <th>Mandals with Data</th>
+        <th>Search Coverage Tier</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Adilabad</strong></td><td>12</td><td>2</td><td>0</td><td>0</td><td>9</td><td>5</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Bhadradri Kothagudem</strong></td><td>48</td><td>16</td><td>0</td><td>17</td><td>15</td><td>13</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Hyderabad</strong></td><td>31</td><td>3</td><td>1</td><td>2</td><td>25</td><td>14</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Jagitial</strong></td><td>12</td><td>4</td><td>1</td><td>0</td><td>7</td><td>9</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Jangoan</strong></td><td>33</td><td>9</td><td>0</td><td>6</td><td>17</td><td>10</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Jayashankar</strong></td><td>9</td><td>6</td><td>0</td><td>0</td><td>1</td><td>6</td><td><span class='tag-status tag-low'>Low Coverage / Sparse Mapping</span></td></tr><tr><td><strong>Jogulamba Gadwal</strong></td><td>9</td><td>5</td><td>0</td><td>1</td><td>2</td><td>5</td><td><span class='tag-status tag-low'>Low Coverage / Sparse Mapping</span></td></tr><tr><td><strong>Kamareddy</strong></td><td>18</td><td>11</td><td>0</td><td>0</td><td>7</td><td>9</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Karimnagar</strong></td><td>21</td><td>11</td><td>1</td><td>6</td><td>3</td><td>8</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Khammam</strong></td><td>41</td><td>8</td><td>0</td><td>6</td><td>27</td><td>16</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Kumuram Bheem Asifabad</strong></td><td>5</td><td>4</td><td>0</td><td>0</td><td>1</td><td>2</td><td><span class='tag-status tag-low'>Low Coverage / Sparse Mapping</span></td></tr><tr><td><strong>Mahabubabad</strong></td><td>29</td><td>8</td><td>0</td><td>0</td><td>21</td><td>11</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Mahabubnagar</strong></td><td>12</td><td>5</td><td>0</td><td>0</td><td>7</td><td>5</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Mancherial</strong></td><td>21</td><td>10</td><td>0</td><td>5</td><td>6</td><td>8</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Medak</strong></td><td>22</td><td>7</td><td>1</td><td>7</td><td>7</td><td>9</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Medchal Malkajgiri</strong></td><td>106</td><td>12</td><td>3</td><td>15</td><td>76</td><td>8</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Mulugu</strong></td><td>14</td><td>2</td><td>0</td><td>0</td><td>12</td><td>6</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Nagarkurnool</strong></td><td>20</td><td>14</td><td>0</td><td>3</td><td>3</td><td>10</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Nalgonda</strong></td><td>62</td><td>15</td><td>0</td><td>15</td><td>32</td><td>19</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Narayanpet</strong></td><td>11</td><td>2</td><td>0</td><td>0</td><td>9</td><td>6</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Nirmal</strong></td><td>12</td><td>6</td><td>0</td><td>3</td><td>3</td><td>7</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Nizamabad</strong></td><td>50</td><td>21</td><td>0</td><td>12</td><td>17</td><td>17</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Peddapalli</strong></td><td>72</td><td>10</td><td>1</td><td>35</td><td>18</td><td>7</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Rajanna Sircilla</strong></td><td>17</td><td>6</td><td>0</td><td>6</td><td>5</td><td>6</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Ranga Reddy</strong></td><td>137</td><td>24</td><td>2</td><td>39</td><td>72</td><td>19</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Sangareddy</strong></td><td>48</td><td>9</td><td>0</td><td>5</td><td>34</td><td>11</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Siddipet</strong></td><td>40</td><td>16</td><td>0</td><td>8</td><td>16</td><td>15</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Suryapet</strong></td><td>34</td><td>8</td><td>0</td><td>8</td><td>18</td><td>12</td><td><span class='tag-status tag-high'>High Density Coverage</span></td></tr><tr><td><strong>Vikarabad</strong></td><td>14</td><td>8</td><td>0</td><td>0</td><td>6</td><td>8</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Wanaparthy</strong></td><td>17</td><td>10</td><td>1</td><td>3</td><td>3</td><td>6</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Warangal Rural</strong></td><td>29</td><td>7</td><td>0</td><td>3</td><td>19</td><td>12</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Warangal Urban</strong></td><td>24</td><td>11</td><td>1</td><td>3</td><td>8</td><td>6</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr><tr><td><strong>Yadadri Bhuvanagiri</strong></td><td>15</td><td>5</td><td>0</td><td>1</td><td>9</td><td>8</td><td><span class='tag-status tag-mod'>Moderate Coverage</span></td></tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

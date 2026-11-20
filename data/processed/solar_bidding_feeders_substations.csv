@@ -1,0 +1,1792 @@
+district,ss_132_33,ss_132_raw,ptr_capacity,ss_132_max_avail_mw,bay_ext_feasible,bays_available,space_available,feeder_33,substation_33_11,feeder_feasibility_mw,page
+NALGONDA,Aitipamula,Aitipamula,1x31.5+1x10/1 6,23.0,Yes,Yes,yes,Aitipamula,Aitipamula,10.0,1
+NALGONDA,Aitipamula,Aitipamula,1x31.5+1x10/1 6,23.0,Yes,Yes,yes,Nakrekal A,Nakrekal,10.0,1
+NALGONDA,Aitipamula,Aitipamula,1x31.5+1x10/1 6,23.0,Yes,Yes,yes,Nakrekal A,Palem,10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Bhongir,Bhongir,10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Bhongir,Suryawamshi(IDA),10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Bhongir,Muthireddygudem,10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Maryala,B.Ramaram,10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Maryala,Mariyala,10.0,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,Maryala,Solipet,10.0,1
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.P.Pally,B.P.Pally,6.5,1
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.P.Pally,Juloor,6.5,1
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.P.Pally,Venkiryala,6.5,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.P.Pally,Malkapur,6.5,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.Ramaram,Kondamadugu,10.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,B.Ramaram,Nemargomula,10.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bhongir(bb),Chandupatla,10.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bhongir(bb),Nandanam,10.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bibinagar,Bibinagar,10.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bollepally,Bollepally,6.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bollepally,Pedaravulapally,6.0,2
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,Bollepally,Gurraladandi,6.0,2
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Choutuapapl,Choutuppal,9.0,2
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Choutuapapl,D.Nagaram,9.0,2
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Narayanpur,Narayanpur,10.0,2
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Narayanpur,Janagoan,10.0,3
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Narayanpur,Survail,10.0,3
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Verkatpaly(D.Nagara,mJu)blakpally,3.0,3
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,Verkatpaly(D.Nagara,Varketpally,3.0,3
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Dirsincherla,Diersencherla,10.0,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Garidepally,Kitavarigudem,8.1,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Garidepally,Garidepally,8.1,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Garidepally,Ponugode,8.1,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Kalmalchervu,KalmalaChervu,10.0,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Palakeedu,Palakeedu,10.0,4
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,Palakeedu,Alingapuram,10.0,4
+NALGONDA,Guntipally,Guntipally,1 X 16,8.0,--,Yes,no,Padmatpally,Padmatpally,10.0,4
+NALGONDA,Guntipally,Guntipally,1 X 16,8.0,--,Yes,no,Padmatpally,Singarajpally,10.0,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Haliya(H),Halia,9.0,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Haliya(H),Pulimamidi,9.0,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Haliya(H),Nidamanoor,9.0,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Peddavoora,Peddavoora,8.0,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Peddavoora,Pottichelma,8.0,5
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Peddavoora,Pulicharla,8.0,5
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Peddavoora,Nellikal,8.0,5
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Peddavoora,Velmagudem,8.0,5
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Rajavaram (Pottichelma),Yacharam,10.0,5
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,Rajavaram (Pottichelma),Rajavaram,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Angadipet,Angadipet,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Angadipet,Ghanapur,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Angadipet,Dugyala,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chandampet,Chandampet,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chandampet,Teldeverapally,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chandampet,Cherkupally,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chandampet,Yerraram,10.0,5
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chinthapally,Chintapally,4.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chinthapally,Takkallalpally,4.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Chinthapally,Teeded,4.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Deverakonda,Deverakonda,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Deverakonda,Mudigonda,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,K.M.Pally,Junuthala,5.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,K.M.Pally,K.M.Pally,5.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,K.M.Pally,Palvai,5.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,K.M.Pally,Chepur,5.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Nampally,Nampally,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,Nampally,Mellavai,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,SLBC,Kothapally,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,SLBC,Puttangandi,10.0,6
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,SLBC,Azmapur,10.0,7
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,G.Yedavelly,G.Yadavally,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,G.Yedavelly,Pagidimarri,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Kanagal(K),Kanagal,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Kanagal(K),Gurrampodu,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Kanagal(K),Pochampally,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Koppole,Koppole(G),10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Thimmanagudem,Thimmannagudem,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Thimmanagudem,Thoragal,10.0,8
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,Thimmanagudem,Turkapally,10.0,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Akupamula,Bethavolu,7.0,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Akupamula,Munagala,7.0,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Akupamula,Akupamula,7.0,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Akupamula,Nadigudem,7.0,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Ananthagiri,Ananthagiri,10.0,9
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Ananthagiri,Siripuram,10.0,9
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Kodad,Kodad,10.0,9
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Kodad,Kodad Indoor,10.0,9
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Kodad,N.B.Gudem,10.0,9
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,Kodad,Gondriayala,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Alair,Alair,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Motakondur,Motakondur,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Motakondur,Chamapur,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Motakondur,Chada,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Raghunathpur,N.G.Bandalu,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Raghunathpur,Raghunadhpur,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Rajapet,Rajapet,10.0,9
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Rajapet,Bondugula,10.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Rajapet,Pamukunta,10.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Sharajipet,Sharajpet,10.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Sharajipet,Patelgudem,10.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Sharajipet,Golankonda,10.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Suddala,Suddala,9.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Suddala,Ambala,9.0,10
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Suddala,Velmajala,9.0,11
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Y.Gutta,Y.Gutta,10.0,11
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,Y.Gutta,Pedakandukur,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Agamothkur,Thipparthy,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Agamothkur,Mamidala,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Agamothkur,Aga Mothkur,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Agamothkur,Cherukupally,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Agamothkur,Chervupally,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Madugulapally,Madgulapally,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Thadakamalla,Thadakamalla,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Thadakamalla,Laxmidevigudem,10.0,11
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,Thadakamalla,Seethya thanda,10.0,11
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA,25.0,Yes,No,yes,DCL(M),Mattapally,10.0,11
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Huzurnagar (Mt),Huzurnagar,4.79,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Huzurnagar (Mt),Amaravaram,4.79,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Huzurnagar (Mt),Y.Singaram,4.79,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Mattamaplly,Mattampally,10.0,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,NCL,Pedaveedu,10.0,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Raghunadhapalem,Raghunathapalem,10.0,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Raghunadhapalem,Bheelyanaikthanda,10.0,12
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,Suvarna,Mellacheruvu,10.0,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Gaddipally,Avanthipuram,10.0,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Gaddipally,Kothagudem,10.0,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Gaddipally,Utlapally,10.0,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Gaddipally,Nunavath Thanda,10.0,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Haliya(M),B. Annaram,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Haliya(M),Tripuraram,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Haliya(M),Matoor,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Haliya(M),Thummdam,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Haliya(M),Thimmapur,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Huzurnagar (My),Gaddipally,9.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Huzurnagar (My),Mukundapuram,9.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Kannekal,Kannekal,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Kannekal,Mupparam,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Kannekal,Guntipally,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Kannekal,Kamareddygudem,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Miryalaguda,Miryalguda,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Miryalaguda,V.K.PALEM,10.0,13
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Miryalaguda,Vemulapally,10.0,14
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Miryalaguda,Settipalem,10.0,14
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,Miryalaguda,Miryalguda FCI,10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Mothkur,Gundala,10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Mothkur,Peddapadishala,10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Mothkur,Mothkur,10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Paladugu,Athmakur(M),10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Paladugu,Pallerla,10.0,14
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,Paladugu,Paladugu,10.0,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Ch.Mamidi,Appajipet,10.0,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Ch.Mamidi,Cheekatimamidi,10.0,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Gudapur,P.D.pally,5.0,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Gudapur,Narsingbatla,5.0,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Gudapur,Gudapur,5.0,15
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Kanagal(N),Pole Centre,10.0,15
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Kattangur,Panagal,10.0,15
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Kattangur,Kattangur,10.0,15
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,Nakrekal(N),Pajjur,10.0,15
+NALGONDA,,,,0.0,,,,Nalgonda Rural,Mamillagudem(Nlg,10.0,15
+NALGONDA,,,,0.0,,,,Narketpally(N),Seetharampuram,10.0,15
+NALGONDA,,,,0.0,,,,Narketpally(N),Pamangundla,10.0,15
+NALGONDA,,,,0.0,,,,Rayanaguda,Gollaguda,10.0,15
+NALGONDA,,,,0.0,,,,Rayanaguda,Rajupet,10.0,16
+NALGONDA,,,,0.0,,,,Rayanaguda,Rayanguda,10.0,16
+NALGONDA,,,,0.0,,,,,Nalgonda Indoor,0.0,16
+NALGONDA,,,,0.0,,,,,Kesharajpally,0.0,16
+NALGONDA,,,,0.0,,,,Velugupally,M.D.Pally(SLBC),10.0,16
+NALGONDA,,,,0.0,,,,Velugupally,Velugupally,10.0,16
+NALGONDA,,,,0.0,,,,Velugupally,Mushampally,10.0,16
+NALGONDA,Narketpally,Narketpally,1x31.5+1x10/1 6,12.0,Yes,Yes,yes,Edulur,Edulur,10.0,16
+NALGONDA,Narketpally,Narketpally,1x31.5+1x10/1 6,12.0,Yes,Yes,yes,Narketpally,Narketpally,9.0,16
+NALGONDA,Narketpally,Narketpally,1x31.5+1x10/1 6,12.0,Yes,Yes,yes,Narketpally,B.Yellemula,9.0,16
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Aroor,Laxmapur,10.0,16
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Aroor,Arroor,10.0,16
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Aroor,Puligilla,10.0,16
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Chityala,Narketpally IE,7.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Chityala,Chityala,7.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Chityala,Nerada,7.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Chityala,Urumadla,7.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Ramannapet,Ramannapet,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Valigonda,Voligonda,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Valigonda,Golanpally,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Valigonda,Tekulasomaram,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Veliminedu,Veliminedu,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Veliminedu,Yellanki,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Veliminedu,Aregudem,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Veliminedu,Gundrampally,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Yennaram,Yennaram,10.0,17
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,Yennaram,Iskilla,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Addagudur,Addagudur,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Addagudur,Azeempet,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Akaram,Akaram,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Akkenapally,Akkenapally,8.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Akkenapally,Biravunibanda,8.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Arvapally,Wangamarthy,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Arvapally,Arvapally,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Arvapally,Nagaram,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Nakrekal,Arlagaddagudem,10.0,18
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Nakrekal,Marror,10.0,19
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,Nakrekal,Ch.Annaram,10.0,19
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,S.Gowraram,Sh.Gowraram,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Chandupatla,Sirikonda,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Chandupatla,Mamillagudem(H),10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Chandupatla,Ravipad,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Chandupatla,B.Chandupatla,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Chandupatla,Bibigudem,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,HPCL,Penpahad,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,HPCL,Kasarabad,10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,HPCL,Suryapet(IE),10.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Kethepally,Kethepally,2.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Kethepally,Koppole(K),2.0,19
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Kethepally,Tekumatla,2.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Nuthanakl,Yepur,9.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Nuthanakl,Athmakur (S),9.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Nuthanakl,Nuthankal,9.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Nuthanakl,Kudakuda,9.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Penpahad,Repala,8.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Penpahad,G.Thirumalgiri,8.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Penpahad,Cheedella,8.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,S.V.College,Suryapet (IE-II)SV,10.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Suryapet,Suryapet,10.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Yerkaram,Kandagatla,10.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Yerkaram,Yerkaram,10.0,20
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,Yerkaram,Kodur,10.0,20
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,Phanigiri,T.Thirumalagiri,10.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,Phanigiri,Gundepuri,10.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,Phanigiri,Phangiri,10.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,Ravulapally,Ravulapally,10.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,ReddyGudem,Dirsenapally,8.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,ReddyGudem,Reddigudem,8.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,ReddyGudem,Annaram(T),8.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,ReddyGudem,Mukundapuram,8.0,21
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,Thungaturthy,Thungathurthy,10.0,21
+NALGONDA,Wadapally,Wadapally,1X10/16+1X31. 5,23.0,--,Yes,Yes,A.D.Pally,A.D.Pally,10.0,21
+NALGONDA,Wadapally,Wadapally,1X10/16+1X31. 5,23.0,--,Yes,Yes,A.D.Pally,K.N.Konda,10.0,21
+NALGONDA,Wadapally,Wadapally,1X10/16+1X31. 5,23.0,--,Yes,Yes,Damaracharla,Damaracherla,10.0,21
+NALGONDA,Wadapally,Wadapally,1X10/16+1X31. 5,23.0,--,Yes,Yes,DCL(W),Janpahad,10.0,21
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Kandhukur,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Lemoor,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Pulimamidi,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Rachaloor,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Gummadivelly,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Kandukur,Nednoor,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Shabad,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Chndhanvally,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Tallapally,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Bobilgaon,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Antharam,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Aloor,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Devuneravelly,10.0,23
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,chenvelly,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Shabad,Kowkuntla,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Moinabad,Moinabad,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Moinabad,kethi reddypally,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Moinabad,Reddy pally,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Parveda,Parveda,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Chevella,Chevella,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Chowdapur,Chowdapur,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Chowdapur,Marikal,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Puttapahad,Puttapahad,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Puttapahad,Mohmadabad,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Puttapahad,Nancherla,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Puttapahad,Salkarpet,10.0,24
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Puttapahad,Vennechedu,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Mothkur,Mothkur,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Mothkur,Doma,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Doma (Kulakacharla),Kulkacherla,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Doma (Kulakacharla),Mujahidpur,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Rapole,Rapole,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Rapole,Rangampally,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Rapole,Dirsampally,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Rapole,Gundal,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Siddaloor,Siddaloor,10.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Manneguda,Manneguda,3.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Manneguda,Peddumenthol,3.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Manneguda,Chengomul,3.0,25
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Parigi,Parigi,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Bomrajpet,Nagaram,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Bomrajpet,Bomrajpet(Ma habubnagar dist),10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Bomrajpet,Bagaipally,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Gowthapur,Gowthapur,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Peddamul,Peddamul,5.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Peddamul,Kotepally,5.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Peddamul,Barwada,5.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Peddamul,Nagasamunda r,5.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Vikarabad,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Dharur,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Mambapur,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Basheerabad,10.0,26
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Yalal,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Laxminarayan pur,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Dowlapur,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Vikarabad,Navalga,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Turmamidi,Turmamidi,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Turmamidi,Indoor,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Turmamidi,Bantaram,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Turmamidi,Tattepally,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Tandur,Tandur,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Tandur,Old Tandur,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Karankote,Karankote,10.0,27
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,Karankote,Kotbaspally,10.0,27
+MAHABOOBNAGAR,,,,0.0,,,,Mahabubnagar(T),SLC Mills,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Mahabubnagar(T),OldPowerHouse,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Kodoor,Kodur,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Kodoor,Machanpally,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Hanwada,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Parpally,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Tankara,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Abangapatnam,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Nawabpet,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Kothacheru Road,10.0,28
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Karkonda,10.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Teegalpally,10.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Parpally,Pomal,10.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Jadcherla,Jadcherla,8.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Jadcherla,Malleboinpally,8.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Jadcherla,Thimmajipet,8.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Jadcherla,Koduparthy,8.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Jadcherla,Wattem,8.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Boothpur,9.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Janampet,9.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Annasagar,9.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Kothamolgara,9.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Ghanpur,9.0,29
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Kamaluddinpur,9.0,30
+MAHABOOBNAGAR,,,,0.0,,,,Bhoothpur,Christianpally,9.0,30
+MAHABOOBNAGAR,,,,0.0,,,,Kourampet,Edira,10.0,30
+MAHABOOBNAGAR,,,,0.0,,,,Kourampet,SVS,10.0,30
+MAHABOOBNAGAR,Polepally(Jadchel a),Polepally(Jadchel a),1x31.5,15.0,Yes,No,Yes,Polepally,Kourampet,10.0,30
+MAHABOOBNAGAR,Polepally(Jadchel a),Polepally(Jadchel a),1x31.5,15.0,Yes,No,Yes,Polepally,Polepally,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Kosgi,Dudyal,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Kosgi,Kosigi,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Doulthabad,Doultabad,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Doulthabad,Suraipally,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Doulthabad,Peddanandigama,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Hamsanpally,Sarjakhanpet,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Hamsanpally,Hamsanpally,10.0,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Makthal,Makthal,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Jaklair(Marikal),Jaklair,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Jaklair(Marikal),Bijwar,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Narva,Narva,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Narva,Manthangode,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Narayanapet,Narayanpet,0.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Narayanapet,Perapalla,0.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Narayanapet,Utkoor,0.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Pasupula,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Mushtipally,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Gudeballore,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Kolpur,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Maganoor,10.0,31
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,Pasupula,Krishna,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Maddur,Maddur,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Maddur,Pallerla,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothapally,Kothapally,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothapally,Serivenkatapur,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothapally,Vepur,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothapally,Gundmal,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kankurthy,Kankurthy,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kankurthy,Mogalmadka,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kankurthy,Balampet,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Damaragidda,Damaragidda,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothakota,Kothakota,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Kothakota,Ramanpad,10.0,32
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Tirumalaipally,Madanapur,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Tirumalaipally,Kanimetta,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Tirumalaipally,Kurumurthy,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Tirumalaipally,Kothapally CCK,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Wanaparthy,Wanaparthy,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Solipur,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Balijapally,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Kandur,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Mamidimada,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Buddaram,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Mumaipally,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Ayyavaripally,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Remaddula,10.0,33
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Sri Rangapur,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Rajapur,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Kodair,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Tirumalapur,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Solipur,Teegalapally,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Narsaipally,Kethepally,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Narsaipally,Pangal,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Narsaipally,Mandapur,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Pebbair,Pebbair,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Pebbair,Sugur,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Pebbair,Williamkonda,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Pebbair,Srinivasapuram,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Pebbair,Nasanally,10.0,34
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Revally,Revally,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Revally,P.K.Pally,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Revally,Chennaram,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Revally,Peddakarpamula,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Revally,Bandaraipakula,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Gopalpet,Gopalpet,10.0,35
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,Gopalpet,Thudkurthy,10.0,35
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Jetprol,Jetprol,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Weepangandla,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Velgonda,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Narsaipally,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Kollapur,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Chennapuraopally,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Chintalapally,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Yellore,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Yetham,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Weepangandla,Mahasamudram,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Peddadagada,Peddadagada,10.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Gadwal,Gadwal old,9.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Gadwal,Gadwal New,9.0,36
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Alwalpad,Alwalpad,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Alwalpad,Nandinne,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Alwalpad,Venkatapur,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Alwalpad,Marlabeedu,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Dharoor,Dharoor,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Dharoor,Dyagadoddi,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Maldakal,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Mallamdoddi,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Budidapad,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Bijjaram,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Nagardoddy,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Atmakur,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Amarchintha,10.0,37
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Peddakadmoor,10.0,38
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,Maldakal,Mastipur,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Gattu,Gattu,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Gattu,Macherla,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Gattu,Aloor,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Gattu,Gorlakhandoddi,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,T.T.doddy,Thottinondoddi,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,T.T.doddy,C.T.Pad,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Ieeza,Ieeza,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Venkatapur,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Mandoddi,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Shanthinagar,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Ramapuram,10.0,38
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Chagapur,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,Rajoli,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Venkatapur,P.T.Pad,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Alampur X-Road,Alampur-x-Road,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Undavelly,Undavelly,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Undavelly,Jallapur,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Alampur,Alampur,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Nagarkurnool,Nagarkurnool,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Nagarkurnool,Ithole,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Nagarkurnool,Kummera,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Bijinepally,Bijnapally,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Bijinepally,Manganoor,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Bijinepally,Waddeman,10.0,39
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Manthati,Manthati,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Manthati,Kollapur X Roads,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Manthati,Peddamudunoor,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Manthati,Tadoor,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Manthati,Yangampally,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Rakonda(Telkapally,) Telkapally,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Rakonda(Telkapally,Rakonda,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Rakonda(Telkapally,Peddur,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Rakonda(Telkapally,Tallapally,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Rakonda(Telkapally,Peddapur,10.0,40
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Achampet,Achampet,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Achampet,Kondareddypally,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Lingal,Lingal,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Lingal,Kondanagula,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Lingal,Ambatpally,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amrabad,Amrabad,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amrabad,Vankeshwaram,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amrabad,Munnanoor,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amrabad,Hajipur,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amrabad,Nadimpally,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Uppununthala,Uppununthala,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Uppununthala,Veltoor,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Uppununthala,Mannewaripally,10.0,41
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Uppununthala,Inole,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Sirsangandla,Sirsangandla,9.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Sirsangandla,Tandra,9.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Jajala,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Polkampally,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Gundoor,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Ellikal,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Totapally,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Polkampally,Dindichintapally,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Midjil,Madaram,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Midjil,Marchala,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Midjil,Jaknalpally,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Midjil,Urkonda,10.0,42
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Midjil,Gattuippalapally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Jupally,Juppally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Jupally,Vangoor,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Jupally,Sarvareddypally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Jupally,Bollampally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Jupally,Bairapur,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Kalwakurthy,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Madgul,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Nagilla,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Arkepally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Polepally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Irvin,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Akutotapally,10.0,43
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kalwakurthy-1,Kulkulpally,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Amangal,Amangal,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kadthal,Kadthal,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kadthal,Mudwin,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kadthal,Karkalpad,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Talakondapally,Talakondapally,9.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Talakondapally,Chukapur,9.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Talakondapally,Raviched,9.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Talakondapally,Padkal,9.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Chinchode,Chinchode,10.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Thommidirekula,Peddarevally,5.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Thommidirekula,Keshampet,5.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Thommidirekula,Thommidirekula,5.0,44
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Balanagar,Balanagar,5.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Balanagar,Rajapur,5.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kollur,Kollur,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kollur,Udityal,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kollur,Yedira,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Raikal,Raikal,8.8,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Raikal,Gantlavelly,8.8,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Raikal,Dooskal (Veljerla),8.8,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,G.R.Cables,Gundlapotlapally,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Thimmapur,Thimmapur,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kothur,Kothur,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kothur,Sangem,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kothur,Inmulnarva,10.0,45
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kothur,Kothapet,10.0,46
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,Kothur,Ippalapally,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Shadnagar,Shadnagar,2.4,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Mamidipally,Mamidipally,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Mamidipally,Nandigam,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Kondurg,Kondurg,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Kondurg,Uttaraspally,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Kondurg,Veerannapet,10.0,46
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,Migiligidda,Mogiligidda,10.0,46
+MEDAK,,,,0.0,,,,Medak Town,Medak,10.0,47
+MEDAK,,,,0.0,,,,B Bhoopathipur,Thogita,10.0,47
+MEDAK,,,,0.0,,,,B Bhoopathipur,Sardhana,10.0,47
+MEDAK,,,,0.0,,,,B Bhoopathipur,B.B.Pur,10.0,47
+MEDAK,,,,0.0,,,,B Bhoopathipur,Wadi,10.0,47
+MEDAK,,,,0.0,,,,Ramayampet,Nagapur,10.0,47
+MEDAK,,,,0.0,,,,Ramayampet,Pathur,10.0,47
+MEDAK,,,,0.0,,,,Ramayampet,M.B.Pur,10.0,47
+MEDAK,,,,0.0,,,,Ramayampet,Pillikotyal,10.0,47
+MEDAK,,,,0.0,,,,Ramayampet,NSF,10.0,48
+MEDAK,,,,0.0,,,,Ramayampet,Rajpally,10.0,48
+MEDAK,,,,0.0,,,,Shankarampet,Shalipet,10.0,48
+MEDAK,,,,0.0,,,,Shankarampet,Gavvalapally,10.0,48
+MEDAK,,,,0.0,,,,Shankarampet,Ch.Shankaram pet,10.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Venkatraopet,5.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Salabathpur,5.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Bujarampet,5.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Kanchanpally,5.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Rajpet,5.0,48
+MEDAK,,,,0.0,,,,Venkatrao pet,Kowdipally,5.0,48
+MEDAK,,,,0.0,,,,Amsanpally,Kulcharam,10.0,49
+MEDAK,,,,0.0,,,,Amsanpally,Amsanpally,10.0,49
+MEDAK,,,,0.0,,,,Ch. Ghanpur,Ch.Ganapur,10.0,49
+MEDAK,,,,0.0,,,,Ch. Ghanpur,Yenigandla,10.0,49
+MEDAK,,,,0.0,,,,Ch. Ghanpur,Rangampet,10.0,49
+MEDAK,,,,0.0,,,,Kothapet,Lingapur,10.0,49
+MEDAK,,,,0.0,,,,Narsapur,Narsapur,10.0,49
+MEDAK,,,,0.0,,,,Narsapur,Kagazmaddur,10.0,49
+MEDAK,,,,0.0,,,,Reddy pally,Reddypally,10.0,50
+MEDAK,,,,0.0,,,,Reddy pally,Chippalthurthy,10.0,50
+MEDAK,,,,0.0,,,,Reddy pally,Siripura,10.0,50
+MEDAK,,,,0.0,,,,Avancha,Avancha,4.25,50
+MEDAK,,,,0.0,,,,Avancha,Hathnoora,4.25,50
+MEDAK,,,,0.0,,,,Avancha,Waddepally,4.25,50
+MEDAK,,,,0.0,,,,Avancha,Nastipur,4.25,50
+MEDAK,,,,0.0,,,,Gummadidala,Gummadidala,10.0,50
+MEDAK,,,,0.0,,,,Gummadidala,Kanukunta,10.0,50
+MEDAK,,,,0.0,,,,Gummadidala,Nallavally,10.0,50
+MEDAK,,,,0.0,,,,DundigaI,DundigaI,10.0,51
+MEDAK,,,,0.0,,,,Bonthapally,Bonthapally,10.0,51
+MEDAK,,,,0.0,,,,Bonthapally,Solkpally,10.0,51
+MEDAK,,,,0.0,,,,Bonthapally,Jinnaram,10.0,51
+MEDAK,,,,0.0,,,,Yeldurthy,Ramaipally,10.0,51
+MEDAK,,,,0.0,,,,Yeldurthy,Suraram,10.0,51
+MEDAK,,,,0.0,,,,Yeldurthy,Yeldurthy,10.0,51
+MEDAK,,,,0.0,,,,Bonala,Narlapur,10.0,51
+MEDAK,,,,0.0,,,,Bonala,Kalwakunta,10.0,51
+MEDAK,,,,0.0,,,,Bonala,Bonala,10.0,51
+MEDAK,,,,0.0,,,,Bonala,D.Dharmaram,10.0,51
+MEDAK,,,,0.0,,,,Bonala,Narsingi,10.0,52
+MEDAK,,,,0.0,,,,Chegutna,Masaipet,10.0,52
+MEDAK,,,,0.0,,,,Chegutna,Chandaipet,10.0,52
+MEDAK,,,,0.0,,,,Toopran,Toopran,10.0,52
+MEDAK,,,,0.0,,,,Toopran,Imamapur,10.0,52
+MEDAK,,,,0.0,,,,Toopran,Danthanpally,10.0,52
+MEDAK,,,,0.0,,,,Shivampet,Shivampet,5.0,52
+MEDAK,,,,0.0,,,,Shivampet,Sikindlapur,5.0,52
+MEDAK,,,,0.0,,,,Shivampet,CG Mukla,5.0,52
+MEDAK,,,,0.0,,,,Shivampet,Panbanda,5.0,52
+MEDAK,,,,0.0,,,,Manoharabad,Manoharabad,10.0,52
+MEDAK,,,,0.0,,,,kallakal,Kallakal,10.0,52
+MEDAK,,,,0.0,,,,kallakal,Ch. Gowraram,10.0,52
+MEDAK,,,,0.0,,,,kallakal,Islampur,10.0,53
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Konapur,J.Shivnoor,5.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Konapur,Naskal,5.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Konapur,Konapur,5.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Konapur,Nizampet,5.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Ramayampet,Ramayampet,10.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Laxmapur,Laxmapur,10.0,54
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,Laxmapur,Katriyal,10.0,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,Thunki Bollaram,Kokkonda,10.0,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,Thunki Bollaram,Thunki Bollaram,10.0,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,AFA-II,Gaddapothara m-I,10.0,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,AFA-II,Gaddapothara m-II,10.0,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,AFA-II,Vishalproject,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Siddipet,Narsapur,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Siddipet,Siddipet,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Siddipet,Komatichervu,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Rampur,Nangnoor,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Rampur,Kondamrajpally,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Rampur,Rampur,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Rampur,Rajgopalpet,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Narmetta,Ponnal,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Narmetta,Mittapally,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Narmetta,Narmetta,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Narmetta,Ankshapur,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Thornal,Irkode,10.0,55
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Thornal,Thornal,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Raghavapur,Narayanaraopet,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Raghavapur,Raghavapur,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Raghavapur,Laxmidevipally,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Raghavapur,Peddagundavelly,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Peddakodur,Pedda Kodur,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Peddakodur,Medipally,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Peddakodur,Gonepally,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Gurralagondi,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Kammarlapally,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Ramancha,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Machapur,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Vittalapur,10.0,56
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Chandlapur,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Kammarlapally,Jakkapur,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,Medinipur,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,Marpadga,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,Kondapak,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,Duddeda,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,himmareddypall,10.0,57
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,Duddeda T,Thipparam,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Dubbak,Dubbak,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Dubbak,Gambeerpur,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Dubbak,Pedda Cheekode,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Dubbak,Chellapur,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Chittapur,Akberpet,10.0,57
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Chittapur,Chittapur,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Chittapur,Pothareddypet,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Ragothampally,Raghothampally,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Ragothampally,Dharmajipet,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Khajipur,Habsipur,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Khajipur,Jangapally,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Khajipur,Khajipur,10.0,58
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,Khajipur,Rudraram,10.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Thukkapur,Mettu,9.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Thukkapur,Tadakapally,9.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Thukkapur,Gudikandula,9.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Thukkapur,Thukkapur,9.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Mirdoddy,Mirdoddy,10.0,58
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Mirdoddy,Pedda Chepyala,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Mirdoddy,Kondapur,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Lingapur,Thoguta,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Lingapur,Pallepahad,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Lingapur,Lingapur,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Lingapur,Raipole,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Dommat,Dommat,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Dommat,Mubaraspur,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Dommat,Doulthabad,10.0,59
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,Dommat,Mohd.Shapur,10.0,59
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Ahmedpur,Gurralasofa,5.0,59
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Ahmedpur,Ramsagar,5.0,59
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Ahmedpur,Ahmedipur,5.0,59
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Ahmedpur,Begampet,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Ahmedpur,Nemtoor,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gowraram,Advimajidpally,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gowraram,Karkapatla,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gowraram,Markook,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gowraram,Wargal,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gowraram,Gowraram,5.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Mulugu,Mulugu,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Mulugu,Wantimamidi,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Jagadevpur,Chatlapally,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Jagadevpur,Wardharajpur,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Jagadevpur,Munigadapa,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Gajwel,Gajwel,10.0,60
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Pregnapur,Kodakandla,10.0,61
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,Pregnapur,Pregnapur,10.0,61
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Jogipet,Annasagar,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Chitkul,Rollapad,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Laxmisagar,Talelma,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Laxmisagar,Almaipet,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Laxmisagar,Dakoor,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Laxmisagar,Laxmisagar,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Laxmisagar,Palwatla,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,Tekmal,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,Minpur,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,lvancha (Dhanoo,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,Kaduloor,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,P.Lingaipaly,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,Podchan pally,10.0,62
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Minpur Pa,Kothaipally,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Narsingi,Kodapak,5.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Narsingi,Narsingi,5.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Narsingi,Achnapally,5.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Shankarampet,Nizampet,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Shankarampet,Hanmanthraopet,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Narayankhed,Narayankhed,5.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Wasar,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Thadkal,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Ryakal,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Kangti,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Kalher,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Bachepally,10.0,63
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Wasar,Fathepur,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Zaheerabad,Zaheerabad,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Mannpaur,Mannpur,6.5,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Mannpaur,Mogudampaly,6.5,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Mannpaur,Satwar,6.5,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Mannpaur,Malchelma,6.5,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Mannpaur,Chota Hyderabad,6.5,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Ranjole,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Algole,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Mahabathpur,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Singitham,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Raikode,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Hadnoor,10.0,64
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Nyalkal,10.0,65
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Chalki,10.0,65
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Metalkum,10.0,65
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Mamidigi,10.0,65
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,Allana,Marzampally-B,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,ITC,Bollaram No.III,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,"Bollaram I, III,IV",Bollaram No.I,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Bollaram II,Bollaram No.II,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Ambuja,Patancheru Town,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Manjeera,Patancheru Town,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,AP Foils,Kollur,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Giridher Ispat,MIG (,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Giridher Ispat,Kistareddypet,10.0,65
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Giridher Ispat,Ashoknagar,10.0,66
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,Chandanagar,Ashoknagar,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Isnapur,Isnapur,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,BPL,EPIP I,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,EPIP,EPIP II,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,EPIP,EPIP III,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Pati,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,SOL,Inole,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,SOL,SOL,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,BDL,Nandigama,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Bharath Strips,Cheryal,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Isnapur,Rudraram,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Isnapur,Sangareddy No.I,10.0,66
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Isnapur,Sangareddy No.II,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Isnapur,Fasalwadi,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Sangareddy II,Collector Complex,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Sangareddy II,IK Pet,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Sangareddy II,Malkapur,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Sangareddy II,Gollapally,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,HFC-2,Turakalakhana pur,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,HFC-2,Gundlamachun ur,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Kondapur,Kondapur ),10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Jogipet,Nizampur,10.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Sadasivpet,7.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Aroor,7.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Munipally,7.0,67
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Tatipally,7.0,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Manjeera,Kamkole,7.0,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Jack Well,Athmakur,10.0,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Jack Well,Jack Well,10.0,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Madanpally,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Nawabpet,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Mominpet,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Marpally,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Kadcherla,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Pilligundla,6.5,68
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,Mominpet,Yellakonda,6.5,68
+ADILABAD,,,,0.0,,,,Adilabad,Bhukthapur,10.0,69
+ADILABAD,,,,0.0,,,,Adilabad,Khanapur,10.0,69
+ADILABAD,,,,0.0,,,,Arli T,Arli,10.0,69
+ADILABAD,,,,0.0,,,,Arli T,Talamadugu,10.0,69
+ADILABAD,,,,0.0,,,,Arli T,Thamsi,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Bela,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Bhoraj,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Jainath,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Barampur,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Gudihathnoor,10.0,69
+ADILABAD,,,,0.0,,,,Bela,Mavala,10.0,70
+ADILABAD,,,,0.0,,,,Bela,Sathnala,10.0,70
+ADILABAD,,,,0.0,,,,Bela,Seethagondi,10.0,70
+ADILABAD,,,,0.0,,,,Kailashnagar,Dasnapur,10.0,70
+ADILABAD,,,,0.0,,,,Kailashnagar,Kailashnagar,10.0,70
+ADILABAD,,,,0.0,,,,Rampur,GS. Nagar,10.0,70
+ADILABAD,,,,0.0,,,,Rampur,Rampur,10.0,70
+ADILABAD,,,,0.0,,,,Rampur,Rampur II( Ponna,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Bellampally Town,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Asifabad,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Dhanora,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Ginnedari,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Ippalanavegaom,10.0,70
+ADILABAD,,,,0.0,,,,Bellampally,Kerameri,10.0,71
+ADILABAD,,,,0.0,,,,Bellampally,Wankidi,10.0,71
+ADILABAD,,,,0.0,,,,Kannepally,Jankapur,10.0,72
+ADILABAD,,,,0.0,,,,Kannepally,Kannepally,10.0,72
+ADILABAD,,,,0.0,,,,Kannepally,Nennel,10.0,72
+ADILABAD,,,,0.0,,,,Kannepally,Rachni,10.0,72
+ADILABAD,,,,0.0,,,,Kannepally,Zear ZP Office,10.0,72
+ADILABAD,,,,0.0,,,,Kondapur,Andugupet,10.0,72
+ADILABAD,,,,0.0,,,,Kondapur,Kondapur,10.0,72
+ADILABAD,,,,0.0,,,,Rebbena,rebbena,10.0,72
+ADILABAD,,,,0.0,,,,Rebbena,Thandur,10.0,72
+ADILABAD,,,,0.0,,,,Rebbena,Thiryani,10.0,72
+ADILABAD,,,,0.0,,,,Rebbena,Vankulam,10.0,72
+ADILABAD,,,,0.0,,,,BHAINSA,Bhainsa,10.0,72
+ADILABAD,,,,0.0,,,,BHAINSA,Gollamada,10.0,72
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kallur,Kallur,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kallur,Kuntala,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kallur,Vanalpad,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kubeer,Kubeer,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kubeer,Pardi (B),10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Kubeer,Sonari,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Lohesra,Lohesra,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Lohesra,Manmad,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Lohesra,Pipri,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Mudhole,Degoan,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Thanoor,Beltharoda,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Thanoor,Bhainsa II,10.0,73
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,Thanoor,Thanoor,10.0,73
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Beemaram,Bheemaram,10.0,74
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Chennur,Chennur,5.0,74
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Chennur,Kotapally,5.0,74
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Chennur,Neelwai,5.0,74
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Kommera,Devullawada,10.0,74
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,Kommera,Kommera,10.0,74
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Bazarhathnoor,Bazarhatnoor,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Echoda,Echoda,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Neradigonda,Neradigonda,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Neradigonda,Pochera,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Neradigonda,Sonala,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Dasnapur (I),10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Indervelly,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Jainoor,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Lokhari,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Narnoor,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Pulimadugu,10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Sirpur (U),10.0,75
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,Utnoor,Utnoor,10.0,75
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jannaram,Dandepally,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jannaram,Jannaram,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jannaram,Kawwal,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jannaram,Tapalpur,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Luxettipet,Luxettipet,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Luxettipet,Velganoor,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Luxettipet,Venkatraopet,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Suraram,Suraram,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Chennur (from MNCL),Jaipur,0.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Chennur (from MNCL),Kundaram,5.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Chennur (from MNCL),Old Mancherial,0.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Hazipur,Gudipet,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Hazipur,Hazipur,10.0,76
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jaipur,Awadam,10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jaipur,Naspur,10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jaipur,RK 6,10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Jaipur,RK Pur (B Zone),10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Mancherial I,Ramnagar,10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Mancherial II,ACC,10.0,77
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,Salvailoddi,Raligadpur,10.0,77
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Basar,Abdullapur,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Basar,Basar,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Basar,Bramangoan,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Basar,Edbid,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Basar,Mudhole,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Beervelly,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Dilawarpur,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,GUNDAM PALLY,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,NARSAPUR G,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Shirgapur,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Thalveda,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Bernandi,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Dasturabad,10.0,78
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Kadam,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Khanapur,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Lingapur,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Pembi,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,DILAWARPUR,Ponkal,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Koritikal,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,LAXMAN CHAND,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,MALLAPUR,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Mamada,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Peechara,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Thandra,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,WADYAL,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Akkapur,10.0,79
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Velmalbopparam,10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Mamada,Vishwanathpet,10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Nirmal II,Adarshnagar,10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Nirmal II,Nirmal,10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Sarangapur,Chincholi (B),10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Sarangapur,Chincholi (M),10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Sarangapur,Sarangapur,10.0,80
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,Sarangapur,Swarna,10.0,80
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Dahegoan,Dahegam,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Dahegoan,Elkapally,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Dahegoan,Jambuga,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Dahegoan,Kunchavelly,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Dahegoan,Nazrool nagar,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Kowtala,Bejjur,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Kowtala,Kowtala,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Kowtala,Ravindranagar,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Kowtala,Rebbena (B),10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,Kowtala,Sirpur (T),10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,S.Kaghaznagar,Kosini,10.0,81
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,S.Kaghaznagar,S.Kaghaznagar T,10.0,81
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Aswaraopeta,Aswaraopeta,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Vinayakapuram,Vinayakapuram,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Vinayakapuram,Gangaram B(New),10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Dammapet,Naramavarigude m,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Dammapet,Malkaram,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Dammapet,Ankampalem,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Dammapet,Gandugulapally,10.0,82
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,Dammapet,Nagupally,10.0,82
+ADILABAD,Penubally,Penubally,2X31.5 = 63,18.0,Yes,Yes,Yes,Penubally,Penubally,10.0,82
+ADILABAD,Penubally,Penubally,2X31.5 = 63,18.0,Yes,Yes,Yes,Penubally,Marlakunta,10.0,82
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Chandrugonda,Gowraram,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Sathuapally,Vemsoor,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Sathuapally,Guduru,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Sathuapally,Rayudupalem,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Sathuapally,Kandukuru,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Sathuapally,S.S. Palem,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Kalluru,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Brahamalakunta,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Kurnavally,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Peddakorukondi,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Enkuru,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Timmaraopeta,10.0,83
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,Kalluru,Tallada,10.0,83
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Gangaram,Gangaram (old),10.0,84
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Gangaram,Pakalagudem,10.0,84
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Sathuapally,Sathupally,10.0,84
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Sathuapally,Gowrigudem,10.0,84
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Mandalapally,Dammapet,10.0,84
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,Mandalapally,Naidupeta,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Madhira,Madhira,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Bonakal,Bonakal,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Bonakal,Siripuram,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Yerrupalem,Yerrupalem,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Yerrupalem,KI Padu,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Yerrupalem,Mamnoor,10.0,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,Yerrupalem,Mulugmadu,10.0,84
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Manchukonda,IDA,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Manchukonda,Gubbagurthi,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Manchukonda,Manchukonda,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Manchukonda,Pangidi,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Kothalingala,K.Lingala,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Kothalingala,Mucherla,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Kothalingala,R.N.Palem,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Kothalingala,Ponnekal,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Bhuranpuram,Bhuranpuram,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Bhuranpuram,Dhanavaigudem,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Bhuranpuram,N.S.P,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Bhuranpuram,Govt. Hospital,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Khanapuram,Khanapuram,10.0,85
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Khanapuram,PrakashNagar,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Khanapuram,Damsalapuram,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Peddagopathy,Peddagopathi,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Peddagopathy,V.V.Palem,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Peddagopathy,Chintakani,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,X Road Feeder,Yld X Road,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Pallegudem,Pallegudem,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Pallegudem,Theerthala,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,T.R.Palem,T.R.Palem,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,T.R.Palem,Arempula,10.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Patehrlapadu,Patehrlapadu,5.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Patehrlapadu,Sublaid,5.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Patehrlapadu,Tippareddygude m,5.0,86
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Patehrlapadu,Wgl. X Road,5.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Thallada,Konijerla,10.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Thallada,Wyra,10.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Thallada,Garikapadu,10.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Mudigonda,Mudigonda,8.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Mudigonda,Laxmipuram,8.0,87
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,Mudigonda,Nagulavancha,8.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Kusuamnchi,Kusumanchi,10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Kusuamnchi,Perikasingaram,10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Paliar,Palair,10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Paliar,Wgl X Road,10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Paliar,CPDCL ( Urlagonda),10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Paliar,Jeellacheruvu,10.0,87
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Bachodu,Bachodu,5.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Bachodu,Kakaravai,5.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,Bachodu,N.S.Gudem,5.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,N.K.Pally,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,R.J.Puram,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,Buddaram,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,Banapuram,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,Pammi,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,Vallabhi,10.0,88
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,N.K.Pally,Madhapuram,10.0,88
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Yellandhu,Yellandu,10.0,88
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Yellandhu,Karepally,10.0,88
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Yellandhu,Cheemalapadu,10.0,88
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kothapeta,Garla,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kothapeta,Kothapeta,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kothapeta,Challasamudram,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kothapeta,Bayyaram,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Mamakannu,Mamakannu,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Mamakannu,Komararam,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Tekulapally,Tekulapally,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Bhadrachalam,Bhadrachalam,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Bhadrachalam,Purushothapatna m,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kunavaram,Kunavaram,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kunavaram,Nellipaka,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kunavaram,Chinthuru,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Kunavaram,Sarivella,10.0,89
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,Dummugudem,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,S.N.Puram,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,Cherla,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,Venkatapuram,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,Wazeedu,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Cherla,Dharmaram,10.0,90
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,Burgampadu,Sarapaka,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,Manuguru,Manuguru,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,Manuguru,Gutamallaram,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,Manuguru,Aswapuram,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,E.Bayyaram,E.Bayaram,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,E.Bayyaram,Karakagudem,10.0,90
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,E.Bayyaram,J.N.Puram,10.0,90
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Burgampadu,MP Banjara,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Burgampadu,Br.Padu,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Burgampadu,Kukkunuru,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Burgampadu,Velairpadu,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,NMBC,NMBC,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Paloncha,Paloncha,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Paloncha,Mulkalapally,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Paloncha,Ankampalem,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Kothagudem - I,LD Pally,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Kothagudem - I,Seetharampatna m,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Kothagudem - II,Chunchupally,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Kothagudem - II,Ramavaram,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Kothagudem - II,Sujathanagar,10.0,91
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,Yanambile,Yanambile,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Gangadhara,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Kothapally,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Rudraram,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Rekurthy,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Shanagar,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Choppadandi,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Gundi,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Chityalapally,10.0,92
+KARIMNAGAR,,,,0.0,,,,Gangadhara,Rukmapur,10.0,93
+KARIMNAGAR,,,,0.0,,,,Boinpalli,Boinpally,10.0,93
+KARIMNAGAR,,,,0.0,,,,Boinpalli,Achamapally,10.0,93
+KARIMNAGAR,,,,0.0,,,,Vavilaalapalli,Vavilalapalli,10.0,93
+KARIMNAGAR,,,,0.0,,,,Bagathnagar,Bhagathnagar,10.0,93
+KARIMNAGAR,,,,0.0,,,,Bagathnagar,Ujjwalapark,10.0,93
+KARIMNAGAR,,,,0.0,,,,Water Works,Water works,10.0,93
+KARIMNAGAR,,,,0.0,,,,Water Works,Amedkarnagar,10.0,93
+KARIMNAGAR,,,,0.0,,,,Water Works,Tower Circle,10.0,93
+KARIMNAGAR,,,,0.0,,,,Padmanagar,Padmanagar,10.0,93
+KARIMNAGAR,,,,0.0,,,,Thotapally,Asifnagar,10.0,93
+KARIMNAGAR,,,,0.0,,,,Dharmaram,Nagunur,10.0,93
+KARIMNAGAR,,,,0.0,,,,Dharmaram,Arnakonda,10.0,93
+KARIMNAGAR,,,,0.0,,,,Peddapally,Palithem,10.0,94
+KARIMNAGAR,,,,0.0,,,,Peddapally,Bompally,10.0,94
+KARIMNAGAR,,,,0.0,,,,Peddapally,Rangampally,10.0,94
+KARIMNAGAR,,,,0.0,,,,Peddapally,Peddapally,10.0,94
+KARIMNAGAR,,,,0.0,,,,Peddapally,Narayanpur,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Kanukula,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Chinnabonkur,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Odela,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Kanagarthy,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Eligedu,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Julapally,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Kachapur,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Lokapet,10.0,94
+KARIMNAGAR,,,,0.0,,,,Kanukula,Vedurugatta,10.0,95
+KARIMNAGAR,,,,0.0,,,,Sulthanbad,Katnaelly,10.0,95
+KARIMNAGAR,,,,0.0,,,,Sulthanbad,Garrepally,10.0,95
+KARIMNAGAR,,,,0.0,,,,Sulthanbad,Sultanabad,10.0,95
+KARIMNAGAR,,,,0.0,,,,Manthani,Manthani,10.0,95
+KARIMNAGAR,,,,0.0,,,,Manthani,Gunjapadugu,10.0,95
+KARIMNAGAR,,,,0.0,,,,Manthani,Mustyala,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Gopalpur,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Venkatapur,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Koyyur,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Eklaspur,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Kamanpur,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Begumpet,10.0,95
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Allur,10.0,96
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Rompikunta,10.0,96
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Kalwacherla,10.0,96
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Ramayyapally,10.0,96
+KARIMNAGAR,,,,0.0,,,,Gopalpur,Lakkaram,10.0,96
+KARIMNAGAR,,,,0.0,,,,Kataram,Kataram,10.0,96
+KARIMNAGAR,,,,0.0,,,,Mahamutharam,Mutharam,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Vallamkunta,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Gangaram,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Thadicherla,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Danwada,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Mahadevpur,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Mahamutharam,10.0,96
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Kaleshwaram,10.0,97
+KARIMNAGAR,,,,0.0,,,,Vallamkunta,Peddampet,10.0,97
+KARIMNAGAR,,,,0.0,,,,Jammikunta,Jammikunta,10.0,97
+KARIMNAGAR,,,,0.0,,,,Rajapally,Abadijammikunta,10.0,97
+KARIMNAGAR,,,,0.0,,,,Rajapally,Rajapally,10.0,97
+KARIMNAGAR,,,,0.0,,,,Rajapally,Venkatraopally,10.0,97
+KARIMNAGAR,,,,0.0,,,,Rajapally,Machanpally,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Veenavanka,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Korkal,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Amudalapally,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Pothireddypally,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Thaugula,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Buzunur,10.0,97
+KARIMNAGAR,,,,0.0,,,,Veenavanka,Vavilala,10.0,98
+KARIMNAGAR,,,,0.0,,,,Maripallygudem,Marripallygudem,10.0,98
+KARIMNAGAR,,,,0.0,,,,Godavarikani,Godavarikhani,10.0,98
+KARIMNAGAR,,,,0.0,,,,Godavarikani,Rammandir GDK,10.0,98
+KARIMNAGAR,,,,0.0,,,,Godavarikani,"GDK, PG center",10.0,98
+KARIMNAGAR,,,,0.0,,,,Godavarikani,Janagam,10.0,98
+KARIMNAGAR,,,,0.0,,,,Godavarikani,Gouthaminagar,10.0,98
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Akenpally,10.0,98
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Ramagundam,10.0,98
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Raghavapur,10.0,98
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Maredugonda,10.0,98
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Jaferkhanpet,10.0,99
+KARIMNAGAR,,,,0.0,,,,Ramagundam,Bojannapet,10.0,99
+KARIMNAGAR,,,,0.0,,,,Korutla,Korutla,10.0,99
+KARIMNAGAR,,,,0.0,,,,Korutla,Korutla Town,10.0,99
+KARIMNAGAR,,,,0.0,,,,Metpally,Metpelly,10.0,99
+KARIMNAGAR,,,,0.0,,,,Metpally,Vempet,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Kathalapur,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Ambaripet,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Bhushanraopet,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Thandrial,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Mannegudem,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Yakeenpur,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Bommena,10.0,99
+KARIMNAGAR,,,,0.0,,,,Kathlapur,Govidaram,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharmaram,Dharmaram,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharmaram,Ailapur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharmaram,Paidimadugu,10.0,100
+KARIMNAGAR,,,,0.0,,,,Jaggasagar,Jaggasagar,10.0,100
+KARIMNAGAR,,,,0.0,,,,Jaggasagar,Peddapur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Jaggasagar,Konaraopet,10.0,100
+KARIMNAGAR,,,,0.0,,,,Jaggasagar,Vellulla,10.0,100
+KARIMNAGAR,,,,0.0,,,,Jaggasagar,Atmakur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Chilvakodur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Yellapur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Kothur,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Stambampally,10.0,100
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Velgatoor,10.0,101
+KARIMNAGAR,,,,0.0,,,,Dharamaram,Paidipally,10.0,101
+KARIMNAGAR,,,,0.0,,,,Maredpally,Maredpally,10.0,101
+KARIMNAGAR,,,,0.0,,,,Maredpally,Kilavanaparthy,10.0,101
+KARIMNAGAR,,,,0.0,,,,Maredpally,Basanthnagar,10.0,101
+KARIMNAGAR,,,,0.0,,,,Gollakouta,Gullakota,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Jagitial,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Vidyanagar,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Mothey,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Jagitial Housing B,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Sarangapur,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,kalleda,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Polasa,10.0,101
+KARIMNAGAR,,,,0.0,,,,Jagityal,Rechapally,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,"Water works, Jag",10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Medipally (W),10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Venkatraopet,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Chelgal,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Venkatapur,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Rangapur,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Medipally,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Raikal,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Voddelingapur,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Allipoor,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Itikyal,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Katlakunta,10.0,102
+KARIMNAGAR,,,,0.0,,,,Water works,Veerapur,10.0,103
+KARIMNAGAR,,,,0.0,,,,Mallial,Mallial,10.0,103
+KARIMNAGAR,,,,0.0,,,,Mallial,TR Nagar,10.0,103
+KARIMNAGAR,,,,0.0,,,,Mallial,Pegadapally,10.0,103
+KARIMNAGAR,,,,0.0,,,,Gollapally,Gollapally,10.0,103
+KARIMNAGAR,,,,0.0,,,,Gollapally,Laxmipur,10.0,103
+KARIMNAGAR,,,,0.0,,,,Gollapally,Mallannapet,10.0,103
+KARIMNAGAR,,,,0.0,,,,Dharmapuri,Dharmapuri,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Kolwai,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Jaina,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Donur,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Mangela,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Stambampally,10.0,103
+KARIMNAGAR,,,,0.0,,,,Kolval,Velgatoor,10.0,104
+KARIMNAGAR,,,,0.0,,,,Kolval,Paidipally,10.0,104
+KARIMNAGAR,,,,0.0,,,,Kalleda,Sirikonda,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Pudur,Pudur,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Pudur,Vattemla,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Pudur,Chekkapally,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Pudur,Malkapur,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Gangadhara,Burugupally,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Thirumalapur,Thirumalapur,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Thirumalapur,Maddutla,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Thirumalapur,Kodimyal,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Mallial,Bathikepally,10.0,104
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,Mallial,Thatipally,10.0,104
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Godur,Godur,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Godur,Yamapur,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Mallapur,Mallapur,5.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Mallapur,New Dharmarajpa,5.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Mallapur,Mogilipet,5.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Mallapur,Raghavapet,5.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Mallapur,VV Rao Pet,5.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Ibrahimpatnam,Ibrahimpatnam,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Ibrahimpatnam,Varshakonda,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Ambedkarnagar,Muqdumpur,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Ambedkarnagar,Bommakal,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Ambedkarnagar,Cherlabuthkur,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Algunur,Alugunoor,10.0,105
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Renigunta,Nallagonda,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Renigunta,Renikunta,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Renigunta,Nustulapur,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Elbaka,Elbaka,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Husnabad,Husnabad,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,B.D. Pally,Potharam (S),10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Chigurumamidi,Bheemdevarapall,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Chigurumamidi,Chigurumamidi,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Chigurumamidi,Indurthy,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Chigurumamidi,Rekonda,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Chigurumamidi,Mulkanoor,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Katkur,Katkur,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Katkur,Kothakonda,10.0,106
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Thotapally,Gandipally,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Thotapally,Gouravelly,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Thotapally,Thotapally,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Huzurabad,Huzurabad,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Huzurabad,Kandugula,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Huzurabad,Uppal,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Elkahturthy,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Kothulanaduma,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Peddapapaiahpal,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Dandepally,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Thadikal,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Amdulapally,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Kothagattu,10.0,107
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Kothulanaduma,Kannapur,10.0,108
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Saidapur,Saidapur,10.0,108
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,Saidapur,Godishala,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Manakondur,Manakondur,5.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Veldi,Veldhi,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Veldi,Pochampally,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Kondapalkala,Chenjerla,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Kondapalkala,Kondapalkala,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Kondapalkala,Gattududdenapall,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Sircilla,Sircilla,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Sircilla,Water works (Ped,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Sircilla,Shivanagar,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Sircilla,Textile Park,10.0,108
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Sircilla,Thangallapelly,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Nerela,Nerella,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Nerela,Ramchandrapur,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Rallapeta,Namapur,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Rallapeta,Rallapet,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Rallapeta,Therlamaddi,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Rallapeta,Pothugal,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Mallaram,Rudravaram,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Mallaram,Venkatraopally,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Mallaram,Nampally,10.0,109
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,Mallaram,Suddala,10.0,109
+NIZAMABAD,,,,0.0,,,,,Nizamabad,0.0,109
+NIZAMABAD,,,,0.0,,,,,Marthannapet,0.0,109
+NIZAMABAD,,,,0.0,,,,,Bonala,0.0,110
+NIZAMABAD,,,,0.0,,,,Avunur,Avunur,10.0,110
+NIZAMABAD,,,,0.0,,,,Avunur,Kondapur,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Vemulavada,Vemulawada,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Mallaram,Mallaram,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marrigadda,Marrigadda,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marrigadda,Marripally,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marrigadda,Rudrangi,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marrigadda,Sanugula,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Nimmapally,Nimmapally,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Nimmapally,Baosaipet,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Sanigaram,Shanigaram,10.0,110
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Sanigaram,Thotapally,10.0,110
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,Bejjanki,Bejjanki,10.0,111
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,Bejjanki,Begumpet,10.0,111
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,Ramchandrapur,Ramchandrapur,10.0,111
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,Koheda,Samudrala,10.0,111
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,Koheda,Koheda,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Ellanthakunta,Ellanthakunta,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Namapur,Peddalingapur,5.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Kandikatkur,Kandikatkur,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Kandikatkur,Somarampet,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Kasimpet,Kasimpet,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Kasimpet,Ganneruvaram,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Yellreddypet,Yellareddypet,10.0,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,Yellreddypet,Gambhiraopet,10.0,111
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Gambiraopet,Gajasingaram,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Gambiraopet,Kothapally (Cess),10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Gambiraopet,Lingannapet,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Veernapally,Veernapally,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Veernapally,Garjanapally,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Veernapally,Rajannapet,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Kalvasrirampur,Srirampur,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Muttaram,Mutharam,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Muttaram,Adavisrampur,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Gudem,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Mirzampet,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Pegadapally,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Pothkapally,10.0,112
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Kolanur,10.0,113
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,Mirjampet,Pandilla,10.0,113
+NIZAMABAD,Mulkanoor,Mulkanoor,1 X 16 = 8,8.0,Yes,Yes,No,Bheemdeverapally,Potharam (S),10.0,113
+NIZAMABAD,Mulkanoor,Mulkanoor,1 X 16 = 8,8.0,Yes,Yes,No,Vangara,Vangara,10.0,113
+NIZAMABAD,Mulkanoor,Mulkanoor,1 X 16 = 8,8.0,Yes,Yes,No,Koppur,Koppur,10.0,113
+NIZAMABAD,Kamalapur,Kamalapur,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marriapallygudem,Marripallygudem,10.0,113
+NIZAMABAD,Kamalapur,Kamalapur,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Marriapallygudem,Guniparthy,10.0,113
+NIZAMABAD,Kamalapur,Kamalapur,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Thimmapur,Thimmapur,10.0,113
+NIZAMABAD,Kamalapur,Kamalapur,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,Kamalapur,Kamalapur,10.0,113
+NIZAMABAD,,,,0.0,,,,Bardipoor,Kanjar,10.0,114
+NIZAMABAD,,,,0.0,,,,Bardipoor,Bardipoor,10.0,114
+NIZAMABAD,,,,0.0,,,,Gutpa,Amrad,10.0,114
+NIZAMABAD,,,,0.0,,,,Gutpa,Mamidipally,10.0,114
+NIZAMABAD,,,,0.0,,,,Gutpa,Madanpally,10.0,114
+NIZAMABAD,,,,0.0,,,,Gutpa,Dasnagar,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Mudakpally,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Manchippa,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Thanakurd,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Badsi,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Mallaram,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Kothapet,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Khanapur Rly Gate,10.0,114
+NIZAMABAD,,,,0.0,,,,Mudakpally,Palda,10.0,115
+NIZAMABAD,,,,0.0,,,,Mudakpally,Malkapur(A),10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-I,PHC/Nizamabad,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-I,Dubba/NZB,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-I,Mirchi Compound,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-II,Tilakgarden/NZB,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-II,Vinayaknagar/ NZB,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Subashnagar,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Gupanpally,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Mubaraknagar,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,New HB Colony,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Kaloor,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Thanakalan,10.0,115
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Arsapally,10.0,116
+NIZAMABAD,,,,0.0,,,,Nizamabad-III,Sarangapur,10.0,116
+NIZAMABAD,,,,0.0,,,,Dichpally,Dichpally,10.0,116
+NIZAMABAD,,,,0.0,,,,Dichpally,Doosgaon,5.0,116
+NIZAMABAD,,,,0.0,,,,Gannaram,Gannaram,10.0,116
+NIZAMABAD,,,,0.0,,,,Gannaram,Indalwai,10.0,116
+NIZAMABAD,,,,0.0,,,,Gannaram,Sirnapally,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Dharpally,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Ramadugu,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Mylaram,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Koratpally,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Mentrajpally,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Madhapur,10.0,116
+NIZAMABAD,,,,0.0,,,,Koratpally,Yanampally,10.0,117
+NIZAMABAD,,,,0.0,,,,Rampoor,Yellareddypally,10.0,117
+NIZAMABAD,,,,0.0,,,,Chikli,Chikli,10.0,117
+NIZAMABAD,,,,0.0,,,,Chikli,Nizampur,10.0,117
+NIZAMABAD,,,,0.0,,,,Makloor,Velmal,10.0,117
+NIZAMABAD,,,,0.0,,,,Makloor,Makloor,10.0,117
+NIZAMABAD,,,,0.0,,,,Makloor,Gottimukkula,10.0,117
+NIZAMABAD,,,,0.0,,,,Nandipet,Nandipet,10.0,117
+NIZAMABAD,,,,0.0,,,,Nandipet,Vannel-K,10.0,117
+NIZAMABAD,,,,0.0,,,,Nandipet,Kalledi,10.0,117
+NIZAMABAD,,,,0.0,,,,Noothpally,Donkeshwar,10.0,117
+NIZAMABAD,,,,0.0,,,,Noothpally,Noothpally,10.0,117
+NIZAMABAD,,,,0.0,,,,Noothpally,Thondakur,10.0,117
+NIZAMABAD,,,,0.0,,,,Talveda,Talveda,10.0,118
+NIZAMABAD,,,,0.0,,,,Talveda,Badguna,10.0,118
+NIZAMABAD,,,,0.0,,,,Bodhan,Yedapaly,10.0,118
+NIZAMABAD,,,,0.0,,,,Bodhan,A.R.P.Camp,10.0,118
+NIZAMABAD,,,,0.0,,,,Bodhan,Mangalpahad,10.0,118
+NIZAMABAD,,,,0.0,,,,Ch.Mavandi,Pegadapally,10.0,118
+NIZAMABAD,,,,0.0,,,,Ch.Mavandi,Saloora,10.0,118
+NIZAMABAD,,,,0.0,,,,Ch.Mavandi,Ch.Mavandi,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Navipet,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Rampoor,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Dandigutta,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Kosli,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Yemcha,10.0,118
+NIZAMABAD,,,,0.0,,,,Navipet,Neela,10.0,119
+NIZAMABAD,,,,0.0,,,,Navipet,Tadbiloli,10.0,119
+NIZAMABAD,,,,0.0,,,,Rampoor,Rampoor,10.0,119
+NIZAMABAD,,,,0.0,,,,Renjal,Renjal,13.0,119
+NIZAMABAD,,,,0.0,,,,Degoan,Degaon,10.0,119
+NIZAMABAD,,,,0.0,,,,Degoan,Macharla,10.0,119
+NIZAMABAD,,,,0.0,,,,Degoan,Aloor,10.0,119
+NIZAMABAD,,,,0.0,,,,Degoan,Manthani,10.0,119
+NIZAMABAD,,,,0.0,,,,Bodhan,Bodhan,10.0,119
+NIZAMABAD,,,,0.0,,,,Bodhan,Ootpally,10.0,119
+NIZAMABAD,,,,0.0,,,,Eka chakranagar,Hunsa,10.0,119
+NIZAMABAD,,,,0.0,,,,Eka chakranagar,Eka chakranagar,10.0,119
+NIZAMABAD,,,,0.0,,,,Eka chakranagar,Chinna Penta,10.0,119
+NIZAMABAD,,,,0.0,,,,Eka chakranagar,Sangam,10.0,120
+NIZAMABAD,,,,0.0,,,,Eka chakranagar,Takli,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Armoor,Armoor,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Munipally,Ankapur,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Munipally,Issapally,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Munipally,Munipally,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Perkit,Perkit,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Perkit,Govindpet,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Perkit,Fathepur,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Perkit,Lakkora,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pipri,Pipri,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pipri,Komanpally,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pipri,Maggidi,10.0,120
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Bheemgal,Bheemgal,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Gongopula,Gongopula,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Gongopula,Dubbaka,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Jakranpally,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Kaligote,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Thorlikonda,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Kolipak,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Chengal,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Jakranpally,Janakampet,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Kupkal,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Sunket,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Ramannapet,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Thallapally,10.0,121
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Mendora,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Konasamunder,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Pallikonda,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pachalanadukuda,P.Nadukuda,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pachalanadukuda,Bada Bheemgal,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Sirikonda,Muchkur,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Velpur,Velpur,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Velpur,Mothe,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Anksapur,Kuknoor,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Anksapur,Anksapur,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Anksapur,Donkal,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Kammarpally,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kammarpally,Basheerabad,10.0,122
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Kathlapoor,Manala,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Morthad,Morthad,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Morthad,Palem,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Thimmapur,Thimmapur,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Thimmapur,Uploor,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Balkonda,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Vannel - B,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Jalalpur,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Padkal,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Padgal,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Chittapoor,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Pochampad,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Kothapally,10.0,123
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Balkonda,Mupkal,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Renjarla,Renjarla,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Renjarla,Mendora,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Renjarla,Shetpally,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Yergatla,Velgatur,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Yergatla,Yergatla,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Yergatla,Tallarampur,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Yergatla,Thadpakal,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Sirikonda,Chimanpally,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Sirikonda,Sirikonda,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Gadkole,Gadkole,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Gadkole,Thumpally,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Gadkole,Honnajipet,10.0,124
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Nyavanandi,Nyavanandi,10.0,125
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pedda Valgote,Kondoor,10.0,125
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,Pedda Valgote,Pedda Walgote,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Bhiknoor,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Basvapoor,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Peddamallareddy,Peddamallareddy,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Peddamallareddy,Kachapoor,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Peddamallareddy,Issannapally,10.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Narsannapally,5.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Talamadla,5.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Thippapur,5.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Jangampally,5.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhiknoor,Laxmidevpally,5.0,125
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bibipet,Mohommadapur,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bibipet,Bibipet,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bibipet,Janagaon,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bibipet,Issanagar,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bibipet,Tujalpoor,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Chukkapur,Chukkapur,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Chukkapur,Fareedpet,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Domakonda,Domakonda,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kyasampally,Muthyampet,9.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kyasampally,Kyasampally,9.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Gandhari,Brahmanpally,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Gandhari,Gandhari,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Gandhari,Sarvapoor,10.0,126
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-I,Kamareddy - I,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-II,Kamareddy - II,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-II,Velpugonda,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-II,Issaipet,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-II,Arepally,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kamareddy-II,Bhavanipet-M,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kondapoor,Chinnamallareddy,9.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kondapoor,Lingapur,9.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kondapoor,Kamareddy(H B)-III,9.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Kondapoor,Rajampet,9.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Posanipet,Posanipet,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Posanipet,Utnoor,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Posanipet,Adloor Yellareddy,10.0,127
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Posanipet,Padmajiwadi,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Posanipet,Sadasivnagar,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Tadwai,Thadwai,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Tadwai,Kondapoor,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Tadwai,Aragonda,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Tadwai,Yerrapahad,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhavanipet,Gandimasanipet,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Bhavanipet,Bhavanipet-L,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Lingampet,Lingampet,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Lingampet,Mothe,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,Ramlaxmanpally,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,Bhanapoor,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,Malthummeda,10.0,128
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,S.S.Reddy,10.0,129
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,Parmalla,10.0,129
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,Ramlaxmanpally,Khannapur,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Ramareddy,Adloor,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Ramareddy,Shabdipur,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Ramareddy,Ramareddy,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Ramareddy,Reddypet,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Annaram,Annaram,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Annaram,Yellampet,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Annaram,Somavarpet,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Annaram,Lachapet,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Banswada,Banswada,10.0,129
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,Banswada,Birkur,10.0,129
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Birkur,Mirzapur,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Konapur,Konapur,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Konapur,Ibrahimpet,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Maddelacheru,Damarancha,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Maddelacheru,Shanthapoor,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Maddelacheru,Maddelacheru,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Maddelacheru,Chillarigi,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Bichkunda,Bichkunda,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Peddakodapgal,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Jukkal,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Kemrajkallali,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Somur,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Pulkal,10.0,130
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Kathgoan,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jukkal,Thadkole,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Madnoor,Madnoor,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Madnoor,Menoor,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Madnoor,Dongli,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Banswada,Nasrullabad,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Banswada,Sangam,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Banswada,Kallur,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Banswada,Kothapally,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jakhora,Varni,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jakhora,Mosra,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jalalpoor,Jalalpoor,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Jalalpoor,Laxmapur,10.0,131
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Kotagiri,Kotagiri,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Kotagiri,Pothangal,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Mosra,Srinagar,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Mosra,Chandoor,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Mosra,Chinthakunta,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Rudrur,Raikoor,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Rudrur,Rudrur,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Rudrur,Ambam,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Maqdumpur,Maqdumpur,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nagireddypet,Azamabad,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nagireddypet,Athmakur,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nagireddypet,Achaipally,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nagireddypet,Nagireddypet,10.0,132
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nizamsagar,Nizamsagar,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nizamsagar,Achampet,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Nizamsagar,Mallur,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Pitlam,Chinnakodapgal,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Pitlam,Pitlam,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Pitlam,Thimmanagar,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Yellareddy,Mathmal,10.0,133
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,Yellareddy,Yellareddy,10.0,133
+WARANGAL,,,,0.0,,,,,Amangal,0.0,133
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Amangal,Chinnaguduru,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Amangal,Inugurthy,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Amangal,Kalwala,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Amangal,Shanigapuram,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Ayyagaripally,Ayyagaripally,8.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-I,Dornakal,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-I,Gundrathimadug u,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-I,Jamandlapally,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-I,Mahabubabad,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Bodhugonda,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Mogilicherla,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Nerada,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Edjerla,10.0,134
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Giripuram,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Mahabubabad-II,Maripeda,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Perumandlasanke esa,Gollacherla,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Perumandlasanke esa,Mannegudem,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Perumandlasanke esa,Perumandla Sankeesa,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Perumandlasanke esa,Upparagudem,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Chelpur,Chelpur,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Gudadpally,Gudadpally,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Gudadpally,Jadalpeta,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Nandigama,Azamnagar,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Nandigama,Bhoopalpally,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Nandigama,Jangedu,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Nandigama,Nandigama,10.0,135
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Parkal,Bagirthipeta,10.0,136
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Parkal,Parkal (T),10.0,136
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Parkal,Regonda,10.0,136
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,Parkal,Repaka,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Chityal,Chityal,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Chityal,Giddemutharam,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Chityal,Rangapur,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Ramakistapur,Ramakistapur,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Ramakistapur,Tekumatla,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Geesugonda,Gesugonda,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Geesugonda,Gorrekunta,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Geesugonda,Elkurthy,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Geesugonda,Machapur,10.0,136
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,Geesugonda,Mondrai,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Ghanpur,Ghanpur,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Malkapur,Malkapur,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Malkapur,Peddapendyal,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Malkapur,Peechara,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Malkapur,Rajavaram,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Palakurthy,Gudur (P),10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Palakurthy,Ippagudem,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Palakurthy,Namiligonda,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Palakurthy,Suraram,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Palakurthy,Thimmampet,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Thatikonda,Thatikonda,10.0,137
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,Thatikonda,Obulakeshapur,10.0,137
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Adavikeshavapur,Adavukeshapur,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Jangaon,Jangaon-I,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Jangaon,Jangaon-II,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Marigadi,Marigadi,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Pembarthy,Jeedikal,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Pembarthy,Lingala Ghanpur,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Pembarthy,Nellutla,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Pembarthy,Pemberthy,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Eturnagaram,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Kamalapur,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Kannaigudem,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Thadvai,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Mallur,10.0,138
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Mangapet,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Eturnagaram,Rajupeta,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mallampally,Abbapur,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mallampally,Mallampally,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mallampally,Ramchandrapur,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mallampally,Rangapur,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Gorikothapally,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Koppula,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Mulugu,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Govindraopet,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Kasimdevipeta,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Medaram,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Pasra,10.0,139
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Mulugu,Venkatapur,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Velthurlapally,Laxmidevipeta,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Velthurlapally,Peddapur,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Velthurlapally,Velthurlapally,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Bachannapet,Bachannapet,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Bachannapet,Laxmapur 'X' road,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Bachannapet,Padamati Keshavapur,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Bachannapet,Ramchandrapur am,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Dhoolmitta,Akunoor,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Dhoolmitta,Bekkal,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Dhoolmitta,Chityal,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Dhoolmitta,Dhoolmitta,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Dhoolmitta,Mustyal,10.0,140
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Komuravelly,Guruvannapet,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Komuravelly,Komuravelly,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Komuravelly,Nagapuri,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Tharigoppula,Ankushapur,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Tharigoppula,Gagillapur,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Tharigoppula,Rebarthy,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Tharigoppula,Tharigoppula,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Tharigoppula,Veldanda,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Gangaram,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Kothaguda,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Mangalavaripet,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Sadireddypally,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Dasaripally,10.0,141
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Medapally,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Kothaguda,Nallabelly,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet,Maheshwaram,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet,Narsampet,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Rekhampally,Duggondi,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Rekhampally,Keshavapur,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Rekhampally,Rekhampally,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Nagaram,Nagaram,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Nagaram,Teegalaveni,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-1,Upparapalli,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Chennaraopet,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Ayodyapuram,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Gudur,10.0,142
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Kesamudram,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Lingagiri,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Nekkonda,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Narsampet-2,Rangapur,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Alankanipeta,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Choutapally,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Enugallu,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Parwathagiri,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Redlawada,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Sangem,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Theegarajpally,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Kousalyadevipall y,10.0,143
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,Parwathagiri,Kommulavancha,10.0,143
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,No. of 33 KV feeders Mauvnaiiglaabllaev; eMeednution the names of 33 KV feeders,Munigalaveedu,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Peddanagaram,Pedda Nagaram,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Reponi,Danthalapally,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Reponi,Peddamupparam,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Reponi,Reponi,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Yellampet,Yellampet,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Quilashapur,Gabbeta,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Quilashapur,Mekalagattu,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Quilashapur,Narmetta,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Quilashapur,Quilashapur,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Raghunathpally,Raghunathpally,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Raghunathpally,Koilkonda,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Raghunathpally,Kundaram,10.0,144
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Raghunathpally,Pedda Thanda,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Raghunathpally,Wadicherla,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Chennur,Chennur,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Danthalapally,Chinnanagaram,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Danthalapally,Haripirala,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Danthalapally,Nellikuduru,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Danthalapally,Ramanujapur,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Devaruppula,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Dharmapuram,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Kadavendi,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Kodakandla,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Singarjpally,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Chinnavangara,10.0,145
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Khanapur,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Devaruppula,Thorrur,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Vavilala,Erranty,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Vavilala,Kondapur,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Vavilala,Palakurthy,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Vavilala,Pochampally,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Vavilala,Vavilala,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Waddekothapally,Mondrai,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Waddekothapally,Weddekothapally,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Nakkalagutta,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Dharmasagar,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Jayagiri,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Mallikudurla,10.0,146
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Narayanagiri,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Nakkalagutta,Velair,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,KUC,Gopalpur,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,KUC,KUC,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Madikonda,Madikonda,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Madikonda,Rampur,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Madikonda,Somidi,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Madikonda,Tekulagudem,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Madikonda,West city (Somidi),10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,REC,NGO's colony (Waddepally),10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,REC,REC,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Gorrekunta,Fort Road,10.0,147
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,Gorrekunta,A.J. MILLS,10.0,147
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,A.J. MILLS,Desaipet,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Athmakur,Arepally,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Athmakur,Athmakur,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Athmakur,Peddapur,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Athmakur,Pragathi Singaram,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Balasamudram,Balasamudram,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Chinthagattu,Chintagattu,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Chinthagattu,Yadava Nagar,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Gorrekunta,Ilone,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Gorrekunta,Kapulakanaparth y,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Gorrekunta,Kondaparthy,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Gorrekunta,Mamnoor,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Gorrekunta,Vanchanagiri,10.0,148
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Kamalapur,Nagaram,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Kamalapur,Yellapur,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,KUC,Hunter Road (Shayampet),10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Machapur,Enumamula,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Parkal,Cherlapally,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Parkal,Damera,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Parkal,Kowkonda,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Parkal,Nadikuda,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Parkal,Shyampet,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Pothana,Mulugu Road,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Pothana,Orusu,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Pothana,Pothana,10.0,149
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,Pothana,Kondur,10.0,149
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Kondur,Rayaparthy,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Kunoor,Dammanapet,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Kunoor,Kunoor,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Kunoor,Venkatapur,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Kunoor,Zafferghad,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Mylaram,Annaram Shariff,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Mylaram,Katrapally,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Mylaram,Liabarthy,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Mylaram,Mylaram,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Nandanam,Ellanda,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Nandanam,Nandanam,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Nandanam,Panthini,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Nandanam,Wadlakonda,10.0,150
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,Wardhannapet,Wardhannapet,10.0,151

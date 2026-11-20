@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuryaGrid Cloud — Telangana Solar Grid-Integration SaaS</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      font-family: var(--font-sans);
+      background-color: #f8fafc;
+      color: #0f172a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .tab-btn.active {
+      background-color: #0f172a;
+      color: #ffffff;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.15);
+    }
+    .tab-btn:not(.active):hover {
+      background-color: #f1f5f9;
+      color: #0f172a;
+    }
+    .sub-row.selected {
+      background-color: #fffbeb;
+      box-shadow: inset 3px 0 0 #f59e0b;
+    }
+    input[type="range"] {
+      accent-color: #f59e0b;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 gap-3">
+        <!-- Brand -->
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 via-orange-500 to-amber-600 flex items-center justify-center shadow-sm shrink-0">
+            <i data-lucide="sun" class="w-5 h-5 text-white"></i>
+          </div>
+          <div class="truncate">
+            <div class="flex items-center gap-2">
+              <span class="font-bold text-slate-900 tracking-tight text-base sm:text-lg">SuryaGrid</span>
+              <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                Stage 4.5 Audited
+              </span>
+            </div>
+            <p class="text-[11px] text-slate-500 truncate">Telangana 391-Substation Solar Intelligence SaaS</p>
+          </div>
+        </div>
+
+        <!-- Primary Navigation (Desktop) -->
+        <nav class="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1 rounded-xl border border-slate-200/80" id="desktopNav">
+          <button type="button" data-tab="overview" class="tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5">
+            <i data-lucide="layout-dashboard" class="w-3.5 h-3.5"></i> Overview
+          </button>
+          <button type="button" data-tab="explorer" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Substation Explorer
+          </button>
+          <button type="button" data-tab="simulator" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5">
+            <i data-lucide="calculator" class="w-3.5 h-3.5"></i> ROI Simulator
+          </button>
+          <button type="button" data-tab="leaderboards" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5">
+            <i data-lucide="trophy" class="w-3.5 h-3.5"></i> Leaderboards
+          </button>
+          <button type="button" data-tab="saas" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5">
+            <i data-lucide="layers" class="w-3.5 h-3.5"></i> SaaS &amp; Plans
+          </button>
+        </nav>
+
+        <!-- Right Action Cluster -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button type="button" id="shortlistJumpBtn" class="relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 transition">
+            <i data-lucide="bookmark" class="w-3.5 h-3.5 text-amber-500"></i>
+            <span class="hidden sm:inline">Shortlist</span>
+            <span id="shortlistCountBadge" class="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">2</span>
+          </button>
+          <button type="button" id="openDemoModalBtn" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold shadow-sm transition">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
+            <span>Request Pilot</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile/Tablet Navigation Strip -->
+      <div class="lg:hidden flex items-center gap-1.5 overflow-x-auto pb-2.5 custom-scroll" id="mobileNav">
+        <button type="button" data-tab="overview" class="tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition">Overview</button>
+        <button type="button" data-tab="explorer" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">Explorer</button>
+        <button type="button" data-tab="simulator" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">ROI Simulator</button>
+        <button type="button" data-tab="leaderboards" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">Leaderboards</button>
+        <button type="button" data-tab="saas" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">SaaS &amp; Plans</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+
+    <!-- ==================== VIEW 1: EXECUTIVE OVERVIEW ==================== -->
+    <section id="view-overview" class="view-section space-y-6">
+      <!-- Hero Banner -->
+      <div class="rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-white p-6 sm:p-8 shadow-sm border border-slate-800 relative overflow-hidden">
+        <div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-amber-500/10 blur-3xl pointer-events-none"></div>
+        <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div class="max-w-2xl space-y-2.5">
+            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium text-amber-300">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              391 Substations · 33 Official Telangana Districts · GEE + TGRAC + PVGIS v5.3
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight leading-tight">
+              Grid-Matched Solar Siting &amp; Bankable Techno-Economic Intelligence
+            </h1>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Coupling 1 km satellite farmland suitability with 1-to-1 Annexure-D transformer headroom, voltage-tier SF6/VCB bay sizing, and dual-tier PM-KUSUM / Utility STU financial modeling.
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+            <button type="button" id="heroExploreBtn" class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-xs sm:text-sm transition inline-flex items-center gap-2 shadow-sm">
+              <i data-lucide="compass" class="w-4 h-4"></i> Explore Substations
+            </button>
+            <button type="button" id="heroSimBtn" class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/15 font-semibold text-xs sm:text-sm transition inline-flex items-center gap-2">
+              <i data-lucide="sliders-horizontal" class="w-4 h-4"></i> Launch ROI Simulator
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 Statewide KPI Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">True Deployable Solar</span>
+            <span class="p-2 rounded-lg bg-amber-50 text-amber-600"><i data-lucide="zap" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">12,602.6 MW</span>
+            <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Deduplicated</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">12,949.9 MW raw sum · 1-to-1 Annexure-D matched</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">1 km Land Potential</span>
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-600"><i data-lucide="map" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">29,366.4 MW</span>
+            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-1.5 py-0.5 rounded">-617.5 MW overlap</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">53 co-located substations deduplicated across 27 clusters</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Statewide Turnkey CAPEX</span>
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-600"><i data-lucide="landmark" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">₹47,259.5 Cr</span>
+            <span class="text-xs font-medium text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded">₹3.75 Cr/MW</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Modules, inverters, SCADA, pooling line &amp; bays</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Annual Gross Revenue</span>
+            <span class="p-2 rounded-lg bg-indigo-50 text-indigo-600"><i data-lucide="trending-up" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">₹5,484.1 Cr/yr</span>
+            <span class="text-xs font-medium text-indigo-700 bg-indigo-50 px-1.5 py-0.5 rounded">Dual-Tier</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">₹3.13/kWh PM-KUSUM · ₹2.75/kWh Utility STU</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Aggregate Simple Payback</span>
+            <span class="p-2 rounded-lg bg-amber-50 text-amber-600"><i data-lucide="clock" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">10.13 Years</span>
+            <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Reconciled</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Strict aggregate CAPEX / (Revenue − OPEX &amp; Lease)</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">25-Yr Cumulative Net Profit</span>
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-600"><i data-lucide="wallet" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900">₹58,857.9 Cr</span>
+            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-1.5 py-0.5 rounded">0.91 Factor</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Includes 0.940 degradation × 0.970 grid availability</p>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-sm font-bold text-slate-900">Evacuation Voltage-Tier Distribution</h2>
+              <p class="text-xs text-slate-500">TGTRANSCO grid-code aligned bay architecture across 391 yards</p>
+            </div>
+            <span class="text-[11px] font-semibold px-2 py-1 rounded-lg bg-slate-100 text-slate-700">391 Total</span>
+          </div>
+          <div class="relative h-64">
+            <canvas id="voltageChart"></canvas>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-sm font-bold text-slate-900">Active Grid vs. Land Bottlenecks</h2>
+              <p class="text-xs text-slate-500">Identifies PTR augmentation needs vs. 1 km farmland pooling limits</p>
+            </div>
+            <span class="text-[11px] font-semibold px-2 py-1 rounded-lg bg-amber-50 text-amber-800">65.2% Grid Capped</span>
+          </div>
+          <div class="relative h-64">
+            <canvas id="bottleneckChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage 4 vs Stage 4.5 Audit Delta Card -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+        <div class="px-5 py-4 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h2 class="text-sm font-bold text-slate-900">Stage 4.5 Engineering &amp; Regulatory Audit Log</h2>
+            <p class="text-xs text-slate-500">Verified delta between raw Stage 4 output and deduplicated, grid-code-aligned Stage 4.5 release</p>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full self-start sm:self-auto">
+            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> 9/9 Unit Tests Passing
+          </span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-slate-50 text-slate-500 uppercase tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="px-5 py-3 font-semibold">Dimension</th>
+                <th class="px-5 py-3 font-semibold">Stage 4 (Before)</th>
+                <th class="px-5 py-3 font-semibold">Stage 4.5 (Audited)</th>
+                <th class="px-5 py-3 font-semibold">Engineering Impact</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-700">
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Co-Located Buffers (&lt; 2 km)</td>
+                <td class="px-5 py-3 text-slate-500">Ignored (Double-counted)</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">53 SS Flagged (27 Clusters)</td>
+                <td class="px-5 py-3">Eliminates 617.5 MW of overlapping 1 km farmland buffers.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Evacuation Voltage &amp; Bays</td>
+                <td class="px-5 py-3 text-slate-500">Blanket 33 kV on all SS</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">33 kV (275) · 132 kV (85) · 220 kV (31)</td>
+                <td class="px-5 py-3">Grid-code compliant VCB &amp; SF6 line bays by EHT tier.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Tariff Modeling</td>
+                <td class="px-5 py-3 text-slate-500">Blanket ₹3.13/kWh</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">₹3.13 PM-KUSUM · ₹2.75 STU</td>
+                <td class="px-5 py-3">Separates decentralized feeder tenders from utility EHT parks.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">District Normalization</td>
+                <td class="px-5 py-3 text-slate-500">35 spelling variants</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">Exactly 33 Official Districts</td>
+                <td class="px-5 py-3">Point-in-polygon spatial join with official Telangana GeoJSON.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Score Calibration</td>
+                <td class="px-5 py-3 text-slate-500">60 MW cap (saturated)</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">150 MW cap + Split Leaderboards</td>
+                <td class="px-5 py-3">Restores ranking spread across EHT &amp; PM-KUSUM tracks.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: SUBSTATION EXPLORER ==================== -->
+    <section id="view-explorer" class="view-section hidden space-y-5">
+      <!-- Explorer Controls Bar -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs space-y-3">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
+              Substation Explorer &amp; 4-Layer Inspector
+              <span id="datasetSourceBadge" class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200">
+                20 Verified Highlight Sites
+              </span>
+            </h2>
+            <p class="text-xs text-slate-500">Click any substation to inspect Land, Grid, Solar, and Financial ROI layers — or import your full 391-row CSV locally.</p>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <label for="csvFileInput" class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition shadow-xs">
+              <i data-lucide="upload" class="w-3.5 h-3.5 text-amber-400"></i>
+              <span>Import 391-Row CSV</span>
+            </label>
+            <input type="file" id="csvFileInput" accept=".csv" class="hidden" />
+            <button type="button" id="resetDataBtn" class="hidden px-3 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 text-xs font-semibold text-slate-700 transition">
+              Reset Sample
+            </button>
+          </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 pt-2 border-t border-slate-100">
+          <div class="relative">
+            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <input type="text" id="searchInput" placeholder="Search substation or district..." class="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400" />
+          </div>
+          <select id="trackFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All Tracks (EHT + PM-KUSUM)</option>
+            <option value="EHT">Utility-Scale EHT (220/400 kV)</option>
+            <option value="KUSUM">PM-KUSUM Feeder (132/33 kV)</option>
+          </select>
+          <select id="evacFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All Evacuation Voltages</option>
+            <option value="220">220 kV SF6 Line Bays</option>
+            <option value="132">132 kV SF6 Line Bays</option>
+            <option value="33">33 kV VCB Feeder Bays</option>
+          </select>
+          <select id="sortSelect" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="score_desc">Sort: SuryaGrid Score (High → Low)</option>
+            <option value="deploy_desc">Sort: Deployable MW (High → Low)</option>
+            <option value="grid_desc">Sort: Grid Spare MW (High → Low)</option>
+            <option value="payback_asc">Sort: Payback (Fastest First)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Split Grid: Table + 4-Layer Inspector -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        <!-- Table Column -->
+        <div class="lg:col-span-7 xl:col-span-8 bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+          <div class="px-4 py-3 border-b border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span>Showing <strong id="visibleCount" class="text-slate-900">0</strong> substations</span>
+            <span>Click row to inspect</span>
+          </div>
+          <div class="overflow-x-auto max-h-[560px] overflow-y-auto custom-scroll">
+            <table class="w-full text-left text-xs">
+              <thead class="bg-slate-50 text-slate-500 uppercase tracking-wider sticky top-0 z-10 border-b border-slate-200">
+                <tr>
+                  <th class="px-4 py-3 font-semibold">Substation</th>
+                  <th class="px-3 py-3 font-semibold">Track</th>
+                  <th class="px-3 py-3 font-semibold text-right">Deployable</th>
+                  <th class="px-3 py-3 font-semibold">Evacuation</th>
+                  <th class="px-3 py-3 font-semibold text-right">Score</th>
+                  <th class="px-3 py-3 font-semibold text-center">Pin</th>
+                </tr>
+              </thead>
+              <tbody id="explorerTableBody" class="divide-y divide-slate-100"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 4-Layer Inspector Column -->
+        <div class="lg:col-span-5 xl:col-span-4 bg-white rounded-2xl border border-slate-200 shadow-xs p-5 space-y-4 sticky top-20" id="inspectorPanel">
+          <div class="flex items-start justify-between gap-2">
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h3 id="inspName" class="text-lg font-bold text-slate-900">—</h3>
+                <span id="inspTrackBadge" class="text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">—</span>
+              </div>
+              <p id="inspMeta" class="text-xs text-slate-500 mt-0.5">—</p>
+            </div>
+            <div class="text-right shrink-0">
+              <div class="text-[10px] font-semibold uppercase text-slate-400">Master Score</div>
+              <div id="inspScore" class="text-2xl font-extrabold text-amber-600">—</div>
+            </div>
+          </div>
+
+          <!-- 4 Layers -->
+          <div class="space-y-3">
+            <!-- Layer 1: Land -->
+            <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3">
+              <div class="flex items-center justify-between text-[11px] font-bold text-slate-700 uppercase tracking-wide mb-1.5">
+                <span class="flex items-center gap-1.5"><i data-lucide="sprout" class="w-3.5 h-3.5 text-emerald-600"></i> 1. Land Suitability (1 km)</span>
+                <span id="inspBottleneck" class="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">—</span>
+              </div>
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-slate-500">Farmland Solar Potential</span>
+                <span id="inspLandMw" class="font-bold text-slate-900">—</span>
+              </div>
+            </div>
+
+            <!-- Layer 2: Grid -->
+            <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3 space-y-1.5">
+              <div class="text-[11px] font-bold text-slate-700 uppercase tracking-wide flex items-center gap-1.5">
+                <i data-lucide="cpu" class="w-3.5 h-3.5 text-blue-600"></i> 2. Grid Headroom &amp; Evacuation
+              </div>
+              <div class="grid grid-cols-2 gap-2 text-xs pt-0.5">
+                <div>
+                  <div class="text-slate-500 text-[11px]">Grid Spare</div>
+                  <div id="inspGridMw" class="font-bold text-slate-900">—</div>
+                </div>
+                <div>
+                  <div class="text-slate-500 text-[11px]">True Deployable</div>
+                  <div id="inspDeployMw" class="font-bold text-emerald-700">—</div>
+                </div>
+                <div class="col-span-2 pt-1 border-t border-slate-200/70 flex items-center justify-between">
+                  <span class="text-slate-500 text-[11px]">Evacuation Bus &amp; Bays</span>
+                  <span id="inspEvac" class="font-semibold text-slate-900 text-right">—</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 3: Solar -->
+            <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3">
+              <div class="text-[11px] font-bold text-slate-700 uppercase tracking-wide flex items-center gap-1.5 mb-1.5">
+                <i data-lucide="sun" class="w-3.5 h-3.5 text-amber-500"></i> 3. Solar Yield (PVGIS v5.3)
+              </div>
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-slate-500">Annual Clean Generation</span>
+                <span id="inspEnergy" class="font-bold text-slate-900">—</span>
+              </div>
+            </div>
+
+            <!-- Layer 4: ROI -->
+            <div class="rounded-xl bg-slate-900 text-white p-3.5 space-y-2">
+              <div class="flex items-center justify-between text-[11px] font-bold uppercase tracking-wide text-amber-300">
+                <span class="flex items-center gap-1.5"><i data-lucide="indian-rupee" class="w-3.5 h-3.5"></i> 4. Financial ROI</span>
+                <span id="inspTariff" class="text-[10px] bg-white/10 px-2 py-0.5 rounded-full text-white">—</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 pt-1">
+                <div>
+                  <div class="text-[10px] text-slate-400">Turnkey CAPEX</div>
+                  <div id="inspCapex" class="text-sm font-bold">—</div>
+                </div>
+                <div>
+                  <div class="text-[10px] text-slate-400">Gross Rev / yr</div>
+                  <div id="inspRev" class="text-sm font-bold text-emerald-400">—</div>
+                </div>
+                <div>
+                  <div class="text-[10px] text-slate-400">Simple Payback</div>
+                  <div id="inspPayback" class="text-sm font-bold text-amber-300">—</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Inspector Actions -->
+          <div class="flex items-center gap-2 pt-1">
+            <button type="button" id="inspSimBtn" class="flex-1 py-2.5 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs transition inline-flex items-center justify-center gap-1.5">
+              <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Open in ROI Simulator
+            </button>
+            <button type="button" id="inspPinBtn" class="py-2.5 px-3 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-xs transition inline-flex items-center gap-1.5">
+              <i data-lucide="bookmark" class="w-3.5 h-3.5"></i> <span id="inspPinLabel">Pin</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: BANKABLE ROI SIMULATOR ==================== -->
+    <section id="view-simulator" class="view-section hidden space-y-5">
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-base font-bold text-slate-900">Interactive Bankable Project ROI &amp; Debt Simulator</h2>
+          <p class="text-xs text-slate-500">Stress-test tariff tiers, CAPEX, OPEX, and debt-service coverage (DSCR) for any substation in real time.</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <select id="simPresetSelect" class="px-3 py-2 rounded-xl border border-slate-200 text-xs font-medium bg-white text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-400/50"></select>
+          <button type="button" id="presetKusumBtn" class="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-semibold transition">
+            PM-KUSUM ₹3.13
+          </button>
+          <button type="button" id="presetStuBtn" class="px-3 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 border border-blue-200 text-xs font-semibold transition">
+            Utility STU ₹2.75
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        <!-- Sliders Column -->
+        <div class="lg:col-span-5 bg-white rounded-2xl border border-slate-200 p-5 shadow-xs space-y-4">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500">Project Parameters</h3>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simMw" class="font-semibold text-slate-700">Deployable Capacity</label>
+              <span id="simMwVal" class="font-bold text-slate-900">126.6 MW</span>
+            </div>
+            <input type="range" id="simMw" min="5" max="200" step="0.5" value="126.6" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simTariff" class="font-semibold text-slate-700">PPA Tariff (₹/kWh)</label>
+              <span id="simTariffVal" class="font-bold text-amber-600">₹2.75/kWh</span>
+            </div>
+            <input type="range" id="simTariff" min="2.20" max="3.80" step="0.01" value="2.75" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simCapex" class="font-semibold text-slate-700">Turnkey CAPEX (₹ Cr/MW)</label>
+              <span id="simCapexVal" class="font-bold text-slate-900">₹3.75 Cr/MW</span>
+            </div>
+            <input type="range" id="simCapex" min="3.00" max="4.50" step="0.05" value="3.75" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simOpex" class="font-semibold text-slate-700">Annual OPEX + Land Lease (₹ Lakh/MW)</label>
+              <span id="simOpexVal" class="font-bold text-slate-900">₹6.5 Lakh/MW</span>
+            </div>
+            <input type="range" id="simOpex" min="4.0" max="10.0" step="0.5" value="6.5" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simYield" class="font-semibold text-slate-700">Specific Solar Yield (MU/MW/yr)</label>
+              <span id="simYieldVal" class="font-bold text-slate-900">1.51 MU/MW</span>
+            </div>
+            <input type="range" id="simYield" min="1.35" max="1.75" step="0.01" value="1.51" class="w-full" />
+          </div>
+
+          <div class="pt-3 border-t border-slate-100 space-y-4">
+            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500">Debt Financing Structure</h3>
+            <div class="space-y-1">
+              <div class="flex justify-between text-xs">
+                <label for="simDebtPct" class="font-semibold text-slate-700">Debt Share (%)</label>
+                <span id="simDebtPctVal" class="font-bold text-slate-900">70% Debt / 30% Equity</span>
+              </div>
+              <input type="range" id="simDebtPct" min="0" max="80" step="5" value="70" class="w-full" />
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="space-y-1">
+                <div class="flex justify-between text-xs">
+                  <label for="simRate" class="font-semibold text-slate-700">Interest Rate</label>
+                  <span id="simRateVal" class="font-bold text-slate-900">9.5%</span>
+                </div>
+                <input type="range" id="simRate" min="7.0" max="12.5" step="0.25" value="9.5" class="w-full" />
+              </div>
+              <div class="space-y-1">
+                <div class="flex justify-between text-xs">
+                  <label for="simTenure" class="font-semibold text-slate-700">Loan Tenure</label>
+                  <span id="simTenureVal" class="font-bold text-slate-900">15 yrs</span>
+                </div>
+                <input type="range" id="simTenure" min="8" max="20" step="1" value="15" class="w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Output Metrics & Chart Column -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">Total CAPEX</div>
+              <div id="outCapex" class="text-xl font-bold text-slate-900 mt-1">—</div>
+              <div id="outEquity" class="text-[11px] text-slate-500 mt-0.5">—</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">Year-1 Gross Revenue</div>
+              <div id="outRev" class="text-xl font-bold text-emerald-700 mt-1">—</div>
+              <div id="outEnergy" class="text-[11px] text-slate-500 mt-0.5">—</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">Simple Payback</div>
+              <div id="outPayback" class="text-xl font-bold text-amber-600 mt-1">—</div>
+              <div id="outNetCf" class="text-[11px] text-slate-500 mt-0.5">—</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">25-Yr Cumulative Net Profit</div>
+              <div id="outProfit25" class="text-xl font-bold text-slate-900 mt-1">—</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">0.91 deg × avail factor</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">Year-1 DSCR</div>
+              <div id="outDscr" class="text-xl font-bold text-slate-900 mt-1">—</div>
+              <div id="outDscrNote" class="text-[11px] text-slate-500 mt-0.5">Bankability threshold ≥ 1.20x</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[11px] font-semibold text-slate-500">Annual Debt Service</div>
+              <div id="outDebtSvc" class="text-xl font-bold text-slate-900 mt-1">—</div>
+              <div id="outOpexYr" class="text-[11px] text-slate-500 mt-0.5">—</div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h3 class="text-sm font-bold text-slate-900">25-Year Cumulative Cash Flow Trajectory (₹ Crore)</h3>
+                <p class="text-xs text-slate-500">Unlevered cumulative project cash flow showing exact breakeven year</p>
+              </div>
+            </div>
+            <div class="relative h-72">
+              <canvas id="cashflowChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 4: SPLIT LEADERBOARDS & SHORTLIST ==================== -->
+    <section id="view-leaderboards" class="view-section hidden space-y-5">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div class="inline-flex bg-white p-1 rounded-xl border border-slate-200 shadow-xs self-start">
+          <button type="button" data-lb="eht" class="lb-switch active px-3.5 py-2 rounded-lg text-xs font-semibold bg-slate-900 text-white transition">
+            Utility-Scale EHT (220/400 kV)
+          </button>
+          <button type="button" data-lb="kusum" class="lb-switch px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition">
+            PM-KUSUM Clusters (132/33 kV)
+          </button>
+          <button type="button" data-lb="shortlist" class="lb-switch px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition">
+            My Shortlist (<span id="lbShortlistCount">2</span>)
+          </button>
+        </div>
+        <button type="button" id="exportShortlistBtn" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition shadow-xs self-start sm:self-auto">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i> Export Shortlist CSV
+        </button>
+      </div>
+
+      <div id="leaderboardContainer" class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden"></div>
+    </section>
+
+    <!-- ==================== VIEW 5: SAAS PLANS & ARCHITECTURE ==================== -->
+    <section id="view-saas" class="view-section hidden space-y-6">
+      <div class="text-center max-w-2xl mx-auto space-y-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-xs font-semibold">
+          SuryaGrid Cloud · Commercial SaaS Packaging
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">Built for Solar IPPs, EPC Developers &amp; State Utilities</h2>
+        <p class="text-sm text-slate-600">
+          Turn months of manual GIS land scouting and DISCOM bay verification into instant, audit-ready siting decisions.
+        </p>
+        <div class="pt-2 inline-flex items-center gap-3 bg-white border border-slate-200 rounded-full px-4 py-1.5 shadow-xs">
+          <span id="billMonthlyLabel" class="text-xs font-semibold text-slate-900">Monthly</span>
+          <button type="button" id="billingToggle" role="switch" aria-checked="true" class="relative w-11 h-6 rounded-full bg-slate-900 transition">
+            <span id="billingKnob" class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-amber-400 transition-transform translate-x-5"></span>
+          </button>
+          <span id="billAnnualLabel" class="text-xs font-semibold text-emerald-700">Annual <span class="text-[10px] bg-emerald-50 px-1.5 py-0.5 rounded-full ml-1">Save 20%</span></span>
+        </div>
+      </div>
+
+      <!-- 3 Pricing Tiers -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <!-- Tier 1 -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-xs">
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Developer Starter</h3>
+              <p class="text-xs text-slate-500 mt-1">For PM-KUSUM developers &amp; EPC land scouting teams</p>
+            </div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-slate-900" data-price-monthly="₹29,000" data-price-annual="₹23,200">₹23,200</span>
+              <span class="text-xs text-slate-500">/month</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 pt-2 border-t border-slate-100">
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Full 391-substation Telangana Explorer</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 1 km GEE farmland &amp; water-buffer masks</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> PM-KUSUM 33 kV feeder bay &amp; ROI calculator</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Monthly KMZ &amp; CSV shortlist exports</li>
+            </ul>
+          </div>
+          <button type="button" data-plan="Developer Starter" class="plan-cta mt-6 w-full py-2.5 rounded-xl border border-slate-300 hover:bg-slate-50 text-slate-900 font-semibold text-xs transition">
+            Start 14-Day Trial
+          </button>
+        </div>
+
+        <!-- Tier 2 (Highlighted) -->
+        <div class="bg-slate-900 text-white rounded-2xl border-2 border-amber-400 p-6 flex flex-col justify-between shadow-md relative">
+          <span class="absolute -top-3 right-5 px-3 py-0.5 rounded-full bg-amber-400 text-slate-950 text-[10px] font-bold uppercase tracking-wider">Most Popular</span>
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-base font-bold">IPP &amp; Utility Pro</h3>
+              <p class="text-xs text-slate-300 mt-1">For utility-scale solar IPPs, project finance &amp; advisors</p>
+            </div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-white" data-price-monthly="₹79,000" data-price-annual="₹63,200">₹63,200</span>
+              <span class="text-xs text-slate-400">/month</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-200 pt-2 border-t border-white/10">
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Everything in Developer Starter + 10 team seats</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> 132 kV / 220 kV SF6 bay &amp; STU tariff modeling</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Bankable DSCR, debt sizing &amp; 25-yr cash flows</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Automated Annexure-D &amp; TGRAC quarterly refresh</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> REST API &amp; 23-sheet DPR Excel export</li>
+            </ul>
+          </div>
+          <button type="button" data-plan="IPP & Utility Pro" class="plan-cta mt-6 w-full py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs transition">
+            Book IPP Pro Demo
+          </button>
+        </div>
+
+        <!-- Tier 3 -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-xs">
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">State Grid Enterprise</h3>
+              <p class="text-xs text-slate-500 mt-1">For TGTRANSCO, TGSPDCL, TGNPDCL &amp; state planners</p>
+            </div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-slate-900" data-price-monthly="Custom" data-price-annual="Custom">Custom</span>
+              <span class="text-xs text-slate-500">/annual license</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-600 pt-2 border-t border-slate-100">
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> On-prem / VPC deployment with SCADA &amp; GIS sync</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Live PTR augmentation &amp; bottleneck simulation</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Multi-state expansion (AP, KA, MH, RJ)</li>
+              <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Dedicated GIS &amp; power-systems engineering SLA</li>
+            </ul>
+          </div>
+          <button type="button" data-plan="State Grid Enterprise" class="plan-cta mt-6 w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs transition">
+            Contact Enterprise Team
+          </button>
+        </div>
+      </div>
+
+      <!-- 4-Stage Pipeline Architecture Strip -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
+        <h3 class="text-sm font-bold text-slate-900 mb-4">Under the Hood: 4-Stage Verified Data Pipeline</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+            <span class="text-[10px] font-bold uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Layer 1 · GEE</span>
+            <div class="text-xs font-bold text-slate-900">1 km Satellite Land Mask</div>
+            <p class="text-[11px] text-slate-600">Contiguous flat farmland ≥ 4 acres outside water buffers, spatially deduplicated across 27 overlap clusters.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+            <span class="text-[10px] font-bold uppercase text-blue-700 bg-blue-50 px-2 py-0.5 rounded">Layer 2 · Grid</span>
+            <div class="text-xs font-bold text-slate-900">TGRAC &amp; Annexure-D</div>
+            <p class="text-[11px] text-slate-600">1-to-1 voltage-aware transformer MVA matching with 33 kV VCB, 132 kV SF6, and 220 kV SF6 bay sizing.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+            <span class="text-[10px] font-bold uppercase text-amber-700 bg-amber-50 px-2 py-0.5 rounded">Layer 3 · Solar</span>
+            <div class="text-xs font-bold text-slate-900">EU JRC PVGIS v5.3</div>
+            <p class="text-[11px] text-slate-600">Location-specific irradiance, optimal tilt energy yields (MU/yr), and 0.91 lifetime degradation × availability factor.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
+            <span class="text-[10px] font-bold uppercase text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded">Layer 4 · Finance</span>
+            <div class="text-xs font-bold text-slate-900">Dual-Tier Bankability</div>
+            <p class="text-[11px] text-slate-600">Aggregate cash-flow payback (10.13 yrs), DSCR debt sizing, and split EHT vs. PM-KUSUM scoring.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
+      <span>SuryaGrid Cloud · Telangana Stage 4.5 Verified Techno-Economic Engine</span>
+      <span>Built for interactive SaaS demos · Supports local CSV import for all 391 substations</span>
+    </div>
+  </footer>
+
+  <!-- Request Pilot / Demo Modal -->
+  <div id="demoModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/60 backdrop-blur-xs p-4">
+    <div class="bg-white rounded-2xl border border-slate-200 max-w-md w-full p-6 shadow-xl space-y-4">
+      <div class="flex items-start justify-between">
+        <div>
+          <h3 class="text-base font-bold text-slate-900">Request SuryaGrid SaaS Pilot</h3>
+          <p class="text-xs text-slate-500 mt-0.5">Get full 391-substation API access &amp; custom state onboarding.</p>
+        </div>
+        <button type="button" id="closeDemoModalBtn" class="p-1 rounded-lg hover:bg-slate-100 text-slate-500">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+      <form id="demoForm" class="space-y-3">
+        <div>
+          <label for="demoName" class="block text-xs font-semibold text-slate-700 mb-1">Full Name</label>
+          <input type="text" id="demoName" required placeholder="e.g., Bhanu Prasad" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-amber-400/50" />
+        </div>
+        <div>
+          <label for="demoOrg" class="block text-xs font-semibold text-slate-700 mb-1">Organization / Utility / IPP</label>
+          <input type="text" id="demoOrg" required placeholder="e.g., TGTRANSCO / ReNew / Greenko" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-amber-400/50" />
+        </div>
+        <div>
+          <label for="demoPlan" class="block text-xs font-semibold text-slate-700 mb-1">Selected Tier</label>
+          <select id="demoPlan" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="Developer Starter">Developer Starter</option>
+            <option value="IPP & Utility Pro" selected>IPP &amp; Utility Pro</option>
+            <option value="State Grid Enterprise">State Grid Enterprise</option>
+          </select>
+        </div>
+        <div class="flex justify-end gap-2 pt-2">
+          <button type="button" id="cancelDemoModalBtn" class="px-4 py-2 rounded-xl border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50">Cancel</button>
+          <button type="submit" class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold">Submit Pilot Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden items-center gap-2 px-4 py-3 rounded-xl bg-slate-900 text-white text-xs font-medium shadow-lg border border-slate-700">
+    <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+    <span id="toastMsg">Action completed</span>
+  </div>
+
+  <script>
+    // ==================== GROUNDED STAGE 4.5 DATASET ====================
+    const INITIAL_SUBSTATIONS = [
+      // Stage 4.5 Top 5 Utility-Scale EHT (220/400 kV @ ₹2.75/kWh STU)
+      { id: 'ss-1', name: 'Kosigi', district: 'Narayanpet', voltageClass: '220/132/33 kV', track: 'EHT', landMw: 137.3, gridMw: 126.7, deployMw: 126.6, evacKv: 132, amps: 565, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 191.7, payback: 10.7, score: 72.1, bottleneck: 'GRID CONSTRAINED', rankTag: 'EHT #1' },
+      { id: 'ss-2', name: 'Veltoor', district: 'Wanaparthy', voltageClass: '400/220 kV', track: 'EHT', landMw: 133.2, gridMw: 355.0, deployMw: 133.2, evacKv: 220, amps: 357, bays: 2, bayType: '220 kV SF6', tariff: 2.75, energyMu: 200.4, payback: 10.8, score: 71.9, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT #2' },
+      { id: 'ss-3', name: 'Kalluru', district: 'Khammam', voltageClass: '220/132/33 kV', track: 'EHT', landMw: 135.0, gridMw: 185.0, deployMw: 135.0, evacKv: 132, amps: 602, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 201.5, payback: 10.9, score: 71.5, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT #3' },
+      { id: 'ss-4', name: 'Miryalaguda', district: 'Nalgonda', voltageClass: '220/132/33 kV', track: 'EHT', landMw: 134.3, gridMw: 200.0, deployMw: 134.3, evacKv: 132, amps: 599, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 201.1, payback: 10.8, score: 71.3, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT #4' },
+      { id: 'ss-5', name: 'Dichpally (400KV)', district: 'Nizamabad', voltageClass: '400/220 kV', track: 'EHT', landMw: 129.2, gridMw: 650.3, deployMw: 129.2, evacKv: 220, amps: 346, bays: 2, bayType: '220 kV SF6', tariff: 2.75, energyMu: 194.6, payback: 10.9, score: 71.3, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT #5' },
+
+      // Stage 4.5 Top 5 PM-KUSUM (132/33 kV @ ₹3.13/kWh Feeder)
+      { id: 'ss-6', name: 'Sircilla', district: 'Rajanna Sircilla', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 132.0, gridMw: 81.0, deployMw: 81.0, evacKv: 33, amps: 1446, bays: 5, bayType: '33 kV VCB', tariff: 3.13, energyMu: 121.5, payback: 9.3, score: 59.6, bottleneck: 'GRID CONSTRAINED', rankTag: 'KUSUM #1' },
+      { id: 'ss-7', name: 'Parigi', district: 'Vikarabad', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 128.4, gridMw: 67.5, deployMw: 67.5, evacKv: 33, amps: 1205, bays: 4, bayType: '33 kV VCB', tariff: 3.13, energyMu: 101.9, payback: 9.2, score: 58.3, bottleneck: 'GRID CONSTRAINED', rankTag: 'KUSUM #2' },
+      { id: 'ss-8', name: 'Gajwel (132KV)', district: 'Siddipet', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 81.5, gridMw: 72.0, deployMw: 72.0, evacKv: 33, amps: 1285, bays: 5, bayType: '33 kV VCB', tariff: 3.13, energyMu: 108.0, payback: 9.3, score: 57.7, bottleneck: 'GRID CONSTRAINED', rankTag: 'KUSUM #3' },
+      { id: 'ss-9', name: 'Gangadhara', district: 'Karimnagar', voltageClass: '132/33/11 kV', track: 'KUSUM', landMw: 133.0, gridMw: 62.3, deployMw: 62.3, evacKv: 33, amps: 1112, bays: 4, bayType: '33 kV VCB', tariff: 3.13, energyMu: 93.4, payback: 9.3, score: 55.0, bottleneck: 'GRID CONSTRAINED', rankTag: 'KUSUM #4' },
+      { id: 'ss-10', name: 'Marriguda', district: 'Nalgonda', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 130.3, gridMw: 59.1, deployMw: 59.1, evacKv: 33, amps: 1055, bays: 4, bayType: '33 kV VCB', tariff: 3.13, energyMu: 88.6, payback: 9.3, score: 53.9, bottleneck: 'GRID CONSTRAINED', rankTag: 'KUSUM #5' },
+
+      // Verified Benchmark & Additional EHT Substations
+      { id: 'ss-11', name: 'Gajwel (400KV)', district: 'Siddipet', voltageClass: '400/220 kV', track: 'EHT', landMw: 121.2, gridMw: 38.0, deployMw: 38.0, evacKv: 220, amps: 102, bays: 1, bayType: '220 kV SF6', tariff: 2.75, energyMu: 57.3, payback: 10.7, score: 63.5, bottleneck: 'GRID CONSTRAINED', rankTag: 'Benchmark' },
+      { id: 'ss-12', name: 'K.M.Pally (220KV)', district: 'Nalgonda', voltageClass: '220/132 kV', track: 'EHT', landMw: 119.6, gridMw: 158.0, deployMw: 119.6, evacKv: 132, amps: 533, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 178.4, payback: 10.9, score: 70.4, bottleneck: 'LAND CONSTRAINED', rankTag: 'Benchmark' },
+      { id: 'ss-13', name: 'Ganeshpahad', district: 'Nalgonda', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 132.6, gridMw: 15.0, deployMw: 15.0, evacKv: 33, amps: 268, bays: 1, bayType: '33 kV VCB', tariff: 3.13, energyMu: 21.9, payback: 9.6, score: 48.8, bottleneck: 'GRID CONSTRAINED', rankTag: 'Benchmark' },
+      { id: 'ss-14', name: 'Kondapaka', district: 'Siddipet', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 85.9, gridMw: 28.4, deployMw: 28.4, evacKv: 33, amps: 507, bays: 2, bayType: '33 kV VCB', tariff: 3.13, energyMu: 42.7, payback: 9.3, score: 52.1, bottleneck: 'GRID CONSTRAINED', rankTag: 'Benchmark' },
+      { id: 'ss-15', name: 'Narayanguda', district: 'Hyderabad', voltageClass: '132/33 kV', track: 'KUSUM', landMw: 0.0, gridMw: 45.0, deployMw: 0.0, evacKv: 33, amps: 0, bays: 0, bayType: '33 kV VCB', tariff: 3.13, energyMu: 0.0, payback: 0.0, score: 0.0, bottleneck: 'URBAN EXCLUDED', rankTag: 'Benchmark' },
+      { id: 'ss-16', name: 'Dichpally (220KV)', district: 'Nizamabad', voltageClass: '220/132 kV', track: 'EHT', landMw: 77.1, gridMw: 143.0, deployMw: 77.1, evacKv: 132, amps: 344, bays: 2, bayType: '132 kV SF6', tariff: 2.75, energyMu: 116.2, payback: 10.8, score: 66.8, bottleneck: 'LAND CONSTRAINED', rankTag: 'Co-Located' },
+      { id: 'ss-17', name: 'Shadnagar', district: 'Rangareddy', voltageClass: '220/132 kV', track: 'EHT', landMw: 116.7, gridMw: 204.0, deployMw: 116.7, evacKv: 132, amps: 520, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 176.3, payback: 10.7, score: 70.8, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT Top' },
+      { id: 'ss-18', name: 'Maheshwaram', district: 'Rangareddy', voltageClass: '400/220 kV', track: 'EHT', landMw: 79.1, gridMw: 450.0, deployMw: 79.1, evacKv: 220, amps: 212, bays: 1, bayType: '220 kV SF6', tariff: 2.75, energyMu: 119.5, payback: 10.7, score: 66.2, bottleneck: 'LAND CONSTRAINED', rankTag: 'EHT Top' },
+      { id: 'ss-19', name: 'Akkaram', district: 'Siddipet', voltageClass: '220/132 kV', track: 'EHT', landMw: 130.2, gridMw: 113.4, deployMw: 113.4, evacKv: 132, amps: 506, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 170.8, payback: 10.8, score: 70.1, bottleneck: 'GRID CONSTRAINED', rankTag: 'EHT Top' },
+      { id: 'ss-20', name: 'Markook', district: 'Siddipet', voltageClass: '220/132 kV', track: 'EHT', landMw: 126.6, gridMw: 122.4, deployMw: 122.4, evacKv: 132, amps: 546, bays: 3, bayType: '132 kV SF6', tariff: 2.75, energyMu: 184.0, payback: 10.8, score: 70.9, bottleneck: 'GRID CONSTRAINED', rankTag: 'EHT Top' }
+    ];
+
+    // ==================== APP STATE ====================
+    const state = {
+      activeTab: 'overview',
+      substations: [...INITIAL_SUBSTATIONS],
+      isCustomCsv: false,
+      selectedId: 'ss-1',
+      shortlistIds: new Set(['ss-1', 'ss-6']),
+      activeLb: 'eht',
+      annualBilling: true,
+      charts: {
+        voltage: null,
+        bottleneck: null,
+        cashflow: null
+      }
+    };
+
+    // ==================== HELPERS ====================
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = msg;
+      toast.classList.remove('hidden');
+      toast.classList.add('flex');
+      clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => {
+        toast.classList.add('hidden');
+        toast.classList.remove('flex');
+      }, 3200);
+    }
+
+    function fmtNum(n, dec = 1) {
+      if (typeof n !== 'number' || Number.isNaN(n)) return '0';
+      return n.toLocaleString('en-IN', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    }
+
+    function switchTab(tabId) {
+      state.activeTab = tabId;
+      document.querySelectorAll('.view-section').forEach(sec => sec.classList.add('hidden'));
+      const target = document.getElementById('view-' + tabId);
+      if (target) target.classList.remove('hidden');
+
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        if (btn.dataset.tab === tabId) {
+          btn.classList.add('active');
+          btn.classList.remove('text-slate-600');
+        } else {
+          btn.classList.remove('active');
+          btn.classList.add('text-slate-600');
+        }
+      });
+
+      if (tabId === 'simulator') {
+        updateSimulator();
+      } else if (tabId === 'leaderboards') {
+        renderLeaderboard();
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ==================== OVERVIEW CHARTS ====================
+    function initOverviewCharts() {
+      const vCtx = document.getElementById('voltageChart').getContext('2d');
+      state.charts.voltage = new Chart(vCtx, {
+        type: 'bar',
+        data: {
+          labels: ['33 kV VCB Bays\n(PM-KUSUM / ≤30 MW)', '132 kV SF6 Bays\n(220 kV Pooling)', '220 kV SF6 Bays\n(400 kV Pooling)'],
+          datasets: [{
+            label: 'Substations',
+            data: [275, 85, 31],
+            backgroundColor: ['#10b981', '#3b82f6', '#f59e0b'],
+            borderRadius: 8,
+            maxBarThickness: 56
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => ` ${ctx.raw} substations (${((ctx.raw / 391) * 100).toFixed(1)}%)`
+              }
+            }
+          },
+          scales: {
+            y: { beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 11 } } },
+            x: { grid: { display: false }, ticks: { font: { size: 11 } } }
+          }
+        }
+      });
+
+      const bCtx = document.getElementById('bottleneckChart').getContext('2d');
+      state.charts.bottleneck = new Chart(bCtx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Grid Transformer Constrained (255)', '1 km Land Constrained (122)', 'Urban / Excluded (14)'],
+          datasets: [{
+            data: [255, 122, 14],
+            backgroundColor: ['#0f172a', '#f59e0b', '#cbd5e1'],
+            borderWidth: 2,
+            borderColor: '#ffffff'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '64%',
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 12, padding: 14, font: { size: 11 } } }
+          }
+        }
+      });
+    }
+
+    // ==================== EXPLORER & INSPECTOR ====================
+    function getFilteredSubstations() {
+      const q = document.getElementById('searchInput').value.trim().toLowerCase();
+      const track = document.getElementById('trackFilter').value;
+      const evac = document.getElementById('evacFilter').value;
+      const sort = document.getElementById('sortSelect').value;
+
+      let list = state.substations.filter(s => {
+        const matchQ = !q || s.name.toLowerCase().includes(q) || s.district.toLowerCase().includes(q);
+        const matchTrack = track === 'ALL' || s.track === track;
+        const matchEvac = evac === 'ALL' || String(s.evacKv) === evac;
+        return matchQ && matchTrack && matchEvac;
+      });
+
+      list.sort((a, b) => {
+        if (sort === 'deploy_desc') return b.deployMw - a.deployMw;
+        if (sort === 'grid_desc') return b.gridMw - a.gridMw;
+        if (sort === 'payback_asc') {
+          const pa = a.payback > 0 ? a.payback : 999;
+          const pb = b.payback > 0 ? b.payback : 999;
+          return pa - pb;
+        }
+        return b.score - a.score;
+      });
+
+      return list;
+    }
+
+    function renderExplorerTable() {
+      const tbody = document.getElementById('explorerTableBody');
+      const list = getFilteredSubstations();
+      document.getElementById('visibleCount').textContent = list.length;
+
+      if (list.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="px-4 py-8 text-center text-slate-400">No substations match your current filter.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = list.map(s => {
+        const isSel = s.id === state.selectedId;
+        const isPinned = state.shortlistIds.has(s.id);
+        const trackBadge = s.track === 'EHT'
+          ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-50 text-blue-700">EHT</span>'
+          : '<span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700">KUSUM</span>';
+        return `
+          <tr class="sub-row cursor-pointer hover:bg-slate-50 transition ${isSel ? 'selected' : ''}" data-id="${s.id}">
+            <td class="px-4 py-3">
+              <div class="font-semibold text-slate-900">${s.name}</div>
+              <div class="text-[11px] text-slate-500">${s.district} · ${s.voltageClass}</div>
+            </td>
+            <td class="px-3 py-3">${trackBadge}</td>
+            <td class="px-3 py-3 text-right font-bold text-slate-900">${fmtNum(s.deployMw, 1)} MW</td>
+            <td class="px-3 py-3 text-slate-600">${s.evacKv} kV · ${s.bays} bay${s.bays === 1 ? '' : 's'}</td>
+            <td class="px-3 py-3 text-right font-extrabold ${s.score >= 65 ? 'text-amber-600' : 'text-slate-700'}">${fmtNum(s.score, 1)}</td>
+            <td class="px-3 py-3 text-center">
+              <button type="button" class="pin-btn p-1.5 rounded-lg border transition ${isPinned ? 'bg-amber-50 border-amber-300 text-amber-600' : 'border-slate-200 text-slate-400 hover:text-slate-700'}" data-pin-id="${s.id}" title="Toggle Shortlist">
+                <i data-lucide="bookmark" class="w-3.5 h-3.5"></i>
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    function renderInspector() {
+      const s = state.substations.find(x => x.id === state.selectedId) || state.substations[0];
+      if (!s) return;
+      state.selectedId = s.id;
+
+      const capex = s.deployMw * 3.75;
+      const rev = s.energyMu * (s.tariff / 10.0);
+      const isPinned = state.shortlistIds.has(s.id);
+
+      document.getElementById('inspName').textContent = s.name;
+      document.getElementById('inspMeta').textContent = `${s.district} District · ${s.voltageClass}`;
+      document.getElementById('inspScore').textContent = fmtNum(s.score, 1);
+
+      const badge = document.getElementById('inspTrackBadge');
+      badge.textContent = s.track === 'EHT' ? 'Utility EHT' : 'PM-KUSUM';
+      badge.className = s.track === 'EHT'
+        ? 'text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-blue-50 text-blue-700'
+        : 'text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700';
+
+      const bn = document.getElementById('inspBottleneck');
+      bn.textContent = s.bottleneck;
+      bn.className = s.bottleneck.includes('GRID')
+        ? 'text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-bold'
+        : s.bottleneck.includes('URBAN')
+          ? 'text-[10px] px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 font-bold'
+          : 'text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold';
+
+      document.getElementById('inspLandMw').textContent = `${fmtNum(s.landMw, 1)} MW`;
+      document.getElementById('inspGridMw').textContent = `${fmtNum(s.gridMw, 1)} MW`;
+      document.getElementById('inspDeployMw').textContent = `${fmtNum(s.deployMw, 1)} MW`;
+      document.getElementById('inspEvac').textContent = `${Math.round(s.amps)} A @ ${s.evacKv} kV (${s.bays} ${s.bayType})`;
+      document.getElementById('inspEnergy').textContent = `${fmtNum(s.energyMu, 1)} MU/yr`;
+      document.getElementById('inspTariff').textContent = `₹${s.tariff.toFixed(2)}/kWh`;
+      document.getElementById('inspCapex').textContent = `₹${fmtNum(capex, 1)} Cr`;
+      document.getElementById('inspRev').textContent = `₹${fmtNum(rev, 1)} Cr`;
+      document.getElementById('inspPayback').textContent = s.payback > 0 ? `${fmtNum(s.payback, 1)} yrs` : 'N/A';
+
+      const pinBtn = document.getElementById('inspPinBtn');
+      const pinLbl = document.getElementById('inspPinLabel');
+      pinLbl.textContent = isPinned ? 'Pinned' : 'Pin';
+      pinBtn.className = isPinned
+        ? 'py-2.5 px-3 rounded-xl border border-amber-300 bg-amber-50 text-amber-800 font-semibold text-xs transition inline-flex items-center gap-1.5'
+        : 'py-2.5 px-3 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-xs transition inline-flex items-center gap-1.5';
+    }
+
+    function toggleShortlist(id) {
+      if (state.shortlistIds.has(id)) {
+        state.shortlistIds.delete(id);
+        showToast('Removed substation from shortlist');
+      } else {
+        state.shortlistIds.add(id);
+        showToast('Pinned substation to shortlist');
+      }
+      updateShortlistBadges();
+      renderExplorerTable();
+      renderInspector();
+      if (state.activeTab === 'leaderboards') renderLeaderboard();
+    }
+
+    function updateShortlistBadges() {
+      const count = state.shortlistIds.size;
+      document.getElementById('shortlistCountBadge').textContent = count;
+      document.getElementById('lbShortlistCount').textContent = count;
+    }
+
+    // ==================== CLIENT-SIDE CSV IMPORTER ====================
+    function parseCsvLine(line) {
+      const result = [];
+      let cur = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '"') {
+          inQuotes = !inQuotes;
+        } else if (ch === ',' && !inQuotes) {
+          result.push(cur.trim());
+          cur = '';
+        } else {
+          cur += ch;
+        }
+      }
+      result.push(cur.trim());
+      return result;
+    }
+
+    function handleCsvUpload(file) {
+      const reader = new FileReader();
+      reader.onload = e => {
+        try {
+          const text = String(e.target.result || '');
+          const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
+          if (lines.length < 2) {
+            showToast('CSV appears empty');
+            return;
+          }
+          const headers = parseCsvLine(lines[0]).map(h => h.toLowerCase().replace(/[^a-z0-9_]/g, '_'));
+          const findIdx = keys => headers.findIndex(h => keys.some(k => h.includes(k)));
+
+          const iName = findIdx(['substation_name', 'substation', 'name']);
+          const iDist = findIdx(['district']);
+          const iVolt = findIdx(['voltage_class', 'voltage']);
+          const iLand = findIdx(['land_solar_potential', 'land_mw', 'land_potential']);
+          const iGrid = findIdx(['grid_spare', 'spare_capacity', 'grid_mw']);
+          const iDep = findIdx(['deployable_mw', 'true_deployable', 'deployable']);
+          const iEvac = findIdx(['evacuation_voltage', 'evac_kv']);
+          const iAmps = findIdx(['injection_current', 'amps']);
+          const iBays = findIdx(['feeder_bays', 'bays']);
+          const iEnergy = findIdx(['annual_energy', 'energy_mu', 'pvgis']);
+          const iPay = findIdx(['payback']);
+          const iScore = findIdx(['suryagrid_score', 'master_score', 'score']);
+          const iBn = findIdx(['bottleneck']);
+
+          const parsed = [];
+          for (let r = 1; r < lines.length; r++) {
+            const cols = parseCsvLine(lines[r]);
+            if (cols.length < 3) continue;
+            const name = iName >= 0 ? cols[iName] : `Substation ${r}`;
+            const volt = iVolt >= 0 ? cols[iVolt] : '132/33 kV';
+            const isEht = volt.includes('220') || volt.includes('400');
+            const deployMw = parseFloat(cols[iDep]) || 0;
+            const evacKv = iEvac >= 0 && parseFloat(cols[iEvac]) ? parseFloat(cols[iEvac]) : (volt.includes('400') ? 220 : isEht ? 132 : 33);
+            const tariff = isEht && deployMw > 30 ? 2.75 : 3.13;
+            const energyMu = iEnergy >= 0 && !Number.isNaN(parseFloat(cols[iEnergy])) ? parseFloat(cols[iEnergy]) : deployMw * 1.49;
+
+            parsed.push({
+              id: 'csv-' + r,
+              name: name || `Substation ${r}`,
+              district: iDist >= 0 && cols[iDist] ? cols[iDist] : 'Telangana',
+              voltageClass: volt,
+              track: isEht ? 'EHT' : 'KUSUM',
+              landMw: parseFloat(cols[iLand]) || 0,
+              gridMw: parseFloat(cols[iGrid]) || 0,
+              deployMw,
+              evacKv,
+              amps: parseFloat(cols[iAmps]) || Math.round(deployMw * (evacKv === 220 ? 2.68 : evacKv === 132 ? 4.46 : 17.85)),
+              bays: parseInt(cols[iBays], 10) || Math.max(0, Math.ceil(deployMw / (evacKv === 220 ? 100 : evacKv === 132 ? 50 : 18))),
+              bayType: evacKv === 220 ? '220 kV SF6' : evacKv === 132 ? '132 kV SF6' : '33 kV VCB',
+              tariff,
+              energyMu,
+              payback: parseFloat(cols[iPay]) || (deployMw > 0 ? 10.1 : 0),
+              score: parseFloat(cols[iScore]) || 0,
+              bottleneck: iBn >= 0 && cols[iBn] ? cols[iBn] : (deployMw === 0 ? 'URBAN EXCLUDED' : 'GRID CONSTRAINED'),
+              rankTag: 'CSV'
+            });
+          }
+
+          if (parsed.length === 0) {
+            showToast('Could not parse rows from CSV');
+            return;
+          }
+
+          state.substations = parsed;
+          state.isCustomCsv = true;
+          state.selectedId = parsed[0].id;
+          document.getElementById('datasetSourceBadge').textContent = `${parsed.length} Imported Substations`;
+          document.getElementById('resetDataBtn').classList.remove('hidden');
+          populateSimPresets();
+          renderExplorerTable();
+          renderInspector();
+          showToast(`Loaded ${parsed.length} substations from CSV`);
+        } catch (err) {
+          showToast('Error reading CSV file');
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    // ==================== ROI SIMULATOR ====================
+    function populateSimPresets() {
+      const sel = document.getElementById('simPresetSelect');
+      sel.innerHTML = state.substations
+        .filter(s => s.deployMw > 0)
+        .slice(0, 30)
+        .map(s => `<option value="${s.id}">${s.name} (${fmtNum(s.deployMw, 1)} MW · ${s.track})</option>`)
+        .join('');
+    }
+
+    function loadSubstationIntoSimulator(subId) {
+      const s = state.substations.find(x => x.id === subId);
+      if (!s) return;
+      const mw = Math.max(5, Math.min(200, s.deployMw || 50));
+      const specificYield = s.deployMw > 0 && s.energyMu > 0 ? Math.min(1.75, Math.max(1.35, s.energyMu / s.deployMw)) : 1.49;
+
+      document.getElementById('simPresetSelect').value = s.id;
+      document.getElementById('simMw').value = mw.toFixed(1);
+      document.getElementById('simTariff').value = s.tariff.toFixed(2);
+      document.getElementById('simYield').value = specificYield.toFixed(2);
+      updateSimulator();
+    }
+
+    function updateSimulator() {
+      const mw = parseFloat(document.getElementById('simMw').value) || 0;
+      const tariff = parseFloat(document.getElementById('simTariff').value) || 0;
+      const capexPerMw = parseFloat(document.getElementById('simCapex').value) || 0;
+      const opexLakh = parseFloat(document.getElementById('simOpex').value) || 0;
+      const specificYield = parseFloat(document.getElementById('simYield').value) || 0;
+      const debtPct = parseFloat(document.getElementById('simDebtPct').value) || 0;
+      const ratePct = parseFloat(document.getElementById('simRate').value) || 0;
+      const tenure = parseInt(document.getElementById('simTenure').value, 10) || 15;
+
+      // Update slider value labels
+      document.getElementById('simMwVal').textContent = `${fmtNum(mw, 1)} MW`;
+      document.getElementById('simTariffVal').textContent = `₹${tariff.toFixed(2)}/kWh`;
+      document.getElementById('simCapexVal').textContent = `₹${capexPerMw.toFixed(2)} Cr/MW`;
+      document.getElementById('simOpexVal').textContent = `₹${opexLakh.toFixed(1)} Lakh/MW`;
+      document.getElementById('simYieldVal').textContent = `${specificYield.toFixed(2)} MU/MW`;
+      document.getElementById('simDebtPctVal').textContent = `${debtPct}% Debt / ${100 - debtPct}% Equity`;
+      document.getElementById('simRateVal').textContent = `${ratePct.toFixed(2)}%`;
+      document.getElementById('simTenureVal').textContent = `${tenure} yrs`;
+
+      // Core math
+      const capexCr = mw * capexPerMw;
+      const annualMu = mw * specificYield;
+      const grossRevYr1 = annualMu * (tariff / 10.0);
+      const opexYr = mw * (opexLakh / 100.0);
+      const netCfYr1 = grossRevYr1 - opexYr;
+      const payback = netCfYr1 > 0 ? capexCr / netCfYr1 : 0;
+
+      // 25-year series with 0.5%/yr linear degradation & 97% grid availability
+      const years = [];
+      const cumCash = [];
+      let running = -capexCr;
+      for (let y = 1; y <= 25; y++) {
+        const degFactor = Math.max(0.8, 1 - 0.005 * (y - 1));
+        const revY = grossRevYr1 * degFactor * 0.97;
+        running += (revY - opexYr);
+        years.push('Y' + y);
+        cumCash.push(Number(running.toFixed(1)));
+      }
+      const profit25 = cumCash[cumCash.length - 1];
+
+      // Debt math
+      const debtCr = capexCr * (debtPct / 100);
+      const equityCr = capexCr - debtCr;
+      const r = ratePct / 100;
+      let debtSvc = 0;
+      if (debtCr > 0 && r > 0 && tenure > 0) {
+        const factor = Math.pow(1 + r, tenure);
+        debtSvc = debtCr * (r * factor) / (factor - 1);
+      } else if (debtCr > 0 && tenure > 0) {
+        debtSvc = debtCr / tenure;
+      }
+      const dscr = debtSvc > 0 ? (grossRevYr1 * 0.97 - opexYr) / debtSvc : 0;
+
+      // Populate KPI cards
+      document.getElementById('outCapex').textContent = `₹${fmtNum(capexCr, 1)} Cr`;
+      document.getElementById('outEquity').textContent = `Equity: ₹${fmtNum(equityCr, 1)} Cr`;
+      document.getElementById('outRev').textContent = `₹${fmtNum(grossRevYr1, 1)} Cr/yr`;
+      document.getElementById('outEnergy').textContent = `${fmtNum(annualMu, 1)} MU/yr`;
+      document.getElementById('outPayback').textContent = payback > 0 ? `${fmtNum(payback, 2)} yrs` : 'N/A';
+      document.getElementById('outNetCf').textContent = `Yr-1 Net CF: ₹${fmtNum(netCfYr1, 1)} Cr`;
+      document.getElementById('outProfit25').textContent = `₹${fmtNum(profit25, 1)} Cr`;
+      document.getElementById('outDebtSvc').textContent = debtSvc > 0 ? `₹${fmtNum(debtSvc, 1)} Cr/yr` : '₹0 (Unlevered)';
+      document.getElementById('outOpexYr').textContent = `OPEX: ₹${fmtNum(opexYr, 1)} Cr/yr`;
+
+      const dscrEl = document.getElementById('outDscr');
+      const dscrNote = document.getElementById('outDscrNote');
+      if (debtPct === 0) {
+        dscrEl.textContent = '100% Equity';
+        dscrEl.className = 'text-xl font-bold text-slate-900 mt-1';
+        dscrNote.textContent = 'No debt service obligation';
+      } else {
+        dscrEl.textContent = `${dscr.toFixed(2)}x`;
+        if (dscr >= 1.2) {
+          dscrEl.className = 'text-xl font-bold text-emerald-700 mt-1';
+          dscrNote.textContent = 'Bankable (≥ 1.20x lender floor)';
+        } else {
+          dscrEl.className = 'text-xl font-bold text-rose-600 mt-1';
+          dscrNote.textContent = 'Below 1.20x bankability floor';
+        }
+      }
+
+      // Render/Update Cash Flow Chart
+      const ctx = document.getElementById('cashflowChart').getContext('2d');
+      if (state.charts.cashflow) {
+        state.charts.cashflow.data.labels = years;
+        state.charts.cashflow.data.datasets[0].data = cumCash;
+        state.charts.cashflow.data.datasets[0].backgroundColor = cumCash.map(v => v >= 0 ? '#10b981' : '#f59e0b');
+        state.charts.cashflow.update();
+      } else {
+        state.charts.cashflow = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: years,
+            datasets: [{
+              label: 'Cumulative Cash Flow (₹ Cr)',
+              data: cumCash,
+              backgroundColor: cumCash.map(v => v >= 0 ? '#10b981' : '#f59e0b'),
+              borderRadius: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: c => ` Cumulative: ₹${fmtNum(c.raw, 1)} Cr`
+                }
+              }
+            },
+            scales: {
+              y: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 11 }, callback: v => '₹' + v + ' Cr' } },
+              x: { grid: { display: false }, ticks: { font: { size: 10 } } }
+            }
+          }
+        });
+      }
+    }
+
+    // ==================== LEADERBOARDS & SHORTLIST ====================
+    function renderLeaderboard() {
+      const container = document.getElementById('leaderboardContainer');
+      let rows = [];
+      let title = '';
+      let subtitle = '';
+
+      if (state.activeLb === 'eht') {
+        rows = state.substations.filter(s => s.track === 'EHT').sort((a, b) => b.score - a.score);
+        title = 'Utility-Scale EHT Substations (220 kV / 400 kV)';
+        subtitle = 'Modeled at ₹2.75/kWh STU pooling tariff with 132 kV / 220 kV SF6 line bays';
+      } else if (state.activeLb === 'kusum') {
+        rows = state.substations.filter(s => s.track === 'KUSUM' && s.deployMw > 0).sort((a, b) => b.score - a.score);
+        title = 'Decentralized PM-KUSUM Substations (132 kV / 33 kV)';
+        subtitle = 'Aggregated multi-feeder PM-KUSUM clusters @ ₹3.13/kWh across 33 kV VCB bays';
+      } else {
+        rows = state.substations.filter(s => state.shortlistIds.has(s.id)).sort((a, b) => b.score - a.score);
+        title = 'Your Pinned Site Shortlist';
+        subtitle = 'Export this curated shortlist to CSV for DPR financial modeling or field visits';
+      }
+
+      if (rows.length === 0) {
+        container.innerHTML = `
+          <div class="p-10 text-center space-y-2">
+            <p class="text-sm font-semibold text-slate-700">No substations in this view yet.</p>
+            <p class="text-xs text-slate-500">Pin substations in the Explorer tab to build your investment shortlist.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="px-5 py-4 border-b border-slate-200 flex items-center justify-between">
+          <div>
+            <h3 class="text-sm font-bold text-slate-900">${title}</h3>
+            <p class="text-xs text-slate-500">${subtitle}</p>
+          </div>
+          <span class="text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">${rows.length} Sites</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-slate-50 text-slate-500 uppercase tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="px-4 py-3 font-semibold">#</th>
+                <th class="px-4 py-3 font-semibold">Substation &amp; District</th>
+                <th class="px-3 py-3 font-semibold text-right">Land MW</th>
+                <th class="px-3 py-3 font-semibold text-right">Grid MW</th>
+                <th class="px-3 py-3 font-semibold text-right">Deployable</th>
+                <th class="px-3 py-3 font-semibold">Evacuation Bay</th>
+                <th class="px-3 py-3 font-semibold text-right">Payback</th>
+                <th class="px-3 py-3 font-semibold text-right">Score</th>
+                <th class="px-3 py-3 font-semibold text-center">Action</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+              ${rows.map((s, idx) => `
+                <tr class="hover:bg-slate-50">
+                  <td class="px-4 py-3 font-bold text-slate-400">#${idx + 1}</td>
+                  <td class="px-4 py-3">
+                    <div class="font-bold text-slate-900">${s.name}</div>
+                    <div class="text-[11px] text-slate-500">${s.district} · ${s.voltageClass}</div>
+                  </td>
+                  <td class="px-3 py-3 text-right text-slate-600">${fmtNum(s.landMw, 1)}</td>
+                  <td class="px-3 py-3 text-right text-slate-600">${fmtNum(s.gridMw, 1)}</td>
+                  <td class="px-3 py-3 text-right font-bold text-emerald-700">${fmtNum(s.deployMw, 1)} MW</td>
+                  <td class="px-3 py-3 text-slate-700">${Math.round(s.amps)} A @ ${s.evacKv} kV (${s.bays}b)</td>
+                  <td class="px-3 py-3 text-right font-semibold text-slate-800">${s.payback > 0 ? fmtNum(s.payback, 1) + ' y' : 'N/A'}</td>
+                  <td class="px-3 py-3 text-right font-extrabold text-amber-600">${fmtNum(s.score, 1)}</td>
+                  <td class="px-3 py-3 text-center">
+                    <button type="button" class="lb-sim-btn px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-[11px] font-semibold transition" data-sim-id="${s.id}">
+                      Simulate
+                    </button>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function exportShortlistCsv() {
+      const items = state.substations.filter(s => state.shortlistIds.has(s.id));
+      if (items.length === 0) {
+        showToast('Pin at least one substation before exporting');
+        return;
+      }
+      const headers = ['Substation', 'District', 'Voltage_Class', 'Track', 'Land_MW', 'Grid_Spare_MW', 'Deployable_MW', 'Evacuation_kV', 'Injection_Amps', 'Bays', 'Tariff_INR_kWh', 'Annual_MU', 'Payback_Yrs', 'SuryaGrid_Score'];
+      const csvRows = [headers.join(',')];
+      items.forEach(s => {
+        csvRows.push([
+          `"${s.name}"`, `"${s.district}"`, `"${s.voltageClass}"`, s.track,
+          s.landMw, s.gridMw, s.deployMw, s.evacKv, s.amps, s.bays, s.tariff, s.energyMu, s.payback, s.score
+        ].join(','));
+      });
+      const blob = new Blob([csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'suryagrid_shortlist.csv';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast(`Exported ${items.length} shortlisted substations to CSV`);
+    }
+
+    // ==================== EVENT WIRING ====================
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      initOverviewCharts();
+      populateSimPresets();
+      renderExplorerTable();
+      renderInspector();
+      updateShortlistBadges();
+      updateSimulator();
+
+      // Navigation tabs
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+      });
+
+      document.getElementById('heroExploreBtn').addEventListener('click', () => switchTab('explorer'));
+      document.getElementById('heroSimBtn').addEventListener('click', () => switchTab('simulator'));
+
+      document.getElementById('shortlistJumpBtn').addEventListener('click', () => {
+        state.activeLb = 'shortlist';
+        document.querySelectorAll('.lb-switch').forEach(b => {
+          const isMatch = b.dataset.lb === 'shortlist';
+          b.className = isMatch
+            ? 'lb-switch active px-3.5 py-2 rounded-lg text-xs font-semibold bg-slate-900 text-white transition'
+            : 'lb-switch px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
+        });
+        switchTab('leaderboards');
+      });
+
+      // Explorer filters
+      ['searchInput', 'trackFilter', 'evacFilter', 'sortSelect'].forEach(id => {
+        document.getElementById(id).addEventListener('input', renderExplorerTable);
+      });
+
+      // Explorer row & pin delegation
+      document.getElementById('explorerTableBody').addEventListener('click', e => {
+        const pinBtn = e.target.closest('.pin-btn');
+        if (pinBtn) {
+          e.stopPropagation();
+          toggleShortlist(pinBtn.dataset.pinId);
+          return;
+        }
+        const row = e.target.closest('.sub-row');
+        if (row) {
+          state.selectedId = row.dataset.id;
+          renderExplorerTable();
+          renderInspector();
+        }
+      });
+
+      document.getElementById('inspPinBtn').addEventListener('click', () => toggleShortlist(state.selectedId));
+      document.getElementById('inspSimBtn').addEventListener('click', () => {
+        loadSubstationIntoSimulator(state.selectedId);
+        switchTab('simulator');
+      });
+
+      // CSV Upload & Reset
+      document.getElementById('csvFileInput').addEventListener('change', e => {
+        const file = e.target.files && e.target.files[0];
+        if (file) handleCsvUpload(file);
+        e.target.value = '';
+      });
+
+      document.getElementById('resetDataBtn').addEventListener('click', () => {
+        state.substations = [...INITIAL_SUBSTATIONS];
+        state.isCustomCsv = false;
+        state.selectedId = 'ss-1';
+        document.getElementById('datasetSourceBadge').textContent = '20 Verified Highlight Sites';
+        document.getElementById('resetDataBtn').classList.add('hidden');
+        populateSimPresets();
+        renderExplorerTable();
+        renderInspector();
+        showToast('Restored verified Stage 4.5 highlight dataset');
+      });
+
+      // Simulator controls
+      ['simMw', 'simTariff', 'simCapex', 'simOpex', 'simYield', 'simDebtPct', 'simRate', 'simTenure'].forEach(id => {
+        document.getElementById(id).addEventListener('input', updateSimulator);
+      });
+      document.getElementById('simPresetSelect').addEventListener('change', e => loadSubstationIntoSimulator(e.target.value));
+      document.getElementById('presetKusumBtn').addEventListener('click', () => {
+        document.getElementById('simTariff').value = '3.13';
+        updateSimulator();
+        showToast('Applied PM-KUSUM tariff (₹3.13/kWh)');
+      });
+      document.getElementById('presetStuBtn').addEventListener('click', () => {
+        document.getElementById('simTariff').value = '2.75';
+        updateSimulator();
+        showToast('Applied Utility STU tariff (₹2.75/kWh)');
+      });
+
+      // Leaderboard switchers
+      document.querySelectorAll('.lb-switch').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.activeLb = btn.dataset.lb;
+          document.querySelectorAll('.lb-switch').forEach(b => {
+            const isMatch = b.dataset.lb === state.activeLb;
+            b.className = isMatch
+              ? 'lb-switch active px-3.5 py-2 rounded-lg text-xs font-semibold bg-slate-900 text-white transition'
+              : 'lb-switch px-3.5 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
+          });
+          renderLeaderboard();
+        });
+      });
+
+      document.getElementById('leaderboardContainer').addEventListener('click', e => {
+        const simBtn = e.target.closest('.lb-sim-btn');
+        if (simBtn) {
+          loadSubstationIntoSimulator(simBtn.dataset.simId);
+          switchTab('simulator');
+        }
+      });
+
+      document.getElementById('exportShortlistBtn').addEventListener('click', exportShortlistCsv);
+
+      // Billing toggle (SaaS tab)
+      document.getElementById('billingToggle').addEventListener('click', () => {
+        state.annualBilling = !state.annualBilling;
+        const knob = document.getElementById('billingKnob');
+        knob.classList.toggle('translate-x-5', state.annualBilling);
+        document.querySelectorAll('[data-price-monthly]').forEach(el => {
+          el.textContent = state.annualBilling ? el.dataset.priceAnnual : el.dataset.priceMonthly;
+        });
+      });
+
+      // Demo Modal
+      const modal = document.getElementById('demoModal');
+      const openModal = planName => {
+        if (planName) document.getElementById('demoPlan').value = planName;
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      };
+      const closeModal = () => {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      };
+
+      document.getElementById('openDemoModalBtn').addEventListener('click', () => openModal('IPP & Utility Pro'));
+      document.getElementById('closeDemoModalBtn').addEventListener('click', closeModal);
+      document.getElementById('cancelDemoModalBtn').addEventListener('click', closeModal);
+      modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+      document.querySelectorAll('.plan-cta').forEach(btn => {
+        btn.addEventListener('click', () => openModal(btn.dataset.plan));
+      });
+
+      document.getElementById('demoForm').addEventListener('submit', e => {
+        e.preventDefault();
+        const org = document.getElementById('demoOrg').value.trim();
+        const plan = document.getElementById('demoPlan').value;
+        closeModal();
+        e.target.reset();
+        showToast(`Pilot request logged for ${org} (${plan})`);
+      });
+    });
+  </script>
+</body>
+</html>

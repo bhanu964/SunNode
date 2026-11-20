@@ -1,0 +1,28 @@
+{
+  "total_substations": 391,
+  "total_districts": 33,
+  "raw_land_mw": 29983.9,
+  "dedup_land_mw": 29366.4,
+  "raw_deploy_mw": 12949.9,
+  "dedup_deploy_mw": 12602.6,
+  "statewide_turnkey_capex_cr": 47259.5,
+  "statewide_annual_revenue_cr": 5484.1,
+  "statewide_annual_ebitda_cr": 4664.5,
+  "statewide_payback_years": 10.13,
+  "statewide_25yr_profit_cr": 58857.9,
+  "colocated_substations_count": 53,
+  "solar_irradiance_min_kwh_m2_day": 5.29,
+  "solar_irradiance_mean_kwh_m2_day": 5.51,
+  "solar_irradiance_max_kwh_m2_day": 5.61,
+  "specific_yield_min_kwh_kwp": 1425.5,
+  "specific_yield_mean_kwh_kwp": 1491.2,
+  "specific_yield_max_kwh_kwp": 1515.4,
+  "cuf_mean_pct": 17.02,
+  "optimal_tilt_mean_deg": 22.7,
+  "socio_economic_impact": {
+    "annual_farmer_lease_income_cr": 252.05,
+    "annual_clean_generation_mu": 18771.6,
+    "annual_co2_offset_tonnes": 13646954,
+    "avoided_stranded_capex_cr": 62864.0
+  }
+}

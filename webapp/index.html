@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunNode — Government of Telangana Energy Department Decision Support System (DSS)</title>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  
+  <!-- CSS Dependencies -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <!-- JS Dependencies -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  
+  <style>
+    :root {
+      --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      font-family: var(--font-sans);
+      background-color: #f8fafc;
+      color: #0f172a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .tab-btn.active {
+      background-color: #0f172a;
+      color: #ffffff;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.15);
+    }
+    .tab-btn:not(.active):hover {
+      background-color: #f1f5f9;
+      color: #0f172a;
+    }
+    .sub-row.selected {
+      background-color: #fffbeb;
+      box-shadow: inset 3px 0 0 #f59e0b;
+    }
+    input[type="range"] {
+      accent-color: #f59e0b;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .leaflet-pane { z-index: 10 !important; }
+    .leaflet-top, .leaflet-bottom { z-index: 15 !important; }
+    
+    /* Clean Print Layout for DPR Dossier */
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      #printDossier, #printDossier * {
+        visibility: visible;
+      }
+      #printDossier {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: block !important;
+        background: white !important;
+        color: #0f172a !important;
+      }
+      header, footer, nav, .view-section, #toast, #geeModal {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Top Navigation Bar (Official Government DSS Layout) -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16 gap-3">
+        <!-- Brand -->
+        <div class="flex items-center gap-3 min-w-0 shrink-0">
+          <div class="w-10 h-10 rounded-xl overflow-hidden border border-amber-300 shadow-xs shrink-0 bg-slate-900 flex items-center justify-center">
+            <img src="assets/logo.png" alt="SunNode Logo" class="w-full h-full object-cover" />
+          </div>
+          <div class="min-w-0">
+            <div class="flex items-center gap-2">
+              <span class="font-bold text-slate-900 tracking-tight text-base sm:text-lg">SunNode</span>
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/15 text-amber-800 border border-amber-300">
+                Govt. of Telangana
+              </span>
+            </div>
+            <p class="text-[11px] text-slate-500 truncate">Energy Dept. DSS · 391 Substations · 33 Districts</p>
+          </div>
+        </div>
+
+        <!-- Primary Navigation (Desktop - Clean 6 Tabs on a single line) -->
+        <nav class="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1 rounded-xl border border-slate-200/80 shrink-0" id="desktopNav">
+          <button type="button" data-tab="overview" class="tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="layout-dashboard" class="w-3.5 h-3.5"></i> Overview
+          </button>
+          <button type="button" data-tab="wizard" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="wand-2" class="w-3.5 h-3.5 text-amber-500"></i> Site Selection Wizard
+          </button>
+          <button type="button" data-tab="explorer" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> GIS Explorer
+          </button>
+          <button type="button" data-tab="simulator" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="calculator" class="w-3.5 h-3.5"></i> ROI Simulator
+          </button>
+          <button type="button" data-tab="leaderboards" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="trophy" class="w-3.5 h-3.5 text-amber-600"></i> All-391 Rankings
+          </button>
+          <button type="button" data-tab="innovation" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 transition flex items-center gap-1.5 whitespace-nowrap">
+            <i data-lucide="award" class="w-3.5 h-3.5 text-blue-600"></i> Methodology &amp; Impact
+          </button>
+        </nav>
+
+        <!-- Right Action Cluster -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button type="button" id="exportFullDatasetHeaderBtn" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-xs transition">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span class="hidden sm:inline">Export Full Dataset (391 SS CSV)</span>
+            <span class="sm:hidden">Export CSV</span>
+          </button>
+          <span class="hidden md:inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-medium">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Official Live
+          </span>
+        </div>
+      </div>
+
+      <!-- Mobile/Tablet Navigation Strip -->
+      <div class="lg:hidden flex items-center gap-1.5 overflow-x-auto pb-2.5 custom-scroll" id="mobileNav">
+        <button type="button" data-tab="overview" class="tab-btn active px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition">Overview</button>
+        <button type="button" data-tab="wizard" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">Site Wizard</button>
+        <button type="button" data-tab="explorer" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">GIS Explorer</button>
+        <button type="button" data-tab="simulator" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">ROI Simulator</button>
+        <button type="button" data-tab="leaderboards" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">All-391 Rankings</button>
+        <button type="button" data-tab="innovation" class="tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 whitespace-nowrap transition">Methodology &amp; Impact</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+
+    <!-- ==================== VIEW 1: EXECUTIVE OVERVIEW ==================== -->
+    <section id="view-overview" class="view-section space-y-6">
+      <!-- Hero Banner -->
+      <div class="rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-white p-6 sm:p-8 shadow-sm border border-slate-800 relative overflow-hidden">
+        <div class="absolute -right-16 -top-16 w-72 h-72 rounded-full bg-amber-500/10 blur-3xl pointer-events-none"></div>
+        <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+          <div class="max-w-2xl space-y-2.5">
+            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium text-amber-300">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              Government of Telangana · Energy Department Challenge 10 Submission · Stage 4.5 Audited
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight leading-tight flex items-center gap-3">
+              <span>SunNode: Telangana Solar Substation Potential Assessment</span>
+            </h1>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Official Decision Support System (DSS) unifying Google Earth Engine 10 m satellite farmland clearance, DISCOM transformer MVA &amp; spare capacity headroom, and EU JRC PVGIS v5.3 solar irradiation across all 391 substations and 33 districts.
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+            <button type="button" id="heroWizardBtn" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-bold text-xs sm:text-sm transition inline-flex items-center gap-2 shadow-sm">
+              <i data-lucide="wand-2" class="w-4 h-4 text-slate-950"></i> Launch Site Wizard
+            </button>
+            <button type="button" id="heroExploreBtn" class="px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/15 font-semibold text-xs sm:text-sm transition inline-flex items-center gap-2">
+              <i data-lucide="map" class="w-4 h-4"></i> Interactive GIS Map
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 Statewide KPI Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">True Deployable Solar</span>
+            <span class="p-2 rounded-lg bg-amber-50 text-amber-600"><i data-lucide="zap" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiDeployMw">12,602.6 MW</span>
+            <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Deduplicated</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Min(1 km Land MW, Grid Spare MW) · 1-to-1 Annexure-D matched</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">1 km Farmland Potential</span>
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-600"><i data-lucide="sprout" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiLandMw">29,366.4 MW</span>
+            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-1.5 py-0.5 rounded">-617.5 MW overlap</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">53 co-located substations deduplicated across 27 clusters</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Turnkey CAPEX (Dedup)</span>
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-600"><i data-lucide="landmark" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiCapex">₹47,259.5 Cr</span>
+            <span class="text-xs font-medium text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded">₹3.75 Cr/MW</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Tier-1 modules, inverters, VCB/SF6 bays &amp; pooling line</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Annual Gross Revenue</span>
+            <span class="p-2 rounded-lg bg-indigo-50 text-indigo-600"><i data-lucide="trending-up" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiRevenue">₹5,484.1 Cr/yr</span>
+            <span class="text-xs font-medium text-indigo-700 bg-indigo-50 px-1.5 py-0.5 rounded">Dual-Tariff</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">₹3.13/kWh PM-KUSUM · ₹2.75/kWh Utility STU</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">Reconciled Simple Payback</span>
+            <span class="p-2 rounded-lg bg-amber-50 text-amber-600"><i data-lucide="clock" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiPayback">10.13 Years</span>
+            <span class="text-xs font-medium text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Cash Flow</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Strict aggregate CAPEX / (Revenue − OPEX &amp; Lease)</p>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-500">25-Yr Net Cumulative Profit</span>
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-600"><i data-lucide="wallet" class="w-4 h-4"></i></span>
+          </div>
+          <div class="mt-3 flex items-baseline gap-2">
+            <span class="text-2xl font-bold text-slate-900" id="kpiProfit">₹58,857.9 Cr</span>
+            <span class="text-xs font-medium text-slate-600 bg-slate-100 px-1.5 py-0.5 rounded">0.91 Factor</span>
+          </div>
+          <p class="mt-1.5 text-xs text-slate-500">Includes 0.940 degradation × 0.970 grid availability</p>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-sm font-bold text-slate-900">Evacuation Voltage-Tier Distribution</h2>
+              <p class="text-xs text-slate-500">TGTRANSCO grid-code aligned bay architecture across 391 yards</p>
+            </div>
+            <span class="text-[11px] font-semibold px-2 py-1 rounded-lg bg-slate-100 text-slate-700">391 Total</span>
+          </div>
+          <div class="relative h-64">
+            <canvas id="voltageChart"></canvas>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h2 class="text-sm font-bold text-slate-900">Active Grid vs. Land Bottlenecks</h2>
+              <p class="text-xs text-slate-500">Identifies PTR augmentation needs vs. 1 km farmland pooling limits</p>
+            </div>
+            <span class="text-[11px] font-semibold px-2 py-1 rounded-lg bg-amber-50 text-amber-800">63.2% Grid Capped</span>
+          </div>
+          <div class="relative h-64">
+            <canvas id="bottleneckChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: GUIDED SITE SELECTION WIZARD ==================== -->
+    <section id="view-wizard" class="view-section hidden space-y-6">
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-6">
+        <!-- Wizard Progress Bar -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Decision Support Workflow</span>
+            <span id="wizardStepLabel" class="text-xs font-semibold text-slate-500">Step 1 of 4: Choose Deployment Track</span>
+          </div>
+          <div class="w-full h-2 rounded-full bg-slate-100 overflow-hidden">
+            <div id="wizardProgressBar" class="h-full bg-gradient-to-r from-amber-400 to-orange-500 transition-all duration-300 w-1/4"></div>
+          </div>
+        </div>
+
+        <!-- STEP 1: Deployment Track -->
+        <div id="wizardStep1" class="wizard-step space-y-4">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Step 1: Choose Your Project Deployment Track</h2>
+            <p class="text-xs text-slate-500">Select whether your development is targeted for decentralized agricultural feeder solar (PM-KUSUM) or utility-scale transmission pooling.</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+            <!-- PM-KUSUM Option -->
+            <label class="cursor-pointer relative rounded-2xl border-2 border-slate-200 p-5 hover:border-emerald-500 transition has-[:checked]:border-emerald-500 has-[:checked]:bg-emerald-50/40">
+              <input type="radio" name="wizTrack" value="KUSUM" checked class="absolute top-5 right-5 text-emerald-600 focus:ring-emerald-500" />
+              <div class="space-y-2 pr-6">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800">PM-KUSUM Component-A Track</span>
+                <h3 class="text-base font-bold text-slate-900">Decentralized Feeder Solar (132/33 kV)</h3>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Connects directly to 33 kV agricultural feeder busbars using 33 kV VCB bays. Eligible for <strong>₹3.13/kWh</strong> regulated feed-in tariff. Plant sizes typically 5 MW to 30 MW.
+                </p>
+                <div class="pt-2 text-[11px] text-slate-500 flex items-center gap-3">
+                  <span>⚡ 33 kV VCB Bays</span>
+                  <span>💰 ₹3.13/kWh Tariff</span>
+                  <span>🚜 0.5–2 km Feeder Runs</span>
+                </div>
+              </div>
+            </label>
+
+            <!-- Utility STU Option -->
+            <label class="cursor-pointer relative rounded-2xl border-2 border-slate-200 p-5 hover:border-blue-500 transition has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50/40">
+              <input type="radio" name="wizTrack" value="EHT" class="absolute top-5 right-5 text-blue-600 focus:ring-blue-500" />
+              <div class="space-y-2 pr-6">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-blue-100 text-blue-800">Utility Transmission Track</span>
+                <h3 class="text-base font-bold text-slate-900">Utility-Scale EHT Park (220/400 kV)</h3>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Evacuates directly into TGTRANSCO STU grid via 132 kV or 220 kV SF6 line bays. Modeled at <strong>₹2.75/kWh</strong> STU tariff. Plant sizes 30 MW to 150+ MW.
+                </p>
+                <div class="pt-2 text-[11px] text-slate-500 flex items-center gap-3">
+                  <span>⚡ 132/220 kV SF6 Bays</span>
+                  <span>💰 ₹2.75/kWh Tariff</span>
+                  <span>🏭 High Capacity Parks</span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- STEP 2: Site Constraints -->
+        <div id="wizardStep2" class="wizard-step hidden space-y-4">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Step 2: Set Site Siting &amp; Evacuation Constraints</h2>
+            <p class="text-xs text-slate-500">Filter candidate substations by target geographic district, required capacity, and grid headroom readiness.</p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-1">
+            <div class="space-y-1">
+              <label for="wizDistrict" class="block text-xs font-semibold text-slate-700">Target District</label>
+              <select id="wizDistrict" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-800 focus:ring-2 focus:ring-amber-400/50">
+                <option value="ALL">All 33 Telangana Districts</option>
+              </select>
+            </div>
+            <div class="space-y-1">
+              <label for="wizMinCapacity" class="block text-xs font-semibold text-slate-700">Minimum Deployable Capacity</label>
+              <select id="wizMinCapacity" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-800 focus:ring-2 focus:ring-amber-400/50">
+                <option value="10">≥ 10 MW (Small Feeder)</option>
+                <option value="25" selected>≥ 25 MW (Commercial Scale)</option>
+                <option value="50">≥ 50 MW (Utility Scale)</option>
+                <option value="100">≥ 100 MW (Mega Siting)</option>
+              </select>
+            </div>
+            <div class="space-y-1">
+              <label for="wizGridReadiness" class="block text-xs font-semibold text-slate-700">Grid Headroom Readiness</label>
+              <select id="wizGridReadiness" class="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-800 focus:ring-2 focus:ring-amber-400/50">
+                <option value="ALL">All Substations (Including Augmentation Needed)</option>
+                <option value="READY" selected>Immediate Build (Available Grid Spare ≥ Deployable MW)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3: Side-by-Side Comparison -->
+        <div id="wizardStep3" class="wizard-step hidden space-y-4">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Step 3: Side-by-Side Match Evaluation (Top 3 Candidate Sites)</h2>
+            <p class="text-xs text-slate-500">Comparing technical, grid injection, and financial metrics across the highest-ranked matching substations.</p>
+          </div>
+          <div id="wizardMatchesContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1"></div>
+        </div>
+
+        <!-- STEP 4: Export Dossier -->
+        <div id="wizardStep4" class="wizard-step hidden space-y-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <h2 class="text-lg font-bold text-slate-900">Step 4: Investment Memorandum &amp; Selection Dossier</h2>
+              <p class="text-xs text-slate-500">Review your selected prime site and generate an audit-ready PDF dossier or export CSV for DPR team handoff.</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button type="button" id="wizPrintDossierBtn" class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs transition inline-flex items-center gap-1.5 shadow-xs">
+                <i data-lucide="printer" class="w-3.5 h-3.5 text-amber-400"></i> Print / Save Dossier (PDF)
+              </button>
+              <button type="button" id="wizExportCsvBtn" class="px-4 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs transition inline-flex items-center gap-1.5">
+                <i data-lucide="download" class="w-3.5 h-3.5"></i> Export Selection CSV
+              </button>
+            </div>
+          </div>
+          <div id="dossierPreviewBox" class="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 space-y-4"></div>
+        </div>
+
+        <!-- Wizard Navigation Buttons -->
+        <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+          <button type="button" id="wizPrevBtn" class="hidden px-4 py-2 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-semibold transition">
+            ← Back
+          </button>
+          <div></div>
+          <button type="button" id="wizNextBtn" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold transition inline-flex items-center gap-1.5 shadow-xs">
+            Continue →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: SUBSTATION EXPLORER & GIS MAP ==================== -->
+    <section id="view-explorer" class="view-section hidden space-y-5">
+      <!-- Explorer Controls Bar -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-xs space-y-3">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
+              Substation Explorer &amp; GIS Spatial Map
+              <span id="datasetSourceBadge" class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+                All 391 Pre-Loaded
+              </span>
+            </h2>
+            <p class="text-xs text-slate-500">Interactive Satellite GIS map with 33 district boundaries + 1 km farmland radii + 4-Layer Inspector.</p>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <!-- View Mode Switcher -->
+            <div class="inline-flex bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs">
+              <button type="button" id="viewModeSplit" class="px-3 py-1 rounded-lg font-semibold bg-white text-slate-900 shadow-xs">Split View</button>
+              <button type="button" id="viewModeMap" class="px-3 py-1 rounded-lg font-semibold text-slate-600 hover:text-slate-900">Map Only</button>
+              <button type="button" id="viewModeTable" class="px-3 py-1 rounded-lg font-semibold text-slate-600 hover:text-slate-900">Table Only</button>
+            </div>
+            <label for="csvFileInput" class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-semibold transition">
+              <i data-lucide="upload" class="w-3.5 h-3.5 text-amber-500"></i>
+              <span>Upload Custom CSV</span>
+            </label>
+            <input type="file" id="csvFileInput" accept=".csv" class="hidden" />
+          </div>
+        </div>
+
+        <!-- Filters Strip -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 pt-2 border-t border-slate-100">
+          <div class="relative">
+            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <input type="text" id="searchInput" placeholder="Search substation or district..." class="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-amber-400/50" />
+          </div>
+          <select id="districtFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All 33 Districts</option>
+          </select>
+          <select id="trackFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All Tracks (EHT + PM-KUSUM)</option>
+            <option value="EHT">Utility-Scale EHT (220/400 kV)</option>
+            <option value="KUSUM">PM-KUSUM Feeder (132/33 kV)</option>
+          </select>
+          <select id="sortSelect" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="score_desc">Sort: SunNode Score (High → Low)</option>
+            <option value="deploy_desc">Sort: Deployable MW (High → Low)</option>
+            <option value="grid_desc">Sort: Grid Spare MW (High → Low)</option>
+            <option value="payback_asc">Sort: Payback (Fastest First)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Main GIS + Table + Inspector Layout -->
+      <div class="space-y-5">
+        <!-- Leaflet Map Container -->
+        <div id="mapContainerWrapper" class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden relative">
+          <div class="px-4 py-3 border-b border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-600 bg-white">
+            <span class="flex items-center gap-2">
+              <i data-lucide="satellite" class="w-4 h-4 text-emerald-600"></i>
+              <span><strong>Telangana Substation GIS:</strong> 33 Districts · 391 Substations · 1 km Feeder Rings</span>
+            </span>
+            <div class="flex flex-wrap items-center gap-2">
+              <!-- Basemap Selector -->
+              <div class="flex items-center gap-1.5">
+                <label for="mapBasemapSelect" class="text-[11px] text-slate-600 font-semibold">Basemap:</label>
+                <select id="mapBasemapSelect" class="px-2 py-1 rounded-lg border border-slate-200 text-[11px] bg-slate-50 font-medium">
+                  <option value="satellite" selected>Satellite Hybrid (Esri)</option>
+                  <option value="streets">Terrain &amp; Streets</option>
+                  <option value="light">Clean Light</option>
+                </select>
+              </div>
+
+              <!-- GEE Overlay Toggle -->
+              <label class="inline-flex items-center gap-1 text-[11px] text-slate-700 font-semibold cursor-pointer bg-amber-50 px-2 py-1 rounded-lg border border-amber-200">
+                <input type="checkbox" id="geeOverlayToggle" checked class="rounded text-amber-500 focus:ring-amber-400" />
+                <span>GEE 1 km Layer</span>
+              </label>
+
+              <!-- GEE Script & Asset Info Modal Trigger -->
+              <button type="button" id="openGeeModalBtn" class="px-2.5 py-1 rounded-lg border border-slate-200 hover:bg-slate-100 text-[11px] font-semibold text-slate-700 inline-flex items-center gap-1 transition">
+                <i data-lucide="code" class="w-3.5 h-3.5 text-blue-600"></i> GEE Asset Info
+              </button>
+
+              <!-- Marker Color Option -->
+              <div class="flex items-center gap-1">
+                <label for="mapColorBySelect" class="text-[11px] text-slate-600 font-semibold">Markers:</label>
+                <select id="mapColorBySelect" class="px-2 py-1 rounded-lg border border-slate-200 text-[11px] bg-slate-50 font-medium">
+                  <option value="solar">Solar Irradiance / Sun Energy (PVGIS)</option>
+                  <option value="bottleneck" selected>Active Bottleneck</option>
+                  <option value="voltage">Evacuation Voltage Tier</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div id="gisMap" class="w-full h-[500px]"></div>
+
+          <!-- Map Legend Overlay (High Contrast on Satellite) -->
+          <div class="absolute bottom-4 left-4 z-20 bg-slate-900/90 text-white backdrop-blur border border-slate-700 p-3 rounded-xl text-[11px] shadow-lg space-y-1.5">
+            <div id="mapLegendTitle" class="font-bold text-amber-400 text-[10px] uppercase tracking-wider">Map Legend</div>
+            <div id="mapLegendItems" class="space-y-1"></div>
+            <div class="flex items-center gap-1.5 pt-1 border-t border-slate-700"><span class="w-3.5 h-2 border border-sky-400 border-dashed bg-sky-500/30 rounded-xs"></span> <span>1,000 m Feeder Zone</span></div>
+            <div class="flex items-center gap-1.5"><span class="w-3.5 h-1 border-t-2 border-sky-400 border-dashed"></span> <span>33 District Boundaries</span></div>
+          </div>
+        </div>
+
+        <!-- Split Grid: Table + 4-Layer Inspector -->
+        <div id="tableInspectorWrapper" class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+          <!-- Table Column -->
+          <div class="lg:col-span-7 xl:col-span-8 bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+            <div class="px-4 py-3 border-b border-slate-100 flex items-center justify-between text-xs text-slate-500">
+              <span>Showing <strong id="visibleCount" class="text-slate-900">0</strong> substations</span>
+              <button type="button" id="exportExplorerFilteredCsvBtn" class="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-700 hover:text-emerald-800">
+                <i data-lucide="download" class="w-3 h-3"></i> Export Filtered CSV
+              </button>
+            </div>
+            <div class="overflow-x-auto max-h-[560px] overflow-y-auto custom-scroll">
+              <table class="w-full text-left text-xs">
+                <thead class="bg-slate-50 text-slate-500 uppercase tracking-wider sticky top-0 z-10 border-b border-slate-200">
+                  <tr>
+                    <th class="px-4 py-3 font-semibold">Substation</th>
+                    <th class="px-3 py-3 font-semibold">Track</th>
+                    <th class="px-3 py-3 font-semibold text-right">Deployable</th>
+                    <th class="px-3 py-3 font-semibold">Evacuation</th>
+                    <th class="px-3 py-3 font-semibold text-right">Score</th>
+                  </tr>
+                </thead>
+                <tbody id="explorerTableBody" class="divide-y divide-slate-100"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 4-Layer Inspector Column -->
+          <div class="lg:col-span-5 xl:col-span-4 bg-white rounded-2xl border border-slate-200 shadow-xs p-5 space-y-4 sticky top-20" id="inspectorPanel">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <div class="flex items-center gap-2 flex-wrap">
+                  <h3 id="inspName" class="text-lg font-bold text-slate-900">—</h3>
+                  <span id="inspTrackBadge" class="text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">—</span>
+                </div>
+                <p id="inspMeta" class="text-xs text-slate-500 mt-0.5">—</p>
+              </div>
+              <div class="text-right shrink-0">
+                <div class="text-[10px] font-semibold uppercase text-slate-400">Master Score</div>
+                <div id="inspScore" class="text-2xl font-extrabold text-amber-600">—</div>
+              </div>
+            </div>
+
+            <!-- 4 Layers -->
+            <div class="space-y-3">
+              <!-- Layer 1: Land -->
+              <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3">
+                <div class="flex items-center justify-between text-[11px] font-bold text-slate-700 uppercase tracking-wide mb-1.5">
+                  <span class="flex items-center gap-1.5"><i data-lucide="sprout" class="w-3.5 h-3.5 text-emerald-600"></i> 1. Land Suitability (1 km)</span>
+                  <span id="inspBottleneck" class="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">—</span>
+                </div>
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-slate-500">Farmland Solar Potential</span>
+                  <span id="inspLandMw" class="font-bold text-slate-900">—</span>
+                </div>
+                <div class="mt-2 pt-2 border-t border-slate-200/70 text-[11px] text-slate-600 space-y-1">
+                  <div class="flex justify-between">
+                    <span class="text-slate-500">Contiguous Green Patch</span>
+                    <span id="inspGreenPatch" class="font-bold text-emerald-700">—</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-slate-500">Excluded / Built</span>
+                    <span id="inspRedPct" class="font-semibold text-slate-800">—</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-slate-500">Slope Threshold</span>
+                    <span class="font-semibold text-slate-800">&le; 5&deg; (SRTMGL1)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Layer 2: Grid -->
+              <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3 space-y-1.5">
+                <div class="text-[11px] font-bold text-slate-700 uppercase tracking-wide flex items-center gap-1.5">
+                  <i data-lucide="cpu" class="w-3.5 h-3.5 text-blue-600"></i> 2. Grid Headroom &amp; Evacuation
+                </div>
+                <div class="grid grid-cols-2 gap-2 text-xs pt-0.5">
+                  <div>
+                    <div class="text-slate-500 text-[11px]">Grid Spare</div>
+                    <div id="inspGridMw" class="font-bold text-slate-900">—</div>
+                  </div>
+                  <div>
+                    <div class="text-slate-500 text-[11px]">True Deployable</div>
+                    <div id="inspDeployMw" class="font-bold text-emerald-700">—</div>
+                  </div>
+                  <div class="col-span-2 pt-1 border-t border-slate-200/70 flex items-center justify-between">
+                    <span class="text-slate-500 text-[11px]">Evacuation Bus &amp; Bays</span>
+                    <span id="inspEvac" class="font-semibold text-slate-900 text-right">—</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Layer 3: Solar Resource & Sun Energy (EU JRC PVGIS v5.3) -->
+              <div class="rounded-xl bg-slate-50 border border-slate-200/80 p-3 space-y-2.5">
+                <div class="flex items-center justify-between text-[11px] font-bold text-slate-700 uppercase tracking-wide">
+                  <span class="flex items-center gap-1.5"><i data-lucide="sun" class="w-3.5 h-3.5 text-amber-500"></i> 3. Solar Resource &amp; Sun Energy</span>
+                  <span id="inspSolarGradeBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-bold">—</span>
+                </div>
+
+                <!-- Suitability Verdict Banner -->
+                <div id="inspSolarSuitabilityBanner" class="p-2 rounded-lg text-xs font-semibold flex items-center justify-between bg-emerald-50 text-emerald-800 border border-emerald-200">
+                  <span id="inspSuitabilityText">—</span>
+                  <span id="inspSuitabilityPill" class="text-[10px] font-bold px-1.5 py-0.5 rounded uppercase">—</span>
+                </div>
+
+                <!-- 4 Solar Telemetry Metrics -->
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                  <div class="p-2 rounded-lg bg-white border border-slate-200/70">
+                    <div class="text-[10px] text-slate-500 uppercase font-semibold">Sun Energy Received</div>
+                    <div id="inspIrradDaily" class="font-extrabold text-amber-600 text-sm mt-0.5">—</div>
+                    <div id="inspIrradAnnual" class="text-[10px] text-slate-400">—</div>
+                  </div>
+                  <div class="p-2 rounded-lg bg-white border border-slate-200/70">
+                    <div class="text-[10px] text-slate-500 uppercase font-semibold">Specific Solar Yield</div>
+                    <div id="inspYieldMu" class="font-extrabold text-slate-900 text-sm mt-0.5">—</div>
+                    <div id="inspCufTilt" class="text-[10px] text-slate-400">—</div>
+                  </div>
+                  <div class="p-2 rounded-lg bg-white border border-slate-200/70">
+                    <div class="text-[10px] text-slate-500 uppercase font-semibold">Daily Clean Output</div>
+                    <div id="inspDailyOutput" class="font-extrabold text-emerald-700 text-sm mt-0.5">—</div>
+                    <div id="inspDailyCap" class="text-[10px] text-slate-400">—</div>
+                  </div>
+                  <div class="p-2 rounded-lg bg-white border border-slate-200/70">
+                    <div class="text-[10px] text-slate-500 uppercase font-semibold">Annual &amp; 25-Yr Clean Energy</div>
+                    <div id="inspEnergy" class="font-extrabold text-slate-900 text-sm mt-0.5">—</div>
+                    <div id="insp25YrEnergy" class="text-[10px] text-slate-400">—</div>
+                  </div>
+                </div>
+
+                <!-- Statewide Sun Benchmark Bar -->
+                <div class="pt-1 text-[10px] space-y-1">
+                  <div class="flex justify-between text-slate-500 font-semibold">
+                    <span>Telangana Solar Benchmark:</span>
+                    <span id="inspSolarPercentileLabel">—</span>
+                  </div>
+                  <div class="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                    <div id="inspSolarBenchmarkBar" class="h-full bg-gradient-to-r from-amber-400 to-orange-500 rounded-full" style="width: 50%;"></div>
+                  </div>
+                  <div class="flex justify-between text-[9px] text-slate-400">
+                    <span>Min: 5.29 kWh/m²/d</span>
+                    <span>State Avg: 5.51</span>
+                    <span>Max: 5.61 kWh/m²/d</span>
+                  </div>
+                </div>
+
+                <!-- Real PVGIS Monthly Jan-Dec Production Chart -->
+                <div class="pt-1 border-t border-slate-200/60">
+                  <div class="flex items-center justify-between text-[10px] font-semibold text-slate-600 mb-1">
+                    <span>PVGIS Monthly Output (kWh / 1 MWp):</span>
+                    <span class="text-amber-600 font-bold">12-Mo Curve</span>
+                  </div>
+                  <div class="h-20 w-full">
+                    <canvas id="inspMonthlyChart"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Layer 4: ROI -->
+              <div class="rounded-xl bg-slate-900 text-white p-3.5 space-y-2">
+                <div class="flex items-center justify-between text-[11px] font-bold uppercase tracking-wide text-amber-300">
+                  <span class="flex items-center gap-1.5"><i data-lucide="indian-rupee" class="w-3.5 h-3.5"></i> 4. Financial ROI</span>
+                  <span id="inspTariff" class="text-[10px] bg-white/10 px-2 py-0.5 rounded-full text-white">—</span>
+                </div>
+                <div class="grid grid-cols-3 gap-2 pt-1">
+                  <div>
+                    <div class="text-[10px] text-slate-400">Turnkey CAPEX</div>
+                    <div id="inspCapex" class="text-sm font-bold">—</div>
+                  </div>
+                  <div>
+                    <div class="text-[10px] text-slate-400">Gross Rev / yr</div>
+                    <div id="inspRev" class="text-sm font-bold text-emerald-400">—</div>
+                  </div>
+                  <div>
+                    <div class="text-[10px] text-slate-400">Simple Payback</div>
+                    <div id="inspPayback" class="text-sm font-bold text-amber-300">—</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inspector Actions -->
+            <div class="flex items-center gap-2 pt-1">
+              <button type="button" id="inspSimBtn" class="flex-1 py-2.5 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs transition inline-flex items-center justify-center gap-1.5">
+                <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Launch in ROI Simulator
+              </button>
+              <button type="button" id="inspOpenGeeBtn" class="py-2.5 px-3 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-xs transition inline-flex items-center gap-1.5">
+                <i data-lucide="satellite" class="w-3.5 h-3.5 text-blue-600"></i> GEE Specs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 4: BANKABLE ROI SIMULATOR ==================== -->
+    <section id="view-simulator" class="view-section hidden space-y-5">
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-base font-bold text-slate-900">Interactive Bankable Project ROI &amp; Debt Simulator</h2>
+          <p class="text-xs text-slate-500">Stress-test tariff tiers, CAPEX, OPEX, and debt-service coverage (DSCR) for any substation in real time.</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <select id="simPresetSelect" class="px-3 py-2 rounded-xl border border-slate-200 text-xs font-medium bg-white text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-400/50"></select>
+          <button type="button" id="presetKusumBtn" class="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-semibold transition">
+            PM-KUSUM ₹3.13
+          </button>
+          <button type="button" id="presetStuBtn" class="px-3 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 border border-blue-200 text-xs font-semibold transition">
+            Utility STU ₹2.75
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+        <!-- Sliders Column -->
+        <div class="lg:col-span-5 bg-white rounded-2xl border border-slate-200 p-5 shadow-xs space-y-4">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500">Project Parameters</h3>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simMw" class="font-semibold text-slate-700">Deployable Capacity</label>
+              <span id="simMwVal" class="font-bold text-slate-900">126.6 MW</span>
+            </div>
+            <input type="range" id="simMw" min="5" max="200" step="0.5" value="126.6" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simTariff" class="font-semibold text-slate-700">PPA Tariff (₹/kWh)</label>
+              <span id="simTariffVal" class="font-bold text-amber-600">₹2.75/kWh</span>
+            </div>
+            <input type="range" id="simTariff" min="2.20" max="3.80" step="0.01" value="2.75" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simCapex" class="font-semibold text-slate-700">Turnkey CAPEX (₹ Cr/MW)</label>
+              <span id="simCapexVal" class="font-bold text-slate-900">₹3.75 Cr/MW</span>
+            </div>
+            <input type="range" id="simCapex" min="3.00" max="4.50" step="0.05" value="3.75" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simOpex" class="font-semibold text-slate-700">Annual OPEX + Land Lease (₹ Lakh/MW)</label>
+              <span id="simOpexVal" class="font-bold text-slate-900">₹6.5 Lakh/MW</span>
+            </div>
+            <input type="range" id="simOpex" min="4.0" max="10.0" step="0.5" value="6.5" class="w-full" />
+          </div>
+
+          <div class="space-y-1">
+            <div class="flex justify-between text-xs">
+              <label for="simYield" class="font-semibold text-slate-700">Specific Solar Yield (MU/MW/yr)</label>
+              <span id="simYieldVal" class="font-bold text-slate-900">1.51 MU/MW</span>
+            </div>
+            <input type="range" id="simYield" min="1.35" max="1.75" step="0.01" value="1.51" class="w-full" />
+          </div>
+
+          <div class="pt-3 border-t border-slate-100 space-y-4">
+            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500">Debt Financing Structure</h3>
+            <div class="space-y-1">
+              <div class="flex justify-between text-xs">
+                <label for="simDebtPct" class="font-semibold text-slate-700">Debt Share (%)</label>
+                <span id="simDebtPctVal" class="font-bold text-slate-900">70% Debt / 30% Equity</span>
+              </div>
+              <input type="range" id="simDebtPct" min="0" max="80" step="5" value="70" class="w-full" />
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="space-y-1">
+                <div class="flex justify-between text-xs">
+                  <label for="simRate" class="font-semibold text-slate-700">Interest Rate</label>
+                  <span id="simRateVal" class="font-bold text-slate-900">9.5%</span>
+                </div>
+                <input type="range" id="simRate" min="7.0" max="12.5" step="0.25" value="9.5" class="w-full" />
+              </div>
+              <div class="space-y-1">
+                <div class="flex justify-between text-xs">
+                  <label for="simTenure" class="font-semibold text-slate-700">Loan Tenure</label>
+                  <span id="simTenureVal" class="font-bold text-slate-900">15 yrs</span>
+                </div>
+                <input type="range" id="simTenure" min="8" max="20" step="1" value="15" class="w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Output Metrics & Chart Column -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">Total Turnkey CAPEX</div>
+              <div id="simOutCapex" class="text-lg font-extrabold text-slate-900 mt-1">₹474.8 Cr</div>
+              <div id="simOutEquity" class="text-[11px] text-slate-500 mt-0.5">Equity: ₹142.4 Cr</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">Annual Net EBITDA</div>
+              <div id="simOutEbitda" class="text-lg font-extrabold text-emerald-600 mt-1">₹44.3 Cr/yr</div>
+              <div id="simOutRev" class="text-[11px] text-slate-500 mt-0.5">Gross Rev: ₹52.5 Cr</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">Simple Payback</div>
+              <div id="simOutPayback" class="text-lg font-extrabold text-amber-600 mt-1">10.7 yrs</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">CAPEX / Net EBITDA</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">Minimum DSCR</div>
+              <div id="simOutDscr" class="text-lg font-extrabold text-blue-600 mt-1">1.24x</div>
+              <div class="text-[11px] text-emerald-600 font-medium mt-0.5">Bankable (&gt; 1.15x)</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">Annual Debt Service</div>
+              <div id="simOutEmi" class="text-lg font-extrabold text-slate-900 mt-1">₹35.8 Cr/yr</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">Years 1–15</div>
+            </div>
+            <div class="bg-white rounded-2xl border border-slate-200 p-4">
+              <div class="text-[10px] font-bold text-slate-400 uppercase">25-Yr Net Profit</div>
+              <div id="simOutProfit" class="text-lg font-extrabold text-emerald-700 mt-1">₹532.1 Cr</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">0.91 Factor applied</div>
+            </div>
+          </div>
+
+          <!-- Cashflow Chart -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <h3 class="text-sm font-bold text-slate-900">25-Year Cumulative Net Cash Flow Forecast</h3>
+                <p class="text-xs text-slate-500">Includes annual inverter degradation (0.940) and grid availability (0.970)</p>
+              </div>
+              <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full">Bankable</span>
+            </div>
+            <div class="relative h-64">
+              <canvas id="cashflowChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 5: ALL-391 STATEWIDE RANKINGS ==================== -->
+    <section id="view-leaderboards" class="view-section hidden space-y-5">
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
+              Statewide Substation Rankings &amp; Siting Inventory
+              <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200">
+                All 391 Official Substations
+              </span>
+            </h2>
+            <p class="text-xs text-slate-500">Comprehensive multi-criteria scoring combining 1 km GEE land clearance, transformer headroom, and PVGIS yields.</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <button type="button" id="lbExportFullCsvBtn" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition shadow-xs">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Export Full Dataset (391 SS CSV)
+            </button>
+            <button type="button" id="lbExportFilteredCsvBtn" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold transition">
+              <i data-lucide="filter" class="w-3.5 h-3.5 text-slate-500"></i> Export Filtered View (CSV)
+            </button>
+          </div>
+        </div>
+
+        <!-- 3 Clean Tabs -->
+        <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100">
+          <div class="inline-flex bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs">
+            <button type="button" data-lb="all391" class="lb-switch active px-3.5 py-1.5 rounded-lg font-semibold bg-slate-900 text-white shadow-xs transition">
+              All 391 Substations (Rank #1–#391)
+            </button>
+            <button type="button" data-lb="utility" class="lb-switch px-3.5 py-1.5 rounded-lg font-semibold text-slate-600 hover:text-slate-900 transition">
+              Utility-Scale EHT Track (220/400 kV)
+            </button>
+            <button type="button" data-lb="kusum" class="lb-switch px-3.5 py-1.5 rounded-lg font-semibold text-slate-600 hover:text-slate-900 transition">
+              PM-KUSUM Feeder Track (132/33 kV)
+            </button>
+          </div>
+        </div>
+
+        <!-- Filters Strip -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+          <div class="relative">
+            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2"></i>
+            <input type="text" id="lbSearchInput" placeholder="Filter rankings by substation or mandal..." class="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-amber-400/50" />
+          </div>
+          <select id="lbDistrictFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All 33 Districts</option>
+          </select>
+          <select id="lbBottleneckFilter" class="px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-400/50">
+            <option value="ALL">All Bottlenecks</option>
+            <option value="LAND">Land Constrained (Fully Usable)</option>
+            <option value="GRID">Grid Transformer Constrained</option>
+            <option value="URBAN">Urban / Zero Potential</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Rankings Table & Pagination -->
+      <div id="leaderboardContainer" class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden"></div>
+    </section>
+
+    <!-- ==================== VIEW 6: INNOVATION IMPACT & METHODOLOGY ==================== -->
+    <section id="view-innovation" class="view-section hidden space-y-6">
+      <!-- Challenge 10 Header -->
+      <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-2xl text-white p-6 sm:p-8 shadow-sm border border-slate-800">
+        <div class="max-w-3xl space-y-2">
+          <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-400 text-slate-950 uppercase tracking-wider">
+            Telangana Innovation Challenge 10 Submission
+          </span>
+          <h2 class="text-2xl font-bold">Statewide Socio-Economic &amp; Environmental Impact Matrix</h2>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Quantifying rural agricultural prosperity, decarbonization metrics, and avoided utility capital waste unlocked by SunNode's 4-layer algorithmic siting engine across all 33 Telangana districts.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 Impact Metric Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Farmer Land-Lease Income</span>
+          <div class="mt-2 text-2xl font-extrabold text-emerald-700">₹252.05 Cr/yr</div>
+          <p class="mt-1 text-xs text-slate-500">₹2.0 Lakh/MW/yr paid directly to rural landowners on 56,700 acres</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Annual Clean Energy</span>
+          <div class="mt-2 text-2xl font-extrabold text-amber-600">18,772 MU/yr</div>
+          <p class="mt-1 text-xs text-slate-500">18.77 Billion kWh of clean electricity powering agricultural pumps</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Annual CO₂ Offset</span>
+          <div class="mt-2 text-2xl font-extrabold text-blue-600">13.65M tCO₂/yr</div>
+          <p class="mt-1 text-xs text-slate-500">Equivalent to planting ~620 million trees across the Deccan plateau</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
+          <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Avoided Stranded CAPEX</span>
+          <div class="mt-2 text-2xl font-extrabold text-indigo-700">₹62,864 Cr</div>
+          <p class="mt-1 text-xs text-slate-500">Saved by screening 16,764 MW of grid-constrained land upfront</p>
+        </div>
+      </div>
+
+      <!-- Before vs After Audit Delta Matrix -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-xs overflow-hidden">
+        <div class="px-5 py-4 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h3 class="text-sm font-bold text-slate-900">Stage 4 vs. Stage 4.5 Engineering &amp; Regulatory Audit Delta Matrix</h3>
+            <p class="text-xs text-slate-500">Verification log of architectural refinements, co-located deduplication, and voltage-tier bay sizing</p>
+          </div>
+          <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full self-start sm:self-auto">
+            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> 9/9 Automated Tests Verified
+          </span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-slate-50 text-slate-500 uppercase tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="px-5 py-3 font-semibold">Dimension</th>
+                <th class="px-5 py-3 font-semibold">Stage 4 (Before)</th>
+                <th class="px-5 py-3 font-semibold">Stage 4.5 (Audited)</th>
+                <th class="px-5 py-3 font-semibold">Engineering Impact</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-700">
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Co-Located Buffers (&lt; 2 km)</td>
+                <td class="px-5 py-3 text-slate-500">Ignored (Double-counted)</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">53 SS Flagged (27 Clusters)</td>
+                <td class="px-5 py-3">Eliminates 617.5 MW of overlapping 1 km farmland buffers.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Evacuation Voltage &amp; Bays</td>
+                <td class="px-5 py-3 text-slate-500">Blanket 33 kV on all SS</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">33 kV (275) · 132 kV (85) · 220 kV (31)</td>
+                <td class="px-5 py-3">Grid-code compliant VCB &amp; SF6 line bays by EHT tier.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Tariff Modeling</td>
+                <td class="px-5 py-3 text-slate-500">Blanket ₹3.13/kWh</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">₹3.13 PM-KUSUM · ₹2.75 STU</td>
+                <td class="px-5 py-3">Separates decentralized feeder tenders from utility EHT parks.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">District Normalization</td>
+                <td class="px-5 py-3 text-slate-500">35 spelling variants</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">Exactly 33 Official Districts</td>
+                <td class="px-5 py-3">Point-in-polygon spatial join with official Telangana GeoJSON.</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="px-5 py-3 font-semibold text-slate-900">Score Calibration</td>
+                <td class="px-5 py-3 text-slate-500">60 MW cap (saturated)</td>
+                <td class="px-5 py-3 font-semibold text-emerald-700">150 MW cap + Split Leaderboards</td>
+                <td class="px-5 py-3">Restores ranking spread across EHT &amp; PM-KUSUM tracks.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Download Center for Evaluators & Judges -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-4">
+        <div>
+          <h3 class="text-base font-bold text-slate-900">Stage 4.5 Official Deliverables &amp; Download Center</h3>
+          <p class="text-xs text-slate-500">Download the verified statewide deliverables compiled directly by the SunNode offline engine.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Excel Deliverable -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center gap-2 text-emerald-700 font-bold text-xs uppercase mb-1">
+                <i data-lucide="file-spreadsheet" class="w-4 h-4"></i> 23-Sheet Master Excel
+              </div>
+              <h4 class="text-sm font-bold text-slate-900">SunNode Statewide Inventory (.xlsx)</h4>
+              <p class="text-[11px] text-slate-600 mt-1">Complete 391-substation workbook with split EHT &amp; PM-KUSUM sheets, formulas, and TGRAC data.</p>
+            </div>
+            <a href="/outputs/SunNode_Telangana_Statewide_Substation_Inventory.xlsx" download class="w-full py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs text-center transition flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download Excel (1.3 MB)
+            </a>
+          </div>
+
+          <!-- KMZ Deliverable -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center gap-2 text-amber-600 font-bold text-xs uppercase mb-1">
+                <i data-lucide="globe" class="w-4 h-4"></i> Google Earth 3D KMZ
+              </div>
+              <h4 class="text-sm font-bold text-slate-900">SunNode Offline Package (.kmz)</h4>
+              <p class="text-[11px] text-slate-600 mt-1">Interactive Google Earth archive with 1 km feeder rings, 4-layer inspection popups &amp; boundaries.</p>
+            </div>
+            <a href="/outputs/SunNode_Telangana_Substations_Offline.kmz" download class="w-full py-2 rounded-lg bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs text-center transition flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download KMZ (2.1 MB)
+            </a>
+          </div>
+
+          <!-- Map Atlas PDF Deliverable -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center gap-2 text-blue-600 font-bold text-xs uppercase mb-1">
+                <i data-lucide="file-text" class="w-4 h-4"></i> High-Res Map Atlas PDF
+              </div>
+              <h4 class="text-sm font-bold text-slate-900">SunNode Substation Atlas (.pdf)</h4>
+              <p class="text-[11px] text-slate-600 mt-1">300 DPI multi-page executive cartographic atlas covering high-voltage transmission &amp; distribution grids.</p>
+            </div>
+            <a href="/outputs/SunNode_Telangana_Substations_Map_Atlas.pdf" download class="w-full py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs text-center transition flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download PDF Atlas (3.8 MB)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
+      <div class="flex items-center gap-2">
+        <img src="assets/logo.png" alt="SunNode" class="w-5 h-5 rounded-md" />
+        <span>SunNode · Government of Telangana Energy Department Decision Support System (DSS)</span>
+      </div>
+      <span>Telangana Energy Innovation Challenge 10 Submission · Powered by GEE, TGRAC &amp; PVGIS v5.3</span>
+    </div>
+  </footer>
+
+  <!-- ==================== PRINTABLE SITE DOSSIER (PDF GENERATION) ==================== -->
+  <div id="printDossier" class="hidden p-8 max-w-4xl mx-auto space-y-6">
+    <div class="flex items-center justify-between border-b-2 border-slate-900 pb-4">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo.png" alt="Logo" class="w-12 h-12 rounded-xl border border-slate-300" />
+        <div>
+          <h1 class="text-xl font-bold tracking-tight text-slate-900">SURYA-GRID INVESTMENT MEMORANDUM</h1>
+          <p class="text-xs text-slate-500 uppercase tracking-wider">Government of Telangana Energy Department · Siting Dossier · Stage 4.5 Audited</p>
+        </div>
+      </div>
+      <div class="text-right text-xs text-slate-500">
+        <div>Ref: SG-TELANGANA-2026</div>
+        <div>Date: November 2026</div>
+      </div>
+    </div>
+
+    <!-- Dossier Content Dynamically Injected -->
+    <div id="printDossierContent" class="space-y-5 text-xs text-slate-800"></div>
+
+    <div class="pt-8 border-t border-slate-300 grid grid-cols-3 gap-6 text-[11px] text-slate-600">
+      <div>
+        <div class="border-b border-slate-400 pb-8"></div>
+        <div class="mt-1 font-bold">Solar IPP Lead Engineer</div>
+      </div>
+      <div>
+        <div class="border-b border-slate-400 pb-8"></div>
+        <div class="mt-1 font-bold">DISCOM Grid Planning Officer</div>
+      </div>
+      <div>
+        <div class="border-b border-slate-400 pb-8"></div>
+        <div class="mt-1 font-bold">Project Finance Due Diligence</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== GEE SATELLITE ENGINE & CLOUD ASSET MODAL ==================== -->
+  <div id="geeModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/70 backdrop-blur-xs p-4 overflow-y-auto">
+    <div class="bg-white rounded-2xl border border-slate-200 max-w-2xl w-full p-6 shadow-2xl space-y-4 my-8">
+      <div class="flex items-start justify-between border-b border-slate-100 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="p-2 rounded-xl bg-blue-50 text-blue-600">
+            <i data-lucide="satellite" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-900">Google Earth Engine (GEE) Siting Pipeline</h3>
+            <p class="text-xs text-slate-500">Government of Telangana Energy Dept. · Challenge 10 High-Res Pipeline</p>
+          </div>
+        </div>
+        <button type="button" id="closeGeeModalBtn" class="p-1 rounded-lg hover:bg-slate-100 text-slate-500">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+
+      <div class="space-y-4 text-xs text-slate-700 max-h-[70vh] overflow-y-auto custom-scroll pr-1">
+        <!-- Asset Preview -->
+        <div class="rounded-xl overflow-hidden border border-slate-200 bg-slate-900">
+          <img src="assets/gee_1km_calibrated_preview.png" alt="GEE 1 km Calibrated Suitability" class="w-full h-auto max-h-56 object-cover" />
+          <div class="p-2.5 bg-slate-900 text-slate-300 text-[11px] flex justify-between items-center">
+            <span>1 km Feeder Radius · 10m Dynamic World V1 + SRTM 30m Slope</span>
+            <span class="text-amber-400 font-semibold">45% Opacity Calibrated Classification</span>
+          </div>
+        </div>
+
+        <!-- Technical Specification Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900 mb-1">Google Cloud Project</div>
+            <code class="text-[11px] text-blue-700 font-mono">ai-voice-agent-crm</code>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900 mb-1">State Boundary Asset</div>
+            <code class="text-[11px] text-blue-700 font-mono break-all">projects/ai-voice-agent-crm/assets/suryagrid_telangana_boundary</code>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900 mb-1">Substations Asset</div>
+            <code class="text-[11px] text-blue-700 font-mono break-all">projects/ai-voice-agent-crm/assets/suryagrid_tgrac_tgtransco_official</code>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+            <div class="font-bold text-slate-900 mb-1">Contiguous Patch Opening</div>
+            <span class="text-slate-600">25m radius opening &ge; 4 acres (Green Core)</span>
+          </div>
+        </div>
+
+        <!-- Operational Zones -->
+        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5 text-xs">
+          <div class="font-bold text-slate-900">3-Tier Operational Classification:</div>
+          <div class="flex items-start gap-2">
+            <span class="w-3 h-3 rounded-full bg-emerald-500 mt-0.5 shrink-0"></span>
+            <span><strong>Green (Primary Usable):</strong> Open farmland (crops), bare, scrub, grass with slope &le; 5&deg;, outside 30m water exclusion buffer.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-3 h-3 rounded-full bg-amber-500 mt-0.5 shrink-0"></span>
+            <span><strong>Yellow (Conditional):</strong> Tree canopy/orchards (slope &le; 10&deg;) or moderate slope (5&deg;–10&deg;) requiring minor clearance/grading.</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="w-3 h-3 rounded-full bg-rose-500 mt-0.5 shrink-0"></span>
+            <span><strong>Red (Strictly Excluded):</strong> Built-up urban/compound, water bodies + 30m FTL buffer, steep slope &gt; 10&deg;.</span>
+          </div>
+        </div>
+
+        <!-- Script Section -->
+        <div class="space-y-1.5">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-slate-900">Earth Engine JavaScript Code:</span>
+            <button type="button" id="copyGeeCodeBtn" class="px-2.5 py-1 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-[11px] inline-flex items-center gap-1 transition">
+              <i data-lucide="copy" class="w-3 h-3"></i> Copy GEE Script
+            </button>
+          </div>
+          <pre class="p-3 rounded-xl bg-slate-950 text-slate-300 font-mono text-[11px] overflow-x-auto max-h-48 custom-scroll" id="geeCodeSnippet">// Loading SunNode 1 km Calibrated GEE Engine...</pre>
+        </div>
+      </div>
+
+      <div class="flex justify-end pt-2 border-t border-slate-100">
+        <button type="button" id="doneGeeModalBtn" class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs transition">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden items-center gap-2 px-4 py-3 rounded-xl bg-slate-900 text-white text-xs font-medium shadow-lg border border-slate-700">
+    <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+    <span id="toastMsg">Action completed</span>
+  </div>
+
+  <!-- Main Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

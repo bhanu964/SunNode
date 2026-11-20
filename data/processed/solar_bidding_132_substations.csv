@@ -1,0 +1,74 @@
+district,ss_132_name,ss_raw_name,ptr_capacity,max_available_capacity_mw,bay_extension_feasible,bays_available,space_available,first_page
+NALGONDA,Aitipamula,Aitipamula,1x31.5+1x10/1 6,23.0,Yes,Yes,yes,1
+NALGONDA,Bhonigr,Bhonigr,"1 X 31.5 MVA, 1 X 10/16 MVA",13.0,Yes,Yes,No,1
+NALGONDA,Bibinagar,Bibinagar,2 X 50 MVA,38.0,--,No,yes,1
+NALGONDA,Choutuppal,Choutuppal,2 X 31.5 MVA,22.0,No,No,No,2
+NALGONDA,Dirsincherla,Dirsincherla,2X10/16,13.0,Yes,Yes,yes,4
+NALGONDA,Guntipally,Guntipally,1 X 16,8.0,--,Yes,no,4
+NALGONDA,Haliya,Haliya,47.5,20.0,No,Yes,yes,4
+NALGONDA,K.M.Pally,K.M.Pally,2 X 50 + 1 X 31.5,46.0,--,Yes,Yes,5
+NALGONDA,Kanagal,Kanagal,1 X 31.5 + 1 X10/ 16,23.0,Yes,Yes,Yes,8
+NALGONDA,Kodad,Kodad,2X31.5,27.0,Yes,Yes,yes,8
+NALGONDA,Alair (Kolanpaka ),Alair (Kolanpaka ),2x50MVA + 1X10/16MVA,38.0,--,No,No,9
+NALGONDA,Madugulapally,Madugulapally,1 X 31.5 + 1 X 16,10.0,Yes,Yes,Yes,11
+NALGONDA,Mattampally,Mattampally,2X31.5 MVA 3,25.0,Yes 5,No 6,yes 7,12
+NALGONDA,Miryalguda,Miryalguda,1x80+1x50,54.0,Yes,No,No,12
+NALGONDA,Mothkur,Mothkur,1 X 31.5 + 1 X 16,18.0,No,Yes,No,14
+NALGONDA,Nalgonda,Nalgonda,1 X 50 + 2 X 31.5,49.0,No,Yes,No,14
+NALGONDA,Narketpally,Narketpally,1x31.5+1x10/1 6,12.0,Yes,Yes,yes,16
+NALGONDA,Ramannapet,Ramannapet,2 X 50 MVA,45.0,Yes,No,Yes,16
+NALGONDA,Sh.Gouraram,Sh.Gouraram,1X31.5 + 1X50MVA,37.0,Yes,No,yes,18
+NALGONDA,Suryapet,Suryapet,2X80.00 MVA,65.0,Yes,Yes,yes,19
+NALGONDA,Thungathurty,Thungathurty,2 X 31.5 MVA,28.0,Yes,No,yes,21
+NALGONDA,Wadapally,Wadapally,1X10/16+1X31. 5,23.0,--,Yes,Yes,21
+RANGA REDDY,kv / 33KV Ibrahimpatnam,kv / 33KV Ibrahimpatnam,2 x 50 MVA,48.0,--,NO,NO,23
+MAHABOOBNAGAR,Polepally(Jadchel a),Polepally(Jadchel a),1x31.5,15.0,Yes,No,Yes,30
+MAHABOOBNAGAR,Kodangal,Kodangal,2x31.5=63,13.0,Yes,No,Yes,30
+MAHABOOBNAGAR,Maddur,Maddur,1x50+1x31.5= 81.5,39.0,Yes,No,Yes,32
+MAHABOOBNAGAR,Chinnamaroor,Chinnamaroor,2x10/16=32,15.0,yes,No,Yes,36
+MAHABOOBNAGAR,Ieeza,Ieeza,1x31.5+1x10/ 16=47.5,23.0,yes,No,Yes,38
+MAHABOOBNAGAR,Shadnagar,Shadnagar,1x80+1x50=1 30,54.0,yes,No,Yes,46
+MEDAK,Ramayampet,Ramayampet,2x16.0,10.0,Yes,Yes,yes,54
+MEDAK,Thunki Bollaram,Thunki Bollaram,1x16.0,8.0,Yes,yes,yes,54
+MEDAK,Siddipet,Siddipet,1x10/16+2x 31.5+1x50,61.0,NO,No,yes,55
+MEDAK,Habsipur,Habsipur,2x31.5,8.925,Yes,Yes,yes,57
+MEDAK,Thukkapur,Thukkapur,81.5,33.0,Yes,Yes,yes,58
+MEDAK,Gajwel,Gajwel,2x50,38.0,No,No,No,59
+MEDAK,KV Jogipet,KV Jogipet,1x31.5+1x1 0/16,9.0,No,yes,yes,62
+MEDAK,/33 KV SS Bollaram,/33 KV SS Bollaram,144.5 MVA (3X31.5MV A + 1X50MVA),69.0,No,No,No,65
+MEDAK,/33 KV SS P.Mailaram,/33 KV SS P.Mailaram,81.5 MVA (1X50MVA + 1X31.5MVA ),39.0,Yes,yes,yes,66
+ADILABAD,Bhainsa,Bhainsa,2x31.5 = 63,30.0,No,Yes,Yes,73
+ADILABAD,Chennur,Chennur,2X10/16=32,10.0,Yes,Yes,Yes,74
+ADILABAD,Echoda,Echoda,2X10/16=32,15.0,Yes,Yes,Yes,75
+ADILABAD,Luxettipet,Luxettipet,2X10/16=32,15.0,Yes,Yes,Yes,76
+ADILABAD,Mudhole,Mudhole,2X10/16=32,15.0,Yes,Yes,Yes,78
+ADILABAD,S.Kaghaznagar,S.Kaghaznagar,2X10/16=32,15.0,Yes,No,Yes,81
+ADILABAD,Aswaraopeta,Aswaraopeta,1x10/16+ 1X31.5 = 47.5,6.0,Yes,Yes,Yes,82
+ADILABAD,Penubally,Penubally,2x31.5 = 63,18.0,No,Yes,Yes,83
+ADILABAD,Gangaram,Gangaram,1x10/16 + 20/31.5 = 47.5,15.0,Yes,Yes,Yes,84
+ADILABAD,Madhira,Madhira,2x10/16 = 32,15.0,Yes,Yes,Yes,84
+KHAMMAM,/33KV SS Khammam,/33KV SS Khammam,2 x 50 + 1 x 31.5 = 131.5,62.0,Yes,Yes,Yes,85
+KHAMMAM,/33KV SS Kusumanchi,/33KV SS Kusumanchi,2 X 31.5 = 63,1.0,Yes,Yes,Yes,87
+KHAMMAM,/33KV SS Yellandhu,/33KV SS Yellandhu,1 x31.5 + 1 x 10/16 = 47.5,23.0,Yes,Yes,Yes,88
+KHAMMAM,Manuguru,Manuguru,2*10/16 = 32,15.0,Yes,Yes,Yes,90
+KHAMMAM,S.R.Patnam,S.R.Patnam,1x50+1x31.5 =831.5,39.0,Yes 5,Yes 6,Yes 7,91
+KARIMNAGAR,Pudur,Pudur,1 X 16 + 1 X 31.5 = 47.5,23.0,Yes,Yes,Yes,104
+KARIMNAGAR,Godhur,Godhur,2 X 16 = 32,11.0,Yes,No,No,105
+KARIMNAGAR,Manakondur,Manakondur,2 X 16 = 32,10.0,Yes,Yes,Yes,108
+NIZAMABAD,Mallaram,Mallaram,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,110
+NIZAMABAD,Shanigaram,Shanigaram,2x16 = 32,15.0,No,Yes,Yes,111
+NIZAMABAD,Ellanthakunta,Ellanthakunta,1 X 31.5 + 1 X 16 = 47.5,19.0,Yes,Yes,Yes,111
+NIZAMABAD,Yellareddypet,Yellareddypet,1x25 + 1x16 = 41,19.0,No,Yes,Yes,112
+NIZAMABAD,Mulkanoor,Mulkanoor,1 X 16 = 8,8.0,Yes,Yes,No,113
+NIZAMABAD,Kamalapur,Kamalapur,1 X 31.5 + 1 X 16 = 47.5,23.0,Yes,Yes,Yes,113
+NIZAMABAD,KVSS Armoor,KVSS Armoor,1x10/16+1x3 1.5 = 47.5,23.0,Yes,Yes,Yes,120
+NIZAMABAD,KVSS Bhiknoor,KVSS Bhiknoor,2x10/16 = 32,14.0,Yes,Yes,Yes,125
+NIZAMABAD,KVSS Reddypet,KVSS Reddypet,2x10/16 = 32,15.0,Yes,Yes,No,129
+NIZAMABAD,Banswada,Banswada,1x10/16 + 1x31.5 = 47.5,23.0,Yes,Yes,Yes,130
+WARANGAL,Ayyagaripally,Ayyagaripally,2 x 50 = 100 3,46.0,Yes 5,No 6,No 7,134
+WARANGAL,Chityal,Chityal,2 x 16 = 32,15.0,Yes,Yes,Yes,136
+WARANGAL,Ghanpur,Ghanpur,2 x 31.5 = 63,30.0,Yes,No,Yes,137
+WARANGAL,Jangaon,Jangaon,1 x 16 + 1 x 31.5 3= 47.5,23.0,Yes 5,Yes 6,Yes 7,138
+WARANGAL,Peddanagaram,Peddanagaram,2x16 = 32,15.0,No,Yes,Yes,144
+WARANGAL,Warangal,Warangal,1x50 + 1x80 = 130,62.0,Yes,No,No,148
+WARANGAL,Wardhannapet,Wardhannapet,1 x 31.5 + 1 x 50 3= 81.5,39.0,Yes 5,No 6,Yes 7,150

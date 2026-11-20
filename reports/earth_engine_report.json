@@ -1,0 +1,29 @@
+{
+  "earth_engine_connection": "CONNECTED",
+  "google_cloud_project": "ai-voice-agent-crm",
+  "new_statewide_asset_id": "projects/ai-voice-agent-crm/assets/suryagrid_tel_statewide_inventory_v2",
+  "preserved_previous_asset_id": "projects/ai-voice-agent-crm/assets/suryagrid_substations_verified",
+  "boundary_asset_id": "projects/ai-voice-agent-crm/assets/suryagrid_telangana_boundary",
+  "total_statewide_facilities_exported": 1045,
+  "infrastructure_categories": {
+    "UNCLASSIFIED_ELECTRICAL_FACILITY": 515,
+    "TRANSMISSION_SUBSTATION": 295,
+    "DISTRIBUTION_TRANSFORMER": 209,
+    "GENERATING_STATION": 13,
+    "OTHER_DISTRIBUTION_SUBSTATION": 7,
+    "33_11KV_SUBSTATION": 5,
+    "SWITCHING_STATION": 1
+  },
+  "pdf_match_breakdown": {
+    "UNMATCHED": 891,
+    "EXACT_MATCH": 53,
+    "AMBIGUOUS": 43,
+    "POSSIBLE_MATCH": 41,
+    "HIGH_CONFIDENCE_LIKELY_MATCH": 17
+  },
+  "export_task_id": "HRXXIPBUQ5X4RUATYMQS7PSL",
+  "task_status": "READY",
+  "timestamp": "2026-11-19T15:46:13Z",
+  "geojson_source": "outputs/telangana_electrical_infrastructure.geojson",
+  "excel_inventory_path": "outputs/SuryaGrid_Telangana_Statewide_Substation_Inventory.xlsx"
+}

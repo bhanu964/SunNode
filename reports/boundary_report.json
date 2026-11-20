@@ -1,0 +1,14 @@
+{
+  "state": "Telangana",
+  "area_sq_km": 112297.0,
+  "official_area_reference": "~112,077 sq km",
+  "bounds": {
+    "min_lon": 77.2369,
+    "min_lat": 15.83731,
+    "max_lon": 81.31615,
+    "max_lat": 19.91698
+  },
+  "mandals_count": 444,
+  "earth_engine_asset_id": "projects/ai-voice-agent-crm/assets/suryagrid_telangana_boundary",
+  "geometry_valid": true
+}

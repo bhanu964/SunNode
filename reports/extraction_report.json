@@ -1,0 +1,25 @@
+{
+  "pdf_source": "data/raw/Sub-Stations list KUSUM Component-A.pdf",
+  "total_pages": 30,
+  "total_records_extracted": 2555,
+  "unique_serial_numbers": 2555,
+  "discom_breakdown": {
+    "TGSPDCL": 1343,
+    "TGNPDCL": 1212
+  },
+  "circles_count": 35,
+  "divisions_count": 76,
+  "subdivisions_count": 211,
+  "sections_count": 691,
+  "unique_substation_names": 2543,
+  "total_anomalies_detected": 1,
+  "anomalies": [
+    {
+      "page": 2,
+      "sl_no": "88",
+      "issue": "Missing division in source PDF",
+      "name": "Mandoddi",
+      "circle": "Gadwal"
+    }
+  ]
+}

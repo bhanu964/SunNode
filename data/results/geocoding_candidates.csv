@@ -1,0 +1,1046 @@
+candidate_id,candidate_name,name_alt,name_te,latitude,longitude,power_classification,substation_type,voltage,operator,source,source_url,is_named
+OSM_node_1347504923,Unnamed substation,,,17.4893298,78.3625913,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/1347504923,False
+OSM_node_4878936359,Unnamed substation,,,16.4141145,77.3272784,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/4878936359,False
+OSM_node_4878939449,Unnamed substation,,,16.4120512,77.3283217,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/4878939449,False
+OSM_node_5467448630,Yapral Substation,,,17.5051049,78.5447231,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/5467448630,True
+OSM_node_5546796537,Unnamed substation,,,17.5122349,79.2907263,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/5546796537,False
+OSM_node_6710912121,Clock Tower Sub Station,,,17.4413268,78.4986375,substation,,,TSSPDCL,OpenStreetMap,https://www.openstreetmap.org/node/6710912121,True
+OSM_node_6740014010,Unnamed substation,,,16.7647535,77.9964331,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/6740014010,False
+OSM_node_6814709645,Unnamed substation,,,16.7524183,78.0158396,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/6814709645,False
+OSM_node_6847914786,Electricity Sub Station,,,17.941956,79.855602,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/6847914786,True
+OSM_node_6865906847,Unnamed substation,,,18.6153582,79.3684222,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/6865906847,False
+OSM_node_7002701775,Unnamed substation,,,18.0213856,79.7131349,substation,peddapur_substation,,,OpenStreetMap,https://www.openstreetmap.org/node/7002701775,False
+OSM_node_7173877885,Unnamed substation,,,17.4459709,78.4118044,substation,distribution,,,OpenStreetMap,https://www.openstreetmap.org/node/7173877885,False
+OSM_node_7244010430,Unnamed substation,,,17.9635271,79.6048578,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/7244010430,False
+OSM_node_7244117760,Unnamed substation,,,17.9871455,79.5905229,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/7244117760,False
+OSM_node_7247149856,Unnamed substation,,,18.2779066,80.4676184,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/7247149856,False
+OSM_node_7479046919,Unnamed substation,,,17.4442768,78.4254794,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/7479046919,False
+OSM_node_8050062686,Unnamed substation,,,17.3638125,78.5026735,substation,,,TSSPDCL,OpenStreetMap,https://www.openstreetmap.org/node/8050062686,False
+OSM_node_8386685262,Unnamed substation,,,17.4293327,77.9674899,substation,Power_Substation_Nawabpet,,,OpenStreetMap,https://www.openstreetmap.org/node/8386685262,False
+OSM_node_8386977770,Unnamed substation,,,17.3310723,78.537599,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/8386977770,False
+OSM_node_8628103556,Unnamed substation,,,17.8137132,79.8100008,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/8628103556,False
+OSM_node_8735959973,Unnamed substation,,,18.0971518,78.9876161,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/8735959973,False
+OSM_node_9913901030,Unnamed substation,,,18.6743545,77.7874385,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/9913901030,False
+OSM_node_9917000640,Unnamed substation,,,17.4513194,78.3924432,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/9917000640,False
+OSM_node_9924510457,Unnamed substation,,,18.6852005,77.8281332,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/9924510457,False
+OSM_node_9924595969,Unnamed substation,,,18.0427197,79.3260616,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/9924595969,False
+OSM_node_10806608698,Unnamed substation,,,18.1073057,78.8361355,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/10806608698,False
+OSM_node_10806670320,Unnamed substation,,,18.5029074,79.4190949,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/10806670320,False
+OSM_node_10807107424,Unnamed substation,,,18.1536191,78.8043514,substation,,,Power Grid Corporation of India Ltd,OpenStreetMap,https://www.openstreetmap.org/node/10807107424,False
+OSM_node_11031470147,Electrical Substation,,,18.7452765,79.5201166,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/11031470147,True
+OSM_node_11031610370,Power substation,,,16.6793015,79.0991272,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/11031610370,True
+OSM_node_12618674794,TSSPDCL SUB STATION BOLLARAM SS3,,,17.5517634,78.3611357,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/12618674794,True
+OSM_node_12918483200,Tsspdcl palakurthy,,,17.6595394,79.4164327,substation,yes,132000/133000,,OpenStreetMap,https://www.openstreetmap.org/node/12918483200,True
+OSM_node_13285111312,Unnamed substation,,,17.4481413,78.3533976,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/13285111312,False
+OSM_node_13673370109,Curreent office,,,17.4529715,78.4951218,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/13673370109,True
+OSM_node_13673373182,Unnamed substation,,,17.5038546,78.4304293,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/13673373182,False
+OSM_node_13700333615,TGSPDCL 33/11 KV Substation - Kothapeta,,,16.9871663,78.3618151,substation,,,,OpenStreetMap,https://www.openstreetmap.org/node/13700333615,True
+OSM_node_13737457915,Nyavandandhi substation,,,18.607573,78.4745523,substation,transmission,,,OpenStreetMap,https://www.openstreetmap.org/node/13737457915,True
+OSM_way_110018684,Unnamed substation,,,17.4503885,78.3739209,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/110018684,False
+OSM_way_144503543,Unnamed substation,,,17.4443876,78.3511564,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/144503543,False
+OSM_way_146350043,Unnamed substation,,,17.3654831,78.5717502,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/146350043,False
+OSM_way_168500527,Warangal,,,18.0046082,79.5863453,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/168500527,True
+OSM_way_168967817,Unnamed substation,,,17.032886,80.0063221,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/168967817,False
+OSM_way_169066092,Unnamed substation,,,17.3729351,79.980868,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169066092,False
+OSM_way_169069352,Unnamed substation,,,17.258831,79.9239909,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169069352,False
+OSM_way_169124469,Unnamed substation,,,17.2450349,79.8558825,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169124469,False
+OSM_way_169134994,Unnamed substation,,,17.1853074,79.7661304,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169134994,False
+OSM_way_169198037,Unnamed substation,,,17.503858,80.8196942,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169198037,False
+OSM_way_169334084,Unnamed substation,,,17.1623282,79.9533765,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/169334084,False
+OSM_way_170439157,Unnamed substation,,,17.4516971,79.8633636,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/170439157,False
+OSM_way_170539327,Unnamed substation,,,17.5369381,79.9162993,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/170539327,False
+OSM_way_177298320,Unnamed substation,,,17.310525,81.038574,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/177298320,False
+OSM_way_204532941,Bhongir Sub Station,,,17.5433789,78.8566109,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/204532941,True
+OSM_way_206082825,Khammam,,,17.3660191,80.2379472,substation,transmission,400000;220000;132000,Power Grid Corporation of India Limited,OpenStreetMap,https://www.openstreetmap.org/way/206082825,True
+OSM_way_235612124,Unnamed substation,,,17.958576,79.7996648,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/235612124,False
+OSM_way_242167440,Sitapuram Sub Station,,,16.8358201,80.0445028,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242167440,True
+OSM_way_242167500,KTPS Stage VI,,,17.6249794,80.7050359,substation,transmission,400000,,OpenStreetMap,https://www.openstreetmap.org/way/242167500,True
+OSM_way_242167505,Unnamed substation,,,17.2604837,80.1406249,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167505,False
+OSM_way_242167507,Unnamed substation,,,16.8295347,80.0421711,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167507,False
+OSM_way_242167510,Unnamed substation,,,17.584176,80.6725293,substation,industrial,,,OpenStreetMap,https://www.openstreetmap.org/way/242167510,False
+OSM_way_242167512,Unnamed substation,,,17.2076637,80.6735219,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242167512,False
+OSM_way_242167513,Unnamed substation,,,17.2072569,80.9084631,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167513,False
+OSM_way_242167515,Unnamed substation,,,16.8478369,80.0461969,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167515,False
+OSM_way_242167516,Unnamed substation,,,17.2134679,79.9581922,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242167516,False
+OSM_way_242167520,Unnamed substation,,,17.5818806,80.3459072,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167520,False
+OSM_way_242167521,Unnamed substation,,,17.1330473,80.0064172,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167521,False
+OSM_way_242167526,Unnamed substation,,,17.1850734,80.5654124,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167526,False
+OSM_way_242167527,Unnamed substation,,,17.6234968,80.6872021,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242167527,False
+OSM_way_242167528,Unnamed substation,,,16.7691755,80.0143881,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167528,False
+OSM_way_242167534,Unnamed substation,,,16.9391834,80.368648,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167534,False
+OSM_way_242167536,Unnamed substation,,,17.6248191,80.7026226,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242167536,False
+OSM_way_242167538,Unnamed substation,,,17.2591564,80.16721,substation,transmission,,,OpenStreetMap,https://www.openstreetmap.org/way/242167538,False
+OSM_way_242167547,Kothagudem TPS,,,17.6241275,80.6894774,substation,generation,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242167547,True
+OSM_way_242167549,Ashwaraopet Sub Station,,,17.2452442,81.1167119,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242167549,True
+OSM_way_242167550,Unnamed substation,,,17.5511826,80.5960454,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167550,False
+OSM_way_242167567,Unnamed substation,,,16.834713,80.0381981,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167567,False
+OSM_way_242167569,Unnamed substation,,,17.6970156,80.8620514,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242167569,False
+OSM_way_242190489,Unnamed substation,,,17.5914019,80.679764,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242190489,False
+OSM_way_242190490,Sitarampatnam,,,17.6014228,80.6827296,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242190490,True
+OSM_way_242291916,Unnamed substation,,,17.0256327,80.2664709,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242291916,False
+OSM_way_242291918,Unnamed substation,,,17.4304,80.1586497,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242291918,False
+OSM_way_242291930,Unnamed substation,,,17.2207399,80.1499415,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242291930,False
+OSM_way_242537699,Unnamed substation,,,17.1298557,79.6453351,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242537699,False
+OSM_way_242537715,Unnamed substation,,,16.8525754,79.9047733,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242537715,False
+OSM_way_242537724,Miryalaguda Sub Station,,,16.8350547,79.5468657,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/242537724,True
+OSM_way_242537737,Unnamed substation,,,16.7102758,79.7149157,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242537737,False
+OSM_way_242543808,Unnamed substation,,,16.5794133,79.3139076,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242543808,False
+OSM_way_242543820,Unnamed substation,,,16.5783572,79.3134862,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242543820,False
+OSM_way_242543824,Nagarjunasagar PSP,,,16.580803,79.3153434,substation,generation,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242543824,True
+OSM_way_242702027,Warangal,,,18.055709,79.6702095,substation,transmission,400000;220000,PGCIL,OpenStreetMap,https://www.openstreetmap.org/way/242702027,True
+OSM_way_242702042,Unnamed substation,,,18.3766919,79.8302755,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702042,False
+OSM_way_242702043,Unnamed substation,,,18.0597674,79.4901829,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242702043,False
+OSM_way_242702045,Unnamed substation,,,18.1981654,79.9392936,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702045,False
+OSM_way_242702046,Unnamed substation,,,17.8811313,79.8086017,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242702046,False
+OSM_way_242702047,Unnamed substation,,,18.3472487,79.6751985,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702047,False
+OSM_way_242702048,Unnamed substation,,,17.8005771,79.7989366,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702048,False
+OSM_way_242702050,Unnamed substation,,,17.4918511,80.1508035,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242702050,False
+OSM_way_242702061,Unnamed substation,,,17.4827345,78.9134119,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242702061,False
+OSM_way_242702062,Kakatiya TPP,,,18.3829604,79.8236189,substation,transmission,400000,,OpenStreetMap,https://www.openstreetmap.org/way/242702062,True
+OSM_way_242702063,Unnamed substation,,,17.941643,79.8456653,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702063,False
+OSM_way_242702064,Unnamed substation,,,17.2966118,79.3891637,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702064,False
+OSM_way_242702067,Unnamed substation,,,17.8136123,79.8100113,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702067,False
+OSM_way_242702068,Nagram Sub Station,,,18.1165949,79.5722857,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242702068,True
+OSM_way_242702069,Pulkurthi Sub Station,,,18.1175786,79.6463372,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242702069,True
+OSM_way_242702072,Salivagu Sub Station,,,18.1574918,79.7489932,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242702072,True
+OSM_way_242702073,Unnamed substation,,,17.5041458,79.9875832,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242702073,False
+OSM_way_242749513,Unnamed substation,,,17.8542371,80.8852896,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749513,False
+OSM_way_242749514,Unnamed substation,,,17.1983697,79.2206295,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749514,False
+OSM_way_242749515,Manuguru Sub Station,,,17.9418366,80.8238716,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749515,True
+OSM_way_242749516,Unnamed substation,,,16.9584949,79.3212411,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749516,False
+OSM_way_242749517,Unnamed substation,,,17.9379357,80.7820022,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749517,False
+OSM_way_242749518,Unnamed substation,,,17.1233896,79.5589988,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749518,False
+OSM_way_242749519,Gangaram Sub Station,,,18.58808,80.3505187,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749519,True
+OSM_way_242749522,Heavy Water Plant Sub Station,,,17.8757262,80.8476526,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749522,True
+OSM_way_242749523,Puttamgandi Sub Station,,,16.612361,79.1170929,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749523,True
+OSM_way_242749529,Unnamed substation,,,18.2747711,80.4763506,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749529,False
+OSM_way_242749530,Unnamed substation,,,16.7157168,79.135665,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749530,False
+OSM_way_242749534,Unnamed substation,,,16.9703136,79.4621213,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749534,False
+OSM_way_242749535,Unnamed substation,,,17.0229896,79.3635822,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749535,False
+OSM_way_242749536,Unnamed substation,,,17.4196024,79.2652357,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749536,False
+OSM_way_242749542,Unnamed substation,,,16.6645723,79.2813132,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749542,False
+OSM_way_242749543,Unnamed substation,,,16.7747103,79.2715436,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749543,False
+OSM_way_242749547,Unnamed substation,,,17.0772517,79.2615614,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749547,False
+OSM_way_242749555,Unnamed substation,,,17.2814752,79.0993307,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242749555,False
+OSM_way_242749556,Unnamed substation,,,17.7551264,79.5805395,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242749556,False
+OSM_way_242749557,Unnamed substation,,,18.2778874,80.468466,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242749557,False
+OSM_way_242749564,Chalakurthy Sub Station,,,16.6756618,79.2698731,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749564,True
+OSM_way_242749566,Bhimganapur Sub Station,,,18.4371102,80.0418456,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242749566,True
+OSM_way_242776083,Unnamed substation,,,18.749055,79.4467091,substation,,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/242776083,False
+OSM_way_242776084,Jangoan Sub Station,,,17.7492994,79.1451239,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/242776084,True
+OSM_way_242776112,Unnamed substation,,,18.5473519,79.3450193,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776112,False
+OSM_way_242776115,Unnamed substation,,,18.2116994,79.3849158,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242776115,False
+OSM_way_242776116,Unnamed substation,,,18.6705832,79.479084,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776116,False
+OSM_way_242776117,Unnamed substation,,,17.6476847,79.0521635,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776117,False
+OSM_way_242776119,Unnamed substation,,,18.5447952,79.3522836,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776119,False
+OSM_way_242776120,Unnamed substation,,,18.568935,79.4238307,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776120,False
+OSM_way_242776121,Unnamed substation,,,18.630997,79.4073153,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776121,False
+OSM_way_242776127,Unnamed substation,,,18.6552763,79.6578765,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776127,False
+OSM_way_242776133,Unnamed substation,,,18.7692055,79.4507952,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776133,False
+OSM_way_242776134,Unnamed substation,,,18.0954474,79.3458416,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242776134,False
+OSM_way_242776138,Unnamed substation,,,17.9063057,79.3659179,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776138,False
+OSM_way_242776143,Unnamed substation,,,17.9747754,79.4209524,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242776143,False
+OSM_way_242776144,Unnamed substation,,,18.6502533,79.549172,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776144,False
+OSM_way_242776150,Unnamed substation,,,18.7142053,79.405985,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776150,False
+OSM_way_242776151,Unnamed substation,,,17.685808,79.036828,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242776151,False
+OSM_way_242827255,Unnamed substation,,,18.7756339,78.9120069,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827255,False
+OSM_way_242827256,Unnamed substation,,,19.0369406,79.348655,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827256,False
+OSM_way_242827257,Unnamed substation,,,18.8580914,79.5030448,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827257,False
+OSM_way_242827259,Mandamarri,,,18.9856116,79.4578037,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827259,True
+OSM_way_242827260,Unnamed substation,,,19.0349212,79.3484345,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827260,False
+OSM_way_242827262,Unnamed substation,,,18.7780493,79.1473495,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827262,False
+OSM_way_242827268,Unnamed substation,,,19.3593591,79.5051364,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827268,False
+OSM_way_242827269,Unnamed substation,,,18.7611511,79.1841356,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827269,False
+OSM_way_242827275,Sirpur,,,19.3563042,79.5056821,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827275,True
+OSM_way_242827281,Unnamed substation,,,18.8799363,79.247695,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827281,False
+OSM_way_242827283,Unnamed substation,,,18.8945253,79.4481622,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827283,False
+OSM_way_242827286,Unnamed substation,,,19.3474981,79.4897407,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827286,False
+OSM_way_242827288,Unnamed substation,,,18.8761758,79.4252824,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827288,False
+OSM_way_242827289,Unnamed substation,,,18.8952317,79.4484615,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827289,False
+OSM_way_242827290,Vemnoor Sub Station,,,18.7840135,79.301464,substation,transmission,220000;110000,,OpenStreetMap,https://www.openstreetmap.org/way/242827290,True
+OSM_way_242827291,Unnamed substation,,,18.8293579,79.3890238,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242827291,False
+OSM_way_242827293,Unnamed substation,,,19.0589828,79.4797827,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827293,False
+OSM_way_242827299,Unnamed substation,,,18.9901867,79.4833067,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242827299,False
+OSM_way_242866474,Unnamed substation,,,18.4470014,79.1243532,substation,transmission,,TS NPDCL,OpenStreetMap,https://www.openstreetmap.org/way/242866474,False
+OSM_way_242866503,Unnamed substation,,,19.0443434,78.4032177,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866503,False
+OSM_way_242866504,Unnamed substation,,,18.3040466,78.9572311,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866504,False
+OSM_way_242866505,Unnamed substation,,,18.9666485,78.3458538,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866505,False
+OSM_way_242866506,Unnamed substation,,,18.2068843,79.0169495,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866506,False
+OSM_way_242866510,Unnamed substation,,,18.6021845,78.9812379,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866510,False
+OSM_way_242866511,Unnamed substation,,,18.3794603,78.6579842,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866511,False
+OSM_way_242866512,Unnamed substation,,,18.6497674,78.9388123,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866512,False
+OSM_way_242866513,Unnamed substation,,,18.8289041,78.6849491,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866513,False
+OSM_way_242866514,Jagtial Sub Station,,,18.8527867,78.9347583,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866514,True
+OSM_way_242866515,Unnamed substation,,,18.9626703,78.373328,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866515,False
+OSM_way_242866517,Unnamed substation,,,18.4918443,78.8266646,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866517,False
+OSM_way_242866518,Unnamed substation,,,18.8240717,78.4589484,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/242866518,False
+OSM_way_242866519,Sircilla Sub Station,,,18.3706919,78.7688388,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/242866519,True
+OSM_way_243008527,Siddipet Sub Station,,,18.1073172,78.836159,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243008527,True
+OSM_way_243008533,Unnamed substation,,,17.728461,78.5819532,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008533,False
+OSM_way_243008537,Malkaram,,,17.53682,78.5820653,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/243008537,True
+OSM_way_243008539,Meenajipet Sub Station,,,17.6751466,78.3645947,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243008539,True
+OSM_way_243008550,Gajwel,,,17.8705148,78.7742024,substation,,400000;220000;132000;33000,,OpenStreetMap,https://www.openstreetmap.org/way/243008550,True
+OSM_way_243008555,ISB Power Station,,,17.4362753,78.335121,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008555,True
+OSM_way_243008556,Unnamed substation,,,17.4961556,78.5142571,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008556,False
+OSM_way_243008572,Unnamed substation,,,17.8429461,78.6661651,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008572,False
+OSM_way_243008576,Medchal Sub Station,,,17.5953925,78.499786,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243008576,True
+OSM_way_243008577,Unnamed substation,,,17.4458613,78.4513719,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008577,False
+OSM_way_243008581,Unnamed substation,,,17.5936057,78.4941599,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008581,False
+OSM_way_243008582,Shapurnagar Sub station,,,17.5233495,78.4411163,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243008582,True
+OSM_way_243008583,Unnamed substation,,,17.897934,78.99223,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243008583,False
+OSM_way_243008584,Unnamed substation,,,18.1275535,78.6490501,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243008584,False
+OSM_way_243231075,Fabcity Sub Station,,,17.1980122,78.4903831,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/243231075,True
+OSM_way_243231086,Mamidapalli,,,17.2327207,78.4807953,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/243231086,True
+OSM_way_243231094,Ghanapur,,,17.4265123,78.6813431,substation,transmission,400000;220000;132000,PGCIL,OpenStreetMap,https://www.openstreetmap.org/way/243231094,True
+OSM_way_243231100,Unnamed substation,,,17.3211028,78.5178155,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231100,False
+OSM_way_243231101,Unnamed substation,,,17.3344455,78.5149437,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231101,False
+OSM_way_243231102,Unnamed substation,,,17.2471984,78.9075754,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231102,False
+OSM_way_243231104,Unnamed substation,,,17.4534442,78.67603,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243231104,False
+OSM_way_243231105,Unnamed substation,,,17.2464004,78.4633841,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231105,False
+OSM_way_243231106,Unnamed substation,,,17.2456377,78.4926741,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231106,False
+OSM_way_243231108,Unnamed substation,,,17.4678188,78.7977586,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243231108,False
+OSM_way_243231112,Shamshabad Substation,,,17.2144582,78.3877943,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/243231112,True
+OSM_way_243231116,Unnamed substation,,,17.1907029,78.6482008,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231116,False
+OSM_way_243231117,Unnamed substation,,,17.2650494,78.675813,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231117,False
+OSM_way_243231120,Unnamed substation,,,17.2590718,78.5842473,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243231120,False
+OSM_way_243355830,Gachibowli Sub Station,,,17.4698304,78.3259174,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243355830,True
+OSM_way_243355835,Erragadda Sub Station,,,17.4441187,78.425582,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/243355835,True
+OSM_way_243355849,Unnamed substation,,,17.4573603,78.5801411,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355849,False
+OSM_way_243355850,Unnamed substation,,,16.7185237,78.9725816,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355850,False
+OSM_way_243355852,Unnamed substation,,,16.8064725,78.8552839,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355852,False
+OSM_way_243355853,Unnamed substation,,,17.46076,78.4193137,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355853,False
+OSM_way_243355854,Unnamed substation,,,17.0018006,78.6858015,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355854,False
+OSM_way_243355855,Unnamed substation,,,16.9486425,78.8544002,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355855,False
+OSM_way_243355856,Unnamed substation,,,17.4295502,78.40419,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355856,False
+OSM_way_243355857,Unnamed substation,,,17.3151922,78.4784352,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355857,False
+OSM_way_243355858,Unnamed substation,,,16.9586518,78.728079,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355858,False
+OSM_way_243355860,Unnamed substation,,,17.0024483,78.6868922,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355860,False
+OSM_way_243355863,Unnamed substation,,,17.4530399,78.3745548,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355863,False
+OSM_way_243355864,Unnamed substation,,,16.667982,78.7923038,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243355864,False
+OSM_way_243355865,Kondamallepally Sub Station,,,16.7623835,78.9193062,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243355865,True
+OSM_way_243355872,Shivrampally TS Transco Sub station,,,17.3275779,78.4240127,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243355872,True
+OSM_way_243356176,Gunrock,,,17.4715769,78.5021318,substation,transmission,220000,APSEB,OpenStreetMap,https://www.openstreetmap.org/way/243356176,True
+OSM_way_243441921,Shankarpalli Sub station,,,17.4548542,78.1491014,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/243441921,True
+OSM_way_243441936,Unnamed substation,,,17.5416967,78.3496028,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243441936,False
+OSM_way_243441938,Unnamed substation,,,17.6193411,78.0416149,substation,industrial,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243441938,False
+OSM_way_243441939,Unnamed substation,,,17.3443148,78.1633424,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243441939,False
+OSM_way_243441940,Unnamed substation,,,17.6430038,78.1200679,substation,industrial,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243441940,False
+OSM_way_243441942,Unnamed substation,,,17.5656716,78.1153207,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243441942,False
+OSM_way_243441945,132KV/32KV Sub Station Narsapur,,,17.7339104,78.2878994,substation,,132000;33000,,OpenStreetMap,https://www.openstreetmap.org/way/243441945,True
+OSM_way_243441949,Unnamed substation,,,17.6095106,77.9475072,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/243441949,False
+OSM_way_243441951,Yeddumailaram Sub Station,,,17.5078895,78.14765,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243441951,True
+OSM_way_243441952,Unnamed substation,,,16.8274328,78.5294424,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243441952,False
+OSM_way_243441958,Shadnagar Sub Station,,,17.094252,78.2090185,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/243441958,True
+OSM_way_243441962,Kalwakurthy Substation,,,16.6710753,78.4862637,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/243441962,True
+OSM_way_243538666,Unnamed substation,,,17.5833921,78.5746361,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/243538666,False
+OSM_way_244365801,Unnamed substation,,,18.2169857,77.960544,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365801,False
+OSM_way_244365802,Unnamed substation,,,18.659262,78.1167181,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365802,False
+OSM_way_244365803,Unnamed substation,,,17.7565659,77.9731483,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365803,False
+OSM_way_244365805,Unnamed substation,,,18.2454595,78.1261153,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365805,False
+OSM_way_244365806,Unnamed substation,,,18.2516923,78.4262576,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365806,False
+OSM_way_244365807,Sadashivpet Sub station,,,17.6324908,77.9027616,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365807,True
+OSM_way_244365813,Unnamed substation,,,17.9024107,78.20461,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365813,False
+OSM_way_244365814,Unnamed substation,,,18.1855575,78.414332,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365814,False
+OSM_way_244365832,Dichpalli,,,18.6301462,78.2377524,substation,transmission,400000;220000;132000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/244365832,True
+OSM_way_244365841,Unnamed substation,,,17.632943,77.9059357,substation,industrial,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365841,False
+OSM_way_244365843,Unnamed substation,,,17.6836906,77.5778868,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365843,False
+OSM_way_244365844,Kamareddy Sub Station,,,18.291511,78.3620224,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365844,True
+OSM_way_244365846,Unnamed substation,,,18.2346242,77.9129142,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365846,False
+OSM_way_244365847,Unnamed substation,,,18.9304238,78.1052641,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365847,False
+OSM_way_244365848,Unnamed substation,,,18.0663205,78.2795037,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365848,False
+OSM_way_244365849,Unnamed substation,,,17.7506345,77.9307704,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365849,False
+OSM_way_244365851,Unnamed substation,,,18.2173309,77.9578035,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365851,False
+OSM_way_244365852,Banaswada,,,18.4066125,77.8433792,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365852,True
+OSM_way_244365854,Unnamed substation,,,18.217866,77.9569016,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365854,False
+OSM_way_244365860,Unnamed substation,,,18.5798274,78.4585834,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365860,False
+OSM_way_244365861,Unnamed substation,,,18.8739357,78.1342454,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365861,False
+OSM_way_244365862,kamareddy Sub Station,,,18.3384723,78.3154735,substation,transmission,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365862,True
+OSM_way_244365870,Unnamed substation,,,18.8016923,78.2755856,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365870,False
+OSM_way_244365871,Dichpalli Sub Station,,,18.5971101,78.2194869,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365871,True
+OSM_way_244365874,Unnamed substation,,,18.0441966,77.902668,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365874,False
+OSM_way_244365876,Reddypet Sub Station,,,18.4075679,78.4081797,substation,transmission,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365876,True
+OSM_way_244365879,Unnamed substation,,,17.8531529,78.0664451,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244365879,False
+OSM_way_244365884,Minpur Sub Station,,,18.0502699,78.1067512,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244365884,True
+OSM_way_244371339,Unnamed substation,,,17.3309745,77.4857349,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244371339,False
+OSM_way_244371340,Unnamed substation,,,17.308493,77.477914,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244371340,False
+OSM_way_244371342,Unnamed substation,,,17.2946051,77.5070085,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244371342,False
+OSM_way_244371345,Pargi Sub Station,,,17.186836,77.9043118,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/244371345,True
+OSM_way_244371348,Unnamed substation,,,17.3429603,77.9117957,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/244371348,False
+OSM_way_244371349,Tendur Sub Station,,,17.2609262,77.6136298,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244371349,True
+OSM_way_244404648,Chandrayanagutta Sub Station,,,17.3354026,78.5176599,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244404648,True
+OSM_way_244404649,Moula-Ali Sub Station,,,17.4563766,78.5820077,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244404649,True
+OSM_way_244894456,Mahabubnagar Sub Station,,,16.7150637,78.025267,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894456,True
+OSM_way_244894460,Unnamed substation,,,16.751315,78.0158597,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894460,False
+OSM_way_244894462,Makhtal,,,16.4909292,77.4966204,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894462,True
+OSM_way_244894472,Jurala Switching Station,,,16.3210077,77.7087881,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894472,True
+OSM_way_244894481,Unnamed substation,,,16.5990161,77.713801,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894481,False
+OSM_way_244894482,Veltoor,,,16.4614839,77.9341211,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/244894482,True
+OSM_way_244894483,Gudipalygattu,,,16.3845622,78.3091669,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894483,True
+OSM_way_244894484,Krishnaveni Sugars,,,16.3020932,77.9239157,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894484,True
+OSM_way_244894485,Unnamed substation,,,16.9442399,78.1780235,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894485,False
+OSM_way_244894488,Koilsagar Stage I,,,16.4654008,77.7369556,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894488,True
+OSM_way_244894489,Koilsagar Stage II,,,16.6327876,77.7521751,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894489,True
+OSM_way_244894490,Unnamed substation,,,17.1373681,78.2816032,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894490,False
+OSM_way_244894493,Maddur,,,16.8494667,77.5979839,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894493,True
+OSM_way_244894498,Jurala,,,16.3311658,77.7053987,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/244894498,True
+OSM_way_244894499,Midjil,,,16.7447923,78.3304842,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894499,True
+OSM_way_244894500,Bheema Stage II,,,16.368869,77.9496188,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894500,True
+OSM_way_244894502,Unnamed substation,,,16.9578915,77.862435,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894502,False
+OSM_way_244894506,Nagar Kurnool,,,16.4694022,78.3513193,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/244894506,True
+OSM_way_244894507,Panchadevpad,,,16.3853257,77.5760607,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/244894507,True
+OSM_way_245008404,Unnamed substation,,,16.4014322,78.6536466,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/245008404,False
+OSM_way_245008428,Alampur Road,,,15.9170659,78.0080219,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/245008428,True
+OSM_way_245008434,Ieeza,,ఐజ,16.0116288,77.6534518,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/245008434,True
+OSM_way_245008442,Jonnala Bogda,,,16.254864,78.3153426,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/245008442,True
+OSM_way_252294284,Unnamed substation,,,17.9049866,79.7585204,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/252294284,False
+OSM_way_253462469,Uppal Electrical Sub-station,,,17.4018651,78.5616207,substation,distribution,,APCPDCL,OpenStreetMap,https://www.openstreetmap.org/way/253462469,True
+OSM_way_263081942,Unnamed substation,,,17.7593338,79.8863314,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/263081942,False
+OSM_way_263689096,Unnamed substation,,,17.8461172,79.3713053,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/263689096,False
+OSM_way_264460473,Narkatpalli Sub station,,,17.197369,79.2191473,substation,transmission,220000;132000,Tstransco,OpenStreetMap,https://www.openstreetmap.org/way/264460473,True
+OSM_way_264460474,Unnamed substation,,,17.1916234,79.223136,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/264460474,False
+OSM_way_264460476,Unnamed substation,,,17.1934356,79.2258631,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/264460476,False
+OSM_way_265607918,TS transco,,,17.4118727,78.4680193,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/265607918,True
+OSM_way_279353909,Ramagundam,,,18.7532445,79.4563113,substation,transmission,400000,,OpenStreetMap,https://www.openstreetmap.org/way/279353909,True
+OSM_way_308319902,NBEIL TPP,,,17.575756,80.6656538,substation,generation,220000,,OpenStreetMap,https://www.openstreetmap.org/way/308319902,True
+OSM_way_308802836,Unnamed substation,,,18.3815478,79.2113287,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/308802836,False
+OSM_way_308802837,Unnamed substation,,,18.1454033,79.2114356,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/308802837,False
+OSM_way_308802838,Durshed,,,18.4542716,79.1766764,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/308802838,True
+OSM_way_318613161,Unnamed substation,,,17.4148511,78.4849389,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/318613161,False
+OSM_way_330065947,Unnamed substation,,,16.7148634,79.6941615,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/330065947,False
+OSM_way_330065948,Unnamed substation,,,16.7168579,79.6944852,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/330065948,False
+OSM_way_330065961,Unnamed substation,,,16.7116766,79.688764,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/330065961,False
+OSM_way_330065965,Unnamed substation,,,17.1714511,79.3821674,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/330065965,False
+OSM_way_330065972,Unnamed substation,,,17.9641684,78.4768456,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/330065972,False
+OSM_way_330065974,Unnamed substation,,,17.1668647,79.3792158,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/330065974,False
+OSM_way_330065976,Unnamed substation,,,17.9931117,78.4613655,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/330065976,False
+OSM_way_330065977,Chegunta,,,17.9819896,78.4595988,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/330065977,True
+OSM_way_330065978,Miyapur Electrical Substation,,,17.4965426,78.3480747,substation,,,Central Power Distribution Company of A.P. Limited,OpenStreetMap,https://www.openstreetmap.org/way/330065978,True
+OSM_way_331794766,power house,,,18.7603161,79.5035108,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/331794766,True
+OSM_way_344414861,Unnamed substation,,,17.5516614,80.6072393,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/344414861,False
+OSM_way_347735196,Unnamed substation,,,17.9661363,79.0168728,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/347735196,False
+OSM_way_349419574,Wanaparthy,,,16.3695914,78.0813749,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/349419574,True
+OSM_way_351963370,Unnamed substation,,,17.5930293,80.6833056,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/351963370,False
+OSM_way_355713713,Unnamed substation,,,17.5428969,78.3803751,substation,distribution,,,OpenStreetMap,https://www.openstreetmap.org/way/355713713,False
+OSM_way_356557407,Unnamed substation,,,17.4164697,78.5759416,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/356557407,False
+OSM_way_357271425,Unnamed substation,,,17.5052587,78.1353921,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357271425,False
+OSM_way_357271426,Unnamed substation,,,17.549259,78.1626821,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357271426,False
+OSM_way_357271431,Unnamed substation,,,17.4936341,78.2834737,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357271431,False
+OSM_way_357271432,Ramayampet,,,18.1142071,78.4276438,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/357271432,True
+OSM_way_357271433,Unnamed substation,,,18.0365092,77.7862816,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357271433,False
+OSM_way_357271434,Unnamed substation,,,17.5335034,78.1942176,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357271434,False
+OSM_way_357387509,Unnamed substation,,,17.3094012,78.5043443,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357387509,False
+OSM_way_357761174,Unnamed substation,,,17.4550091,78.5588405,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/357761174,False
+OSM_way_360854027,Unnamed substation,,,17.4530566,78.4951709,substation,distribution,,Ts power supply,OpenStreetMap,https://www.openstreetmap.org/way/360854027,False
+OSM_way_360991776,NITW Power House,,,17.9810182,79.5313762,substation,minor_distribution,,NIT Warangal,OpenStreetMap,https://www.openstreetmap.org/way/360991776,True
+OSM_way_374068935,Unnamed substation,,,17.8018213,79.7009529,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/374068935,False
+OSM_way_374394575,Unnamed substation,,,17.6196237,79.5023209,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/374394575,False
+OSM_way_374394576,Unnamed substation,,,17.6773066,79.47343,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/374394576,False
+OSM_way_379565157,Amarchinta,,,16.3834773,77.7697024,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/379565157,True
+OSM_way_379565158,Chinnamaroor,,,16.0505943,78.1651887,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/379565158,True
+OSM_way_379565160,Gadwal,,,16.2441735,77.8118197,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/379565160,True
+OSM_way_379565162,Khanapur,,,16.489281,77.5067236,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/379565162,True
+OSM_way_379565164,Nettampad Stage II,,,16.2114862,77.6467723,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/379565164,True
+OSM_way_379565166,Nettampad Stage I,,,16.2891677,77.6670627,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/379565166,True
+OSM_way_379565168,Thirumalaipally Sub Station,,,16.3671136,77.9019808,substation,transmission,132000,,OpenStreetMap,https://www.openstreetmap.org/way/379565168,True
+OSM_way_385117717,Unnamed substation,,,17.4459426,78.4117956,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/385117717,False
+OSM_way_412026867,Warangal Sub Station,,,18.0036046,79.5869373,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/412026867,True
+OSM_way_412026883,Warangal Sub Station,,,18.0039584,79.5867625,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/412026883,True
+OSM_way_414071155,Unnamed substation,,,17.4208785,78.5018759,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/414071155,False
+OSM_way_416848067,Unnamed substation,,,17.5226688,78.2500381,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/416848067,False
+OSM_way_416944958,Unnamed substation,,,17.453355,78.3726839,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/416944958,False
+OSM_way_416985166,Unnamed substation,,,17.4804827,78.3892652,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/416985166,False
+OSM_way_418480998,Unnamed substation,,,16.7575429,78.0101021,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/418480998,False
+OSM_way_436023257,Singaneri TPP,,,18.8289639,79.5696672,substation,generation,400000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/436023257,True
+OSM_way_436023287,Unnamed substation,,,18.6393935,79.9509631,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/436023287,False
+OSM_way_436023291,Unnamed substation,,,19.0385183,79.48615,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/436023291,False
+OSM_way_436023316,Unnamed substation,,,16.8424847,79.9845471,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023316,False
+OSM_way_436023317,Unnamed substation,,,16.8438033,79.9923351,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023317,False
+OSM_way_436023318,Unnamed substation,,,16.8446124,79.9954841,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023318,False
+OSM_way_436023346,Unnamed substation,,,18.7625031,79.484751,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023346,False
+OSM_way_436023355,Unnamed substation,,,18.8121095,79.3735195,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023355,False
+OSM_way_436023360,Unnamed substation,,,16.8434899,79.7007569,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436023360,False
+OSM_way_436023365,Unnamed substation,,,18.8456464,79.743334,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/436023365,False
+OSM_way_436023373,Nirmal,,,19.0800174,78.3832301,substation,,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/436023373,True
+OSM_way_436410990,Miyapur Sub Station,,,17.5032141,78.3744291,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/436410990,True
+OSM_way_436970109,Manthani Sub Station,,,18.6348918,79.6893385,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/436970109,True
+OSM_way_436970117,Unnamed substation,,,18.7711774,79.4359037,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/436970117,False
+OSM_way_436970123,Bommakal,,,18.4406617,79.2006885,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/436970123,True
+OSM_way_436970125,Unnamed substation,,,18.4269455,79.1488337,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/436970125,False
+OSM_way_436970128,Huzurabad Sub Station,,,18.1808828,79.4004158,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/436970128,True
+OSM_way_445525988,Unnamed substation,,,17.7664204,79.2621249,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/445525988,False
+OSM_way_466424134,Nizamabad,,,18.6053761,78.2648578,substation,transmission,765000;400000,Power Grid Corporation of India Limited,OpenStreetMap,https://www.openstreetmap.org/way/466424134,True
+OSM_way_466424159,Maheshwaram,,,17.0486008,78.5341045,substation,transmission,765000;400000,Power Grid Corporation of India Limited,OpenStreetMap,https://www.openstreetmap.org/way/466424159,True
+OSM_way_473711798,Unnamed substation,,,17.2328669,80.0065507,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/473711798,False
+OSM_way_474022991,Unnamed substation,,,18.8295343,77.9503158,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474022991,False
+OSM_way_474022998,Unnamed substation,,,18.5170447,77.8913001,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474022998,False
+OSM_way_474022999,Unnamed substation,,,18.77538,77.9760431,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474022999,False
+OSM_way_474023000,Unnamed substation,,,18.6423781,77.9136932,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/474023000,False
+OSM_way_474023001,Unnamed substation,,,18.7033163,78.0099523,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474023001,False
+OSM_way_474023002,Unnamed substation,,,18.6611903,77.9024654,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/474023002,False
+OSM_way_474023005,Renjal Sub Station,,,18.7578573,77.9360101,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/474023005,True
+OSM_way_474023006,Unnamed substation,,,18.3999528,77.7251975,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474023006,False
+OSM_way_474023009,Unnamed substation,,,17.0745973,78.1481833,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474023009,False
+OSM_way_474035482,Unnamed substation,,,19.4423189,78.45471,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/474035482,False
+OSM_way_474035484,Unnamed substation,,,19.6925381,78.5452671,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/474035484,False
+OSM_way_474035486,Unnamed substation,,,19.6893336,78.5550298,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/474035486,False
+OSM_way_475875145,Unnamed substation,,,17.6523476,78.3840196,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/475875145,False
+OSM_way_475948606,Unnamed substation,,,16.6971844,79.6512274,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/475948606,False
+OSM_way_475948607,Unnamed substation,,,17.4522275,78.579387,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/475948607,False
+OSM_way_493683874,Unnamed substation,,,17.4897284,78.3261979,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/493683874,False
+OSM_way_497692078,Unnamed substation,,,17.1627674,77.9176623,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/497692078,False
+OSM_way_497692081,Unnamed substation,,,17.1462227,77.8973338,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/497692081,False
+OSM_way_497692082,Unnamed substation,,,17.0883527,78.0902946,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/497692082,False
+OSM_way_505856212,Suryapet,,,17.1618195,79.6932353,substation,transmission,400000;220000;132000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/505856212,True
+OSM_way_505856219,Udayasamudram Sub Station,,,17.1913968,79.2197978,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/505856219,True
+OSM_way_506490496,Unnamed substation,,,18.9935715,77.9238099,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/506490496,False
+OSM_way_506490507,Unnamed substation,,,19.3997074,78.7568909,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/506490507,False
+OSM_way_506490518,Unnamed substation,,,19.1030691,77.9769994,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/506490518,False
+OSM_way_506490521,Unnamed substation,,,19.0424251,78.2898703,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/506490521,False
+OSM_way_529548695,Unnamed substation,,,18.5368911,78.2853221,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/529548695,False
+OSM_way_529548696,Renew Dichpalli,,,18.3822532,78.2438928,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/529548696,True
+OSM_way_529548698,Unnamed substation,,,18.5959693,78.2352543,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/529548698,False
+OSM_way_587392642,Unnamed substation,,,18.7851212,78.9062946,substation,minor_distribution,,,OpenStreetMap,https://www.openstreetmap.org/way/587392642,False
+OSM_way_608849177,Unnamed substation,,,17.4111787,78.5981604,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/608849177,False
+OSM_way_661176378,Unnamed substation,,,17.5330117,78.1703867,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/661176378,False
+OSM_way_661184523,Unnamed substation,,,17.5332446,78.1791661,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/661184523,False
+OSM_way_666907692,Unnamed substation,,,18.9670144,79.4403992,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/666907692,False
+OSM_way_666907695,Unnamed substation,,,18.9785003,79.4479893,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/666907695,False
+OSM_way_666907702,Nirmal Sub Station,,,19.0450619,78.3998685,substation,transmission,400000;220000,,OpenStreetMap,https://www.openstreetmap.org/way/666907702,True
+OSM_way_666907709,Unnamed substation,,,19.1037924,78.1031898,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/666907709,False
+OSM_way_667122716,Unnamed substation,,,18.5660291,78.7556782,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/667122716,False
+OSM_way_693950406,Unnamed substation,,,17.4370248,78.5790971,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/693950406,False
+OSM_way_693950410,Unnamed substation,,,17.4279758,78.562739,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/693950410,False
+OSM_way_696785357,Unnamed substation,,,17.4816502,78.4434311,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/696785357,False
+OSM_way_696785359,Unnamed substation,,,17.4708847,78.4339724,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/696785359,False
+OSM_way_696785360,Unnamed substation,,,17.4700891,78.4336392,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/696785360,False
+OSM_way_696789969,Unnamed substation,,,17.5867951,78.1490809,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/696789969,False
+OSM_way_731529555,REC Substation,,,17.9887225,79.5320824,substation,transmission,,NIT Warangal,OpenStreetMap,https://www.openstreetmap.org/way/731529555,True
+OSM_way_733184173,Unnamed substation,,,18.6153618,79.3684238,substation,minor_distribution,,,OpenStreetMap,https://www.openstreetmap.org/way/733184173,False
+OSM_way_733604743,Unnamed substation,,,16.5365733,77.9314575,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733604743,False
+OSM_way_733604746,Unnamed substation,,,16.5272253,77.9061387,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733604746,False
+OSM_way_733604748,Unnamed substation,,,16.4562622,77.8815214,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733604748,False
+OSM_way_733604749,Unnamed substation,,,16.4458454,77.8667499,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733604749,False
+OSM_way_733604750,Unnamed substation,,,16.4706172,77.9151615,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733604750,False
+OSM_way_733604753,Unnamed substation,,,16.5319726,77.8537841,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/733604753,False
+OSM_way_733631558,Unnamed substation,,,17.3449477,77.6156019,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631558,False
+OSM_way_733631560,Unnamed substation,,,17.2507867,77.5970485,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631560,False
+OSM_way_733631561,Unnamed substation,,,17.1161051,77.6382874,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631561,False
+OSM_way_733631562,Kosigi Sub Station,,,16.9820724,77.63402,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631562,True
+OSM_way_733631564,Unnamed substation,,,18.1469541,78.2909527,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631564,False
+OSM_way_733631566,Unnamed substation,,,16.9875324,78.3402309,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631566,False
+OSM_way_733631568,Thimmajipet Sub Station,,,16.7000988,78.1773155,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/733631568,True
+OSM_way_733631571,Unnamed substation,,,16.4416487,78.0046525,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631571,False
+OSM_way_733631572,Unnamed substation,,,16.4213089,78.0719114,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631572,False
+OSM_way_733631576,Unnamed substation,,,17.6629734,78.1760877,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631576,False
+OSM_way_733631577,Unnamed substation,,,17.6725285,78.1775931,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/733631577,False
+OSM_way_733631579,Unnamed substation,,,17.6743957,78.2360115,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/733631579,False
+OSM_way_736454963,KTPS Stage VII,,,17.6088712,80.6956097,substation,yes,400000,,OpenStreetMap,https://www.openstreetmap.org/way/736454963,True
+OSM_way_736454967,Julurupadu,,,17.4343053,80.5258385,substation,,400000;220000,,OpenStreetMap,https://www.openstreetmap.org/way/736454967,True
+OSM_way_747852692,RFCL,,,18.7219251,79.5153864,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/747852692,True
+OSM_way_747852703,Unnamed substation,,,18.2336936,78.679075,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852703,False
+OSM_way_747852705,Narsapur,,,17.7573974,78.3891651,substation,transmission,400000;220000;132000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/747852705,True
+OSM_way_747852707,Unnamed substation,,,17.9592048,78.5972469,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852707,False
+OSM_way_747852708,Unnamed substation,,,17.7730381,78.5634638,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/747852708,False
+OSM_way_747852715,Thukkapur,,,18.0155105,78.7505149,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/747852715,True
+OSM_way_747852716,Unnamed substation,,,18.0193123,78.7376685,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852716,False
+OSM_way_747852726,Unnamed substation,,,18.2994444,78.6747483,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852726,False
+OSM_way_747852728,Unnamed substation,,,18.2812419,78.647962,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852728,False
+OSM_way_747852729,Unnamed substation,,,18.512821,79.0841952,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/747852729,False
+OSM_way_748664628,Lower Jurala HPP,,,16.3138512,77.7790792,substation,generation,220000,,OpenStreetMap,https://www.openstreetmap.org/way/748664628,True
+OSM_way_776410448,Unnamed substation,,,17.9871465,79.5905263,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/776410448,False
+OSM_way_776715521,Unnamed substation,,,18.2778802,80.4676086,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/776715521,False
+OSM_way_780004809,Peddagopathi,,,17.2597865,80.2655313,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/780004809,True
+OSM_way_780004812,Unnamed substation,,,17.2821867,80.427534,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780004812,False
+OSM_way_780040680,Unnamed substation,,,17.6589116,79.4161313,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780040680,False
+OSM_way_780040694,Ramadugu,,,18.6076652,79.1034307,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780040694,True
+OSM_way_780040706,Tippapur,,,18.2881215,78.9174721,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780040706,True
+OSM_way_780040707,Chandlapur,,,18.1675676,78.8725809,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780040707,True
+OSM_way_780040712,Unnamed substation,,,18.1794578,78.8504521,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780040712,False
+OSM_way_780040730,Dindi,,,16.6148423,78.670385,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780040730,True
+OSM_way_780175599,Unnamed substation,,,17.4258762,79.5871302,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780175599,False
+OSM_way_780175606,Unnamed substation,,,17.5228466,79.5241693,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780175606,False
+OSM_way_780175609,Unnamed substation,,,17.5077971,79.5612844,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780175609,False
+OSM_way_780175616,Waddekothapally Sub Station,,,17.5269843,79.5540042,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/780175616,True
+OSM_way_780186485,Unnamed substation,,,17.4260005,80.1513147,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780186485,False
+OSM_way_780186488,Unnamed substation,,,17.2323349,79.9023045,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780186488,False
+OSM_way_780359526,Medigadda pump house substation,,,18.7844878,79.9223815,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/780359526,True
+OSM_way_780359527,Annaram pump house substation,,,18.7182169,79.6103366,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/780359527,True
+OSM_way_780359529,Saraswathi pump house,,,18.8346946,79.4040821,substation,,400000;220000,,OpenStreetMap,https://www.openstreetmap.org/way/780359529,True
+OSM_way_780359532,Medaram,,,18.7146388,79.2327755,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780359532,True
+OSM_way_780359536,Unnamed substation,,,18.325984,79.3716388,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359536,False
+OSM_way_780359537,Unnamed substation,,,18.0782391,79.1435793,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359537,False
+OSM_way_780359544,Unnamed substation,,,17.8926748,79.1589711,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359544,False
+OSM_way_780359545,Unnamed substation,,,17.8472383,79.1391309,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359545,False
+OSM_way_780359547,Jangaon,,,17.7592813,79.1133214,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/780359547,True
+OSM_way_780359550,Unnamed substation,,,17.8589329,79.5588751,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359550,False
+OSM_way_780359554,Unnamed substation,,,17.4494307,79.8127555,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359554,False
+OSM_way_780359555,Unnamed substation,,,17.5881538,79.7698751,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/780359555,False
+OSM_way_793420338,Unnamed substation,,,17.4682293,78.3302783,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/793420338,False
+OSM_way_801697168,Unnamed substation,,,17.2095549,78.6714652,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801697168,False
+OSM_way_801697175,Unnamed substation,,,17.2632726,78.6708487,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801697175,False
+OSM_way_801697188,Unnamed substation,,,17.2394911,78.9298748,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801697188,False
+OSM_way_801704852,Unnamed substation,,,17.1947404,78.494651,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801704852,False
+OSM_way_801704856,Unnamed substation,,,17.1706635,78.4715358,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801704856,False
+OSM_way_801704861,Unnamed substation,,,17.1664914,78.4754521,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801704861,False
+OSM_way_801704865,Maheshwaram,,,17.0555775,78.5302014,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/801704865,True
+OSM_way_801790615,Unnamed substation,,,16.7114377,78.4719233,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801790615,False
+OSM_way_801790617,Unnamed substation,,,16.8258968,78.5365766,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801790617,False
+OSM_way_801790618,Unnamed substation,,,16.8192295,78.5186279,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801790618,False
+OSM_way_801790620,Unnamed substation,,,16.8706731,78.5324447,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801790620,False
+OSM_way_801790624,Unnamed substation,,,17.095746,78.5739425,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801790624,False
+OSM_way_801793555,Unnamed substation,,,17.6670945,79.0307318,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801793555,False
+OSM_way_801793558,Unnamed substation,,,17.3843508,78.5785399,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/801793558,False
+OSM_way_802167472,Unnamed substation,,,19.1310261,78.2515004,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/802167472,False
+OSM_way_817356432,Medaram Sub Station,,,18.705187,79.2180508,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/817356432,True
+OSM_way_819240869,Telangana STPP,,,18.7498679,79.4770892,substation,generation,400000,,OpenStreetMap,https://www.openstreetmap.org/way/819240869,True
+OSM_way_845714172,Unnamed substation,,,17.5203445,78.3929534,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/845714172,False
+OSM_way_852373492,Bowrampet,,,17.5545413,78.4022408,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/852373492,True
+OSM_way_872846585,Unnamed substation,,,17.5291644,78.3968752,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/872846585,False
+OSM_way_883090304,Unnamed substation,,,17.4848178,78.3998591,substation,,,TSSPDCL,OpenStreetMap,https://www.openstreetmap.org/way/883090304,False
+OSM_way_896409182,Unnamed substation,,,17.4902361,78.3874933,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/896409182,False
+OSM_way_959794812,Unnamed substation,,,17.2472024,78.9075536,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/959794812,False
+OSM_way_959794813,Unnamed substation,,,17.2808859,79.0885719,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/959794813,False
+OSM_way_959794816,Unnamed substation,,,17.0576211,79.827033,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/959794816,False
+OSM_way_971915555,TSPDCL,,,17.4900941,78.3535371,substation,substation,,TSPDCL,OpenStreetMap,https://www.openstreetmap.org/way/971915555,True
+OSM_way_1000290072,33/11KV Substation Chennaram,,33/11KV సబ్ స్టేషన్ చెన్నారం,16.3450116,78.2032148,substation,33/11kv_chennaram,11000,TSSPDCL,OpenStreetMap,https://www.openstreetmap.org/way/1000290072,True
+OSM_way_1035851890,Unnamed substation,,,17.1983263,78.4907907,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1035851890,False
+OSM_way_1036837624,Kamalpuram,,,17.4388045,80.8029226,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/1036837624,True
+OSM_way_1036837628,Vepakoya Ramavaram Sub Station,,,17.5418694,80.7767295,substation,transmission,220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/1036837628,True
+OSM_way_1036837645,BG Kothuru Sub Station,,,17.8017727,80.8192872,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1036837645,True
+OSM_way_1036837655,Unnamed substation,,,18.0297314,80.7312606,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1036837655,False
+OSM_way_1036837656,BhadradriTPS,,,18.0267499,80.7325521,substation,generation,400000,TSGENCO,OpenStreetMap,https://www.openstreetmap.org/way/1036837656,True
+OSM_way_1082816324,Osmania University,,,17.4228717,78.5272264,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1082816324,True
+OSM_way_1111103821,Substation Gopalpet,,,16.3844229,78.1450266,substation,,,TSSPDCL,OpenStreetMap,https://www.openstreetmap.org/way/1111103821,True
+OSM_way_1124141611,Bhumpally Sub station,,,18.4176897,78.2114189,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/1124141611,True
+OSM_way_1161964593,Unnamed substation,,,18.502897,79.419091,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1161964593,False
+OSM_way_1162009332,power station veldanda,,,17.8719425,79.1119853,substation,,,Power Grid Corporation of India Ltd,OpenStreetMap,https://www.openstreetmap.org/way/1162009332,True
+OSM_way_1191538469,Asupaka,,,17.3875014,81.1226591,substation,transmission,400000;220000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/1191538469,True
+OSM_way_1200050908,Unnamed substation,,,17.4647427,78.3910261,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1200050908,False
+OSM_way_1207167077,Kethireddypally Sub Station,,,17.2865465,78.2275373,substation,transmission,400000;220000,,OpenStreetMap,https://www.openstreetmap.org/way/1207167077,True
+OSM_way_1207177082,Unnamed substation,,,17.3175673,78.2389351,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1207177082,False
+OSM_way_1207477934,Warangal,,,17.8166292,79.4241702,substation,transmission,765000;400000,,OpenStreetMap,https://www.openstreetmap.org/way/1207477934,True
+OSM_way_1218725301,Vattem,,,16.5756757,78.2759583,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/1218725301,True
+OSM_way_1219721184,Yedulla,,,16.3216546,78.2961042,substation,transmission,400000,TSTRANSCO,OpenStreetMap,https://www.openstreetmap.org/way/1219721184,True
+OSM_way_1228284518,Unnamed substation,,,18.8090893,78.5123928,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1228284518,False
+OSM_way_1244069297,Unnamed substation,,,16.7281778,78.4890661,substation,,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1244069297,False
+OSM_way_1262419250,33KV/11KV SUBSTATION LINGAPUR,,,17.780228,78.296815,substation,,33000;11000,,OpenStreetMap,https://www.openstreetmap.org/way/1262419250,True
+OSM_way_1286829054,Chandanvalli Sub Station,,,17.2223731,78.1925994,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1286829054,True
+OSM_way_1313167905,Unnamed substation,,,16.1304387,77.5627356,substation,generation,132000,,OpenStreetMap,https://www.openstreetmap.org/way/1313167905,False
+OSM_way_1319809588,Mallaram Sub Station,,,18.0427442,79.326092,substation,transmission,33000,,OpenStreetMap,https://www.openstreetmap.org/way/1319809588,True
+OSM_way_1322478214,Mupkal Sub Station,,,18.913197,78.346119,substation,transmission,220000;11000,,OpenStreetMap,https://www.openstreetmap.org/way/1322478214,True
+OSM_way_1322506402,Utnoor Sub Station,,,19.4207315,78.7256666,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1322506402,True
+OSM_way_1322825249,Rajeshwar Rao Pet Sub Station,,,18.8189797,78.577974,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1322825249,True
+OSM_way_1322827154,Rampur Sub station,,,18.735251,78.8801679,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1322827154,True
+OSM_way_1324089988,Madgula Sub Station,,,16.8680717,78.6805355,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1324089988,True
+OSM_way_1324096061,Domalapenta Sub Station,,,16.1011646,78.9006543,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1324096061,True
+OSM_way_1327170628,Mahabubabad Sub Station,,,17.5831729,80.0193666,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1327170628,True
+OSM_way_1327482910,Narlapur Sub Station,,,16.1174365,78.376079,substation,transmission,400000,,OpenStreetMap,https://www.openstreetmap.org/way/1327482910,True
+OSM_way_1327484845,Regumanugadda Sub Station,,,16.1158775,78.3833154,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/1327484845,True
+OSM_way_1327485674,Yellur Sub Station,,,16.1287667,78.3548271,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/1327485674,True
+OSM_way_1327512840,Choutuppal Sub Station,,,17.2074633,78.9921695,substation,transmission,400000,,OpenStreetMap,https://www.openstreetmap.org/way/1327512840,True
+OSM_way_1327796913,Raidurg GIS Sub station,,,17.435272,78.375635,substation,transmission,400000;220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/1327796913,True
+OSM_way_1327822876,Bongulur Sub station,,,17.2324987,78.5518331,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1327822876,True
+OSM_way_1327838789,Bheemgal Sub Station,,,18.7147666,78.4418121,substation,transmission,220000;132000,,OpenStreetMap,https://www.openstreetmap.org/way/1327838789,True
+OSM_way_1327840595,Chegur Sub Station,,,17.1762967,78.2473494,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1327840595,True
+OSM_way_1334985541,Devannapet Sub Station,,,18.0239829,79.4853518,substation,transmission,220000;11000,,OpenStreetMap,https://www.openstreetmap.org/way/1334985541,True
+OSM_way_1337688322,Huzurnagar Sub Station,,,16.8981431,79.8246937,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1337688322,True
+OSM_way_1373272007,Unnamed substation,,,18.2045194,79.9606727,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1373272007,False
+OSM_way_1374667197,Manchippa,,,18.5301122,78.1203876,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1374667197,True
+OSM_way_1374667199,Unnamed substation,,,18.7253983,78.1453241,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1374667199,False
+OSM_way_1374667200,Sarangapur,,,18.6951579,78.0389545,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1374667200,True
+OSM_way_1374667205,Unnamed substation,,,18.5770993,77.8255793,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/1374667205,False
+OSM_way_1374670036,Unnamed substation,,,17.0579552,78.541186,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1374670036,False
+OSM_way_1385983467,Unnamed substation,,,17.9030105,79.3644455,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1385983467,False
+OSM_way_1393041457,Unnamed substation,,,17.5407378,78.5768006,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1393041457,False
+OSM_way_1393072285,Unnamed substation,,,17.5453325,78.5755681,substation,,11000;440,,OpenStreetMap,https://www.openstreetmap.org/way/1393072285,False
+OSM_way_1393072301,Unnamed substation,,,17.5448257,78.5700208,substation,yes,11000;440,,OpenStreetMap,https://www.openstreetmap.org/way/1393072301,False
+OSM_way_1446512733,Unnamed substation,,,18.6965823,78.8114432,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1446512733,False
+OSM_way_1451971010,Unnamed substation,,,17.3725479,78.546788,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1451971010,False
+OSM_way_1451972534,Unnamed substation,,,17.4562914,78.6112507,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1451972534,False
+OSM_way_1452411997,Unnamed substation,,,17.3607622,78.5675527,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1452411997,False
+OSM_way_1453856485,Unnamed substation,,,17.5203633,78.240154,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1453856485,False
+OSM_way_1454497872,Unnamed substation,,,17.2452607,78.4921726,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1454497872,False
+OSM_way_1455555291,Asifabad,,,19.4089494,79.2893258,substation,,132000,,OpenStreetMap,https://www.openstreetmap.org/way/1455555291,True
+OSM_way_1457102800,Unnamed substation,,,17.2622972,78.6840624,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1457102800,False
+OSM_way_1458023644,Unnamed substation,,,17.2493687,78.4757558,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1458023644,False
+OSM_way_1464112494,Pulichintala HPP,,,16.7736107,80.0525497,substation,generation,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1464112494,True
+OSM_way_1466867884,Unnamed substation,,,16.7652491,79.0811817,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867884,False
+OSM_way_1466867888,Unnamed substation,,,16.779886,79.8613237,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867888,False
+OSM_way_1466867891,Unnamed substation,,,16.7689396,79.8569638,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867891,False
+OSM_way_1466867893,Unnamed substation,,,16.9931956,79.3509536,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867893,False
+OSM_way_1466867894,Unnamed substation,,,17.0839942,79.3387046,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867894,False
+OSM_way_1466867895,Unnamed substation,,,16.8947539,79.0520422,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867895,False
+OSM_way_1466867896,Unnamed substation,,,17.007123,80.1128049,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867896,False
+OSM_way_1466867897,Unnamed substation,,,17.4834645,79.5171795,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867897,False
+OSM_way_1466867898,Unnamed substation,,,17.499505,79.7739615,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867898,False
+OSM_way_1466867899,Unnamed substation,,,17.5295074,79.8407149,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867899,False
+OSM_way_1466867900,Unnamed substation,,,17.2829737,80.1095065,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867900,False
+OSM_way_1466867901,Unnamed substation,,,17.2517677,80.1511256,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867901,False
+OSM_way_1466867902,Unnamed substation,,,17.2388245,80.0919957,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867902,False
+OSM_way_1466867903,Unnamed substation,,,17.3090784,80.0354641,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867903,False
+OSM_way_1466867904,Unnamed substation,,,17.4703265,79.6142681,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867904,False
+OSM_way_1466867905,Unnamed substation,,,17.5303157,79.7897067,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867905,False
+OSM_way_1466867906,Unnamed substation,,,17.3697387,79.8486388,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867906,False
+OSM_way_1466867907,Unnamed substation,,,17.3359642,80.0039736,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867907,False
+OSM_way_1466867908,Unnamed substation,,,17.3914479,80.0440579,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867908,False
+OSM_way_1466867909,Unnamed substation,,,17.2577841,80.120238,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867909,False
+OSM_way_1466867910,Unnamed substation,,,17.4677898,80.0919373,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867910,False
+OSM_way_1466867911,Unnamed substation,,,17.4670964,79.7434433,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867911,False
+OSM_way_1466867912,Unnamed substation,,,17.2369372,79.3098327,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867912,False
+OSM_way_1466867913,Unnamed substation,,,17.3084753,79.3200331,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867913,False
+OSM_way_1466867914,Unnamed substation,,,17.2924425,79.2720665,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867914,False
+OSM_way_1466867915,Unnamed substation,,,17.4870845,79.0708418,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867915,False
+OSM_way_1466867916,Unnamed substation,,,17.2288213,79.072899,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867916,False
+OSM_way_1466867917,Unnamed substation,,,17.3028263,80.203365,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867917,False
+OSM_way_1466867918,Unnamed substation,,,17.2455399,80.1740451,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867918,False
+OSM_way_1466867922,Unnamed substation,,,17.7085075,79.3136193,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867922,False
+OSM_way_1466867923,Unnamed substation,,,17.6706041,79.4211799,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867923,False
+OSM_way_1466867924,Unnamed substation,,,17.6212969,79.3474198,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867924,False
+OSM_way_1466867925,Unnamed substation,,,17.6235426,79.408709,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867925,False
+OSM_way_1466867926,Unnamed substation,,,17.7276916,79.156458,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867926,False
+OSM_way_1466867927,Unnamed substation,,,17.6521168,79.5579873,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867927,False
+OSM_way_1466867928,Unnamed substation,,,17.6270856,79.8455576,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867928,False
+OSM_way_1466867929,Unnamed substation,,,17.7183054,79.5147554,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867929,False
+OSM_way_1466867930,Unnamed substation,,,17.6485397,79.7244526,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867930,False
+OSM_way_1466867931,Unnamed substation,,,17.7168146,79.6026004,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867931,False
+OSM_way_1466867932,Unnamed substation,,,17.6565903,79.8852725,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867932,False
+OSM_way_1466867933,Unnamed substation,,,17.5926884,79.9571409,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867933,False
+OSM_way_1466867934,Unnamed substation,,,17.591114,79.7582055,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867934,False
+OSM_way_1466867935,Unnamed substation,,,17.578616,79.8241905,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867935,False
+OSM_way_1466867936,Unnamed substation,,,17.6487788,79.684023,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867936,False
+OSM_way_1466867937,Unnamed substation,,,17.7891103,79.604535,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867937,False
+OSM_way_1466867938,Unnamed substation,,,17.7662987,79.5271405,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867938,False
+OSM_way_1466867939,Unnamed substation,,,17.6822709,79.9056116,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867939,False
+OSM_way_1466867940,Unnamed substation,,,17.623202,80.0399796,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1466867940,False
+OSM_way_1467545210,Unnamed substation,,,17.425035,78.5421362,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545210,False
+OSM_way_1467545211,Unnamed substation,,,17.4858782,78.5033709,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545211,False
+OSM_way_1467545212,Unnamed substation,,,17.4781271,78.5376562,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545212,False
+OSM_way_1467545213,Unnamed substation,,,17.4542687,78.5117736,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545213,False
+OSM_way_1467545214,Unnamed substation,,,17.482138,78.5428517,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545214,False
+OSM_way_1467545215,Unnamed substation,,,17.4554278,78.5295251,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545215,False
+OSM_way_1467545216,Unnamed substation,,,17.458401,78.5431004,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545216,False
+OSM_way_1467545217,Unnamed substation,,,17.4327122,78.64266,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545217,False
+OSM_way_1467545218,Unnamed substation,,,17.4713019,78.6272568,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545218,False
+OSM_way_1467545219,Unnamed substation,,,17.4551847,78.5973374,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545219,False
+OSM_way_1467545220,Unnamed substation,,,17.4378929,78.6521852,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545220,False
+OSM_way_1467545221,Unnamed substation,,,17.4190325,78.6300939,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545221,False
+OSM_way_1467545222,Unnamed substation,,,17.5011383,78.6736241,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545222,False
+OSM_way_1467545223,Unnamed substation,,,17.5221118,78.6581183,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545223,False
+OSM_way_1467545224,Unnamed substation,,,17.5003408,78.5815674,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545224,False
+OSM_way_1467545225,Unnamed substation,,,17.4969974,78.5814265,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545225,False
+OSM_way_1467545226,Unnamed substation,,,17.5383228,78.6297948,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545226,False
+OSM_way_1467545227,Unnamed substation,,,17.5170442,78.6063281,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545227,False
+OSM_way_1467545228,Unnamed substation,,,17.4991545,78.6119199,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545228,False
+OSM_way_1467545229,Unnamed substation,,,17.5323324,78.4337817,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545229,False
+OSM_way_1467545230,Unnamed substation,,,17.5315177,78.5590945,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545230,False
+OSM_way_1467545231,Unnamed substation,,,17.5140982,78.5653514,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545231,False
+OSM_way_1467545233,Unnamed substation,,,17.5001393,78.4498272,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545233,False
+OSM_way_1467545234,Unnamed substation,,,17.502251,78.3997041,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545234,False
+OSM_way_1467545235,Unnamed substation,,,17.5419659,78.4672087,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545235,False
+OSM_way_1467545236,Unnamed substation,,,17.5631495,78.465079,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545236,False
+OSM_way_1467545237,Unnamed substation,,,17.5001898,78.4518973,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545237,False
+OSM_way_1467545238,Unnamed substation,,,17.5383183,78.4331681,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545238,False
+OSM_way_1467545239,Unnamed substation,,,17.5366962,78.5393869,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545239,False
+OSM_way_1467545240,Unnamed substation,,,17.5184842,78.5098484,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545240,False
+OSM_way_1467545241,Unnamed substation,,,17.5731076,78.5325553,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545241,False
+OSM_way_1467545242,Unnamed substation,,,17.5264753,78.5229925,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545242,False
+OSM_way_1467545243,Unnamed substation,,,17.5058866,78.4729902,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545243,False
+OSM_way_1467545244,Unnamed substation,,,17.5357806,78.4852485,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545244,False
+OSM_way_1467545245,Unnamed substation,,,17.4991244,78.4125794,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545245,False
+OSM_way_1467545246,Unnamed substation,,,17.5220408,78.4293848,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545246,False
+OSM_way_1467545247,Unnamed substation,,,17.5459786,78.4417485,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545247,False
+OSM_way_1467545248,Unnamed substation,,,17.5244802,78.452297,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545248,False
+OSM_way_1467545249,Unnamed substation,,,17.5256773,78.4915216,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545249,False
+OSM_way_1467545250,Unnamed substation,,,17.5038446,78.430394,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545250,False
+OSM_way_1467545251,Unnamed substation,,,17.4199928,78.2221507,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545251,False
+OSM_way_1467545252,Unnamed substation,,,17.4066385,78.3780969,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545252,False
+OSM_way_1467545253,Unnamed substation,,,17.5218714,78.3594469,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545253,False
+OSM_way_1467545254,Unnamed substation,,,17.5651774,78.31465,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545254,False
+OSM_way_1467545255,Unnamed substation,,,17.502448,78.3161057,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545255,False
+OSM_way_1467545256,Unnamed substation,,,17.4774913,78.3049304,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545256,False
+OSM_way_1467545257,Unnamed substation,,,17.4065067,78.2821825,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545257,False
+OSM_way_1467545258,Unnamed substation,,,17.5258615,78.375791,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545258,False
+OSM_way_1467545259,Unnamed substation,,,17.5372422,78.2939185,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545259,False
+OSM_way_1467545260,Unnamed substation,,,17.5602574,78.3497253,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545260,False
+OSM_way_1467545261,Unnamed substation,,,17.5090009,78.3014649,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545261,False
+OSM_way_1467545262,Unnamed substation,,,17.5472873,78.2917901,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545262,False
+OSM_way_1467545263,Unnamed substation,,,17.5299396,78.2758901,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545263,False
+OSM_way_1467545264,Unnamed substation,,,17.516791,78.3199407,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545264,False
+OSM_way_1467545265,Unnamed substation,,,17.4378878,78.2530363,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545265,False
+OSM_way_1467545266,Unnamed substation,,,17.4789925,78.2913711,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545266,False
+OSM_way_1467545267,Unnamed substation,,,17.4876255,78.2363885,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545267,False
+OSM_way_1467545268,Unnamed substation,,,17.5117622,78.366662,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545268,False
+OSM_way_1467545269,Unnamed substation,,,17.426541,78.3341738,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545269,False
+OSM_way_1467545270,Unnamed substation,,,17.5195182,78.275813,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545270,False
+OSM_way_1467545271,Unnamed substation,,,17.5898663,78.3803782,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545271,False
+OSM_way_1467545272,Unnamed substation,,,17.5822609,78.2532918,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545272,False
+OSM_way_1467545273,Unnamed substation,,,17.5812605,78.4201044,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545273,False
+OSM_way_1467545274,Unnamed substation,,,17.6137113,78.492158,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545274,False
+OSM_way_1467545275,Unnamed substation,,,17.5914266,78.3728197,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545275,False
+OSM_way_1467545276,Unnamed substation,,,17.6054327,78.2820021,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545276,False
+OSM_way_1467545277,Unnamed substation,,,18.2023326,78.1274619,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545277,False
+OSM_way_1467545278,Unnamed substation,,,17.7260494,78.4838504,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545278,False
+OSM_way_1467545279,Unnamed substation,,,18.1934826,78.5100657,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545279,False
+OSM_way_1467545280,Unnamed substation,,,18.2336211,78.619536,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545280,False
+OSM_way_1467545281,Unnamed substation,,,18.1798866,77.7366628,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545281,False
+OSM_way_1467545282,Unnamed substation,,,17.6543443,78.6136727,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545282,False
+OSM_way_1467545283,Unnamed substation,,,17.7900705,78.3898176,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545283,False
+OSM_way_1467545916,Unnamed substation,,,17.4033406,78.5053497,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467545916,False
+OSM_way_1467558660,Unnamed substation,,,17.1252793,77.9481992,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558660,False
+OSM_way_1467558661,Unnamed substation,,,17.0225868,77.7376472,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558661,False
+OSM_way_1467558662,Unnamed substation,,,17.2085035,78.332433,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558662,False
+OSM_way_1467558663,Unnamed substation,,,17.0029274,78.6466887,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558663,False
+OSM_way_1467558664,Unnamed substation,,,17.0873182,78.3638591,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558664,False
+OSM_way_1467558665,Unnamed substation,,,17.3519946,78.3573119,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558665,False
+OSM_way_1467558666,Unnamed substation,,,17.3210674,78.3975061,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558666,False
+OSM_way_1467558667,Unnamed substation,,,17.402228,78.3701543,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558667,False
+OSM_way_1467558668,Unnamed substation,,,17.3137178,78.4333779,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558668,False
+OSM_way_1467558669,Unnamed substation,,,17.2924597,78.4168347,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558669,False
+OSM_way_1467558670,Unnamed substation,,,17.3058359,78.4550287,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558670,False
+OSM_way_1467558671,Unnamed substation,,,17.2797358,78.5547962,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558671,False
+OSM_way_1467558672,Unnamed substation,,,17.3084766,78.5429522,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558672,False
+OSM_way_1467558673,Unnamed substation,,,17.2824703,78.492518,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558673,False
+OSM_way_1467558674,Unnamed substation,,,17.2766092,78.4504019,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558674,False
+OSM_way_1467558675,Unnamed substation,,,17.2974088,78.5918945,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558675,False
+OSM_way_1467558676,Unnamed substation,,,17.3158149,78.5818128,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558676,False
+OSM_way_1467558677,Unnamed substation,,,17.3267518,78.6362669,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558677,False
+OSM_way_1467558678,Unnamed substation,,,17.3240818,78.5748457,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558678,False
+OSM_way_1467558679,Unnamed substation,,,17.3376496,78.5750435,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558679,False
+OSM_way_1467558680,Hayath Nagar,,,17.3373532,78.5759555,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1467558680,True
+OSM_way_1467558681,Unnamed substation,,,17.3345957,78.6124925,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558681,False
+OSM_way_1467558682,Unnamed substation,,,17.3502691,78.4572516,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558682,False
+OSM_way_1467558683,Unnamed substation,,,17.3308836,78.4705388,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558683,False
+OSM_way_1467558684,Unnamed substation,,,17.3155973,78.4448055,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558684,False
+OSM_way_1467558685,Unnamed substation,,,17.315379,78.4454781,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558685,False
+OSM_way_1467558686,Unnamed substation,,,17.3161543,78.4520019,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558686,False
+OSM_way_1467558687,Unnamed substation,,,17.3418504,78.4533054,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558687,False
+OSM_way_1467558688,Unnamed substation,,,17.3472794,78.5002018,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558688,False
+OSM_way_1467558689,Unnamed substation,,,17.3796587,78.5222932,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558689,False
+OSM_way_1467558690,Unnamed substation,,,17.380316,78.5571089,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558690,False
+OSM_way_1467558691,Unnamed substation,,,17.3842925,78.5176912,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558691,False
+OSM_way_1467558692,Unnamed substation,,,17.3957845,78.499994,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558692,False
+OSM_way_1467558693,Unnamed substation,,,17.3917756,78.555855,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558693,False
+OSM_way_1467558694,Nagole,,,17.3916988,78.5536341,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1467558694,True
+OSM_way_1467558695,Unnamed substation,,,17.3968531,78.4889131,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558695,False
+OSM_way_1467558696,Unnamed substation,,,17.3639181,78.5157889,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558696,False
+OSM_way_1467558697,Unnamed substation,,,17.3869942,78.5482362,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558697,False
+OSM_way_1467558698,Unnamed substation,,,17.360608,78.4398837,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558698,False
+OSM_way_1467558699,Imlibun,,,17.3766695,78.4826535,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1467558699,True
+OSM_way_1467558700,Unnamed substation,,,17.3705688,78.4779368,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558700,False
+OSM_way_1467558701,Unnamed substation,,,17.433405,78.4838129,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558701,False
+OSM_way_1467558702,Unnamed substation,,,17.4202993,78.5409815,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558702,False
+OSM_way_1467558703,Unnamed substation,,,17.4266274,78.4922552,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558703,False
+OSM_way_1467558704,Unnamed substation,,,17.4321166,78.5310674,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558704,False
+OSM_way_1467558705,Unnamed substation,,,17.4264591,78.5177663,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467558705,False
+OSM_way_1467562817,Unnamed substation,,,17.2709533,80.143254,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562817,False
+OSM_way_1467562818,Unnamed substation,,,17.5290503,79.4018492,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562818,False
+OSM_way_1467562819,Unnamed substation,,,17.3213023,79.4653082,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562819,False
+OSM_way_1467562820,Unnamed substation,,,17.5160198,79.7331134,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562820,False
+OSM_way_1467562821,Unnamed substation,,,17.3444817,79.2788297,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562821,False
+OSM_way_1467562822,Unnamed substation,,,17.3525528,79.9627722,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562822,False
+OSM_way_1467562823,Unnamed substation,,,17.2682563,79.6178422,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562823,False
+OSM_way_1467562824,Unnamed substation,,,17.0165757,80.058926,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562824,False
+OSM_way_1467562825,Unnamed substation,,,17.0107235,79.8084755,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562825,False
+OSM_way_1467562826,Unnamed substation,,,17.5282177,79.502662,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562826,False
+OSM_way_1467562827,Unnamed substation,,,17.4093686,78.9145555,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562827,False
+OSM_way_1467562828,Unnamed substation,,,18.0345448,80.5679985,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562828,False
+OSM_way_1467562829,Unnamed substation,,,18.0360113,80.7221693,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562829,False
+OSM_way_1467562830,Unnamed substation,,,18.0109485,80.8657412,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562830,False
+OSM_way_1467562831,Unnamed substation,,,18.2509141,80.5113128,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562831,False
+OSM_way_1467562832,Unnamed substation,,,18.1608515,80.3940841,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562832,False
+OSM_way_1467562833,Unnamed substation,,,17.6224108,79.4533584,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562833,False
+OSM_way_1467562834,Unnamed substation,,,18.2030836,80.1219914,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562834,False
+OSM_way_1467562835,Unnamed substation,,,18.150832,80.1479586,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562835,False
+OSM_way_1467562836,Unnamed substation,,,18.062779,79.1787632,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562836,False
+OSM_way_1467562837,Unnamed substation,,,18.227633,79.4353258,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562837,False
+OSM_way_1467562838,Unnamed substation,,,18.0852732,79.8587038,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562838,False
+OSM_way_1467562839,Unnamed substation,,,18.0966024,79.2170095,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562839,False
+OSM_way_1467562840,Unnamed substation,,,18.2286214,79.693343,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562840,False
+OSM_way_1467562841,Unnamed substation,,,18.2389294,79.3207734,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562841,False
+OSM_way_1467562842,Unnamed substation,,,17.8447609,78.8054399,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562842,False
+OSM_way_1467562843,Unnamed substation,,,17.8771186,79.7243674,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562843,False
+OSM_way_1467562844,Unnamed substation,,,17.9942242,80.0447955,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562844,False
+OSM_way_1467562845,Unnamed substation,,,18.2424983,79.3598143,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562845,False
+OSM_way_1467562846,Unnamed substation,,,18.0597942,78.7976293,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562846,False
+OSM_way_1467562847,Unnamed substation,,,17.9090112,79.4309572,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562847,False
+OSM_way_1467562848,Unnamed substation,,,18.1705786,79.7725868,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562848,False
+OSM_way_1467562849,Unnamed substation,,,18.2629909,78.9506447,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562849,False
+OSM_way_1467562850,Unnamed substation,,,17.8939733,79.4980929,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467562850,False
+OSM_way_1467587609,Unnamed substation,,,19.8325713,78.3778476,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467587609,False
+OSM_way_1467587612,Unnamed substation,,,19.751224,78.4522761,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467587612,False
+OSM_way_1467597151,Unnamed substation,,,19.4493747,78.7124276,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467597151,False
+OSM_way_1467671663,Unnamed substation,,,18.05354,77.9090631,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671663,False
+OSM_way_1467671664,Unnamed substation,,,18.5895563,78.1894075,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671664,False
+OSM_way_1467671665,Unnamed substation,,,18.7849735,77.9820359,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671665,False
+OSM_way_1467671666,Unnamed substation,,,18.8818422,78.2139149,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671666,False
+OSM_way_1467671667,Unnamed substation,,,19.1633014,78.0373853,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671667,False
+OSM_way_1467671668,Unnamed substation,,,18.3292259,77.7303032,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671668,False
+OSM_way_1467671669,Unnamed substation,,,18.4035435,77.9114288,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1467671669,False
+OSM_way_1468982371,Unnamed substation,,,17.1566199,79.310512,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982371,False
+OSM_way_1468982373,Unnamed substation,,,17.4719134,80.4006335,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982373,False
+OSM_way_1468982375,Unnamed substation,,,17.075657,80.2111407,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982375,False
+OSM_way_1468982376,Unnamed substation,,,17.1435726,80.1778525,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982376,False
+OSM_way_1468982377,Unnamed substation,,,17.1807707,80.4675586,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982377,False
+OSM_way_1468982378,Unnamed substation,,,18.2082802,80.6663458,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982378,False
+OSM_way_1468982379,Unnamed substation,,,18.2292425,79.553738,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982379,False
+OSM_way_1468982380,Unnamed substation,,,17.6840514,79.5526296,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982380,False
+OSM_way_1468982381,Unnamed substation,,,18.0252998,79.809026,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982381,False
+OSM_way_1468982382,Unnamed substation,,,17.9871558,79.8614853,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982382,False
+OSM_way_1468982383,Unnamed substation,,,17.8466706,79.4768901,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982383,False
+OSM_way_1468982384,Unnamed substation,,,18.0987855,79.9435213,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982384,False
+OSM_way_1468982398,Unnamed substation,,,18.9510626,79.7953936,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982398,False
+OSM_way_1468982400,Unnamed substation,,,18.4623198,80.3811096,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1468982400,False
+OSM_way_1469075717,Unnamed substation,,,19.682126,78.5008295,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469075717,False
+OSM_way_1469075718,Unnamed substation,,,19.8009598,78.5963469,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469075718,False
+OSM_way_1469075742,Unnamed substation,,,18.6282979,77.9363049,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469075742,False
+OSM_way_1469078036,Unnamed substation,,,17.8245131,79.0182746,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078036,False
+OSM_way_1469078037,Unnamed substation,,,17.9280684,78.8939059,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078037,False
+OSM_way_1469078038,Unnamed substation,,,18.4054744,78.8195403,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078038,False
+OSM_way_1469078039,Unnamed substation,,,18.786026,78.7777904,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078039,False
+OSM_way_1469078040,Unnamed substation,,,18.3784991,78.7917124,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078040,False
+OSM_way_1469078041,Unnamed substation,,,19.3524344,79.30971,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078041,False
+OSM_way_1469078042,Unnamed substation,,,17.9014302,78.6517681,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078042,False
+OSM_way_1469078044,Unnamed substation,,,18.8143409,78.1245478,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078044,False
+OSM_way_1469078045,Unnamed substation,,,18.6272635,78.0451791,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1469078045,False
+OSM_way_1470894343,Unnamed substation,,,18.7844071,78.6196567,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1470894343,False
+OSM_way_1473358510,Yadadri TPS,,,16.7032696,79.578936,substation,generation,400000,TGGENCO,OpenStreetMap,https://www.openstreetmap.org/way/1473358510,True
+OSM_way_1473359212,TGTRANSCO 400 KV Substation Damercherla,,,16.7110482,79.5505432,substation,transmission,400000;220000,,OpenStreetMap,https://www.openstreetmap.org/way/1473359212,True
+OSM_way_1491695384,Srisailam Left Bank,,,16.0953027,78.9031497,substation,generation,400000,,OpenStreetMap,https://www.openstreetmap.org/way/1491695384,True
+OSM_way_1492456744,Mallaram,,,18.1620879,78.983578,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492456744,True
+OSM_way_1492458731,Mentrajpalli,,,18.6628467,78.1964665,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492458731,True
+OSM_way_1492459135,Mekaguda,,,17.0869666,78.2801396,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492459135,True
+OSM_way_1492476185,Ammavaripet,,,17.9405212,79.5581088,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492476185,True
+OSM_way_1492489143,Kallur,,,17.2031294,80.611132,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492489143,True
+OSM_way_1492513831,Akkaram,,,17.8350983,78.7278361,substation,industrial,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492513831,True
+OSM_way_1492520041,Kondapakka,,,17.9773169,78.8809065,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492520041,True
+OSM_way_1492577520,Chanchalaguda,,,17.3646611,78.5017913,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492577520,True
+OSM_way_1492579239,Singotam,,,16.1730388,78.2608866,substation,transmission,220000,,OpenStreetMap,https://www.openstreetmap.org/way/1492579239,True
+OSM_way_1495342402,TGSPDCL 33/11 KV Substation - Kothapeta,,,16.9871763,78.3618123,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1495342402,True
+OSM_way_1500234490,33/11KV SS Nyavanandi,,,18.6074701,78.4745731,substation,transmission,,,OpenStreetMap,https://www.openstreetmap.org/way/1500234490,True
+OSM_way_1566797627,Hathighat Substation,,,19.7915512,78.4970539,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1566797627,True
+OSM_way_1567047733,33/11 kV Indoor Substation Telangana Chowk,,,18.4373505,79.1245101,substation,minor_distribution,33000;11000,TGNPDCL,OpenStreetMap,https://www.openstreetmap.org/way/1567047733,True
+OSM_way_1567498051,Sub Station 11KV/433V,,,18.1170098,78.8881286,substation,minor_distribution,11000;433,South Central Railway,OpenStreetMap,https://www.openstreetmap.org/way/1567498051,True
+OSM_way_1573619341,Unnamed substation,,,17.2650566,78.3671984,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1573619341,False
+OSM_way_1575843210,Unnamed substation,,,18.2394611,78.9062588,substation,,,,OpenStreetMap,https://www.openstreetmap.org/way/1575843210,False
+OSM_node_3389005459,power station,,,17.6844109,79.2596203,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/3389005459,True
+OSM_node_3534807634,power generator,,,19.6879856,78.5136084,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/3534807634,True
+OSM_node_3764434533,Unnamed transformer,,,16.4620564,77.9333535,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/3764434533,False
+OSM_node_3764434534,Unnamed transformer,,,16.4620818,77.9338792,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/3764434534,False
+OSM_node_3764452170,Unnamed transformer,,,16.3208631,77.7095263,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/3764452170,False
+OSM_node_3842402201,Transformer,,,17.5286114,78.3607365,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/3842402201,True
+OSM_node_4185022568,Unnamed transformer,,,17.4423125,78.4332929,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/4185022568,False
+OSM_node_4348040981,Stage I,,,18.3841356,79.8263724,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/4348040981,True
+OSM_node_4348040982,Stage II,,,18.3828782,79.8263134,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/4348040982,True
+OSM_node_5500256922,Unnamed transformer,,,17.434714,78.4066544,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/5500256922,False
+OSM_node_5546796545,Unnamed transformer,,,17.512845,79.2938633,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/5546796545,False
+OSM_node_6360982390,Unnamed transformer,,,17.601724,80.6825766,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/6360982390,False
+OSM_node_6360982392,Unnamed transformer,,,17.6016832,80.6827384,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/6360982392,False
+OSM_node_6871129936,NTPC unit 7,,,18.7582899,79.4537795,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129936,True
+OSM_node_6871129937,NTPC unit 4,,,18.7572232,79.4568533,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129937,True
+OSM_node_6871129938,NTPC unit 5,,,18.7575076,79.4560191,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129938,True
+OSM_node_6871129939,NTPC unit 6,,,18.7577769,79.4551393,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129939,True
+OSM_node_6871129940,NTPC unit 1,,,18.7559533,79.4605225,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129940,True
+OSM_node_6871129941,NTPC unit 2,,,18.756154,79.459903,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129941,True
+OSM_node_6871129942,NTPC unit 3,,,18.7563444,79.4592967,generator,,,NTPC,OpenStreetMap,https://www.openstreetmap.org/node/6871129942,True
+OSM_node_7613964590,Unnamed transformer,,,17.3577793,78.8300445,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7613964590,False
+OSM_node_7620700762,Unnamed transformer,,,18.7563673,79.4563892,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700762,False
+OSM_node_7620700763,Unnamed transformer,,,18.7564028,79.4562981,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700763,False
+OSM_node_7620700764,Unnamed transformer,,,18.7564358,79.4562149,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700764,False
+OSM_node_7620700765,Unnamed transformer,,,18.7566416,79.455547,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700765,False
+OSM_node_7620700766,Unnamed transformer,,,18.7566771,79.4554371,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700766,False
+OSM_node_7620700767,Unnamed transformer,,,18.7567203,79.455311,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700767,False
+OSM_node_7620700768,Unnamed transformer,,,18.7569336,79.4546699,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700768,False
+OSM_node_7620700769,Unnamed transformer,,,18.7569692,79.4545653,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700769,False
+OSM_node_7620700770,Unnamed transformer,,,18.7570022,79.4544688,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700770,False
+OSM_node_7620700771,Unnamed transformer,,,18.7528319,79.4534737,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700771,False
+OSM_node_7620700772,Unnamed transformer,,,18.7520572,79.4559199,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700772,False
+OSM_node_7620700773,Unnamed transformer,,,18.7521283,79.4556597,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700773,False
+OSM_node_7620700774,Unnamed transformer,,,18.7523138,79.4551125,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700774,False
+OSM_node_7620700775,Unnamed transformer,,,18.7523899,79.4548872,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700775,False
+OSM_node_7620700776,Unnamed transformer,,,18.7513359,79.4575078,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700776,False
+OSM_node_7620700777,Unnamed transformer,,,18.7514197,79.4572529,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620700777,False
+OSM_node_7620722057,Unnamed transformer,,,18.8347593,79.4035739,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620722057,False
+OSM_node_7620722058,Unnamed transformer,,,18.8352036,79.4033056,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620722058,False
+OSM_node_7620722059,Unnamed transformer,,,18.8354066,79.4032037,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7620722059,False
+OSM_node_7633582036,Unnamed transformer,,,18.8288392,79.5693907,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7633582036,False
+OSM_node_7641042594,Unnamed transformer,,,18.7493091,79.4464275,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7641042594,False
+OSM_node_7641042595,Unnamed transformer,,,18.7493586,79.4462545,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7641042595,False
+OSM_node_7647468782,Unnamed transformer,,,18.7574162,79.4533154,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7647468782,False
+OSM_node_7647468783,Unnamed transformer,,,18.7574492,79.4531572,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7647468783,False
+OSM_node_7647468784,Unnamed transformer,,,18.7574949,79.4530311,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7647468784,False
+OSM_node_7653561608,Unnamed transformer,,,18.7685285,79.4509779,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7653561608,False
+OSM_node_7653561609,Unnamed transformer,,,18.7685323,79.4508572,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7653561609,False
+OSM_node_7653562198,Ramagundam B,,,18.7698529,79.4495188,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/7653562198,True
+OSM_node_7661363718,Unnamed transformer,,,17.8694782,78.7746441,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7661363718,False
+OSM_node_7661363719,Unnamed transformer,,,17.8699633,78.7746468,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7661363719,False
+OSM_node_7661363720,Unnamed transformer,,,17.8702211,78.7746415,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7661363720,False
+OSM_node_7667799664,Unnamed transformer,,,18.0663451,78.2794628,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7667799664,False
+OSM_node_7667799665,Unnamed transformer,,,18.0664433,78.2795204,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/7667799665,False
+OSM_node_8107894696,Unnamed transformer,,,17.4585772,78.4259294,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/8107894696,False
+OSM_node_8110916082,Unnamed transformer,,,17.2480879,80.1719371,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/8110916082,False
+OSM_node_12050554218,Unnamed transformer,,,17.4049488,78.4642136,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12050554218,False
+OSM_node_12417824037,Unnamed transformer,,,17.0530861,78.5303271,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417824037,False
+OSM_node_12417824038,Unnamed transformer,,,17.0533374,78.5303485,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417824038,False
+OSM_node_12417874529,Unnamed transformer,,,17.0494204,78.5338703,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417874529,False
+OSM_node_12417874530,Unnamed transformer,,,17.0498871,78.5340392,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417874530,False
+OSM_node_12417924703,Unnamed transformer,,,17.8159878,79.4231298,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417924703,False
+OSM_node_12417924704,Unnamed transformer,,,17.8159623,79.4236662,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12417924704,False
+OSM_node_12479646708,Unnamed transformer,,,18.6050022,78.2638569,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12479646708,False
+OSM_node_12479646709,Unnamed transformer,,,18.6055182,78.2642914,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12479646709,False
+OSM_node_12650655750,Unnamed transformer,,,17.1621525,79.6935828,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655750,False
+OSM_node_12650655751,Unnamed transformer,,,17.1623959,79.6936633,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655751,False
+OSM_node_12650655752,Unnamed transformer,,,17.1626266,79.6937196,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655752,False
+OSM_node_12650655791,Unnamed transformer,,,17.160442,79.6933897,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655791,False
+OSM_node_12650655792,Unnamed transformer,,,17.1605855,79.6934272,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655792,False
+OSM_node_12650655793,Unnamed transformer,,,17.1607264,79.6934674,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650655793,False
+OSM_node_12650691641,Unnamed transformer,,,18.827821,79.5723035,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650691641,False
+OSM_node_12650691643,Unnamed transformer,,,18.8281917,79.5722632,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650691643,False
+OSM_node_12650691644,Unnamed transformer,,,18.8284354,79.5722767,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650691644,False
+OSM_node_12650691645,Unnamed transformer,,,18.8290269,79.5722981,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650691645,False
+OSM_node_12650699825,Unnamed transformer,,,17.536073,78.5812732,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650699825,False
+OSM_node_12650699826,Unnamed transformer,,,17.5360193,78.581528,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650699826,False
+OSM_node_12650699827,Unnamed transformer,,,17.5359886,78.5817828,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650699827,False
+OSM_node_12650699828,Unnamed transformer,,,17.5359553,78.5820188,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650699828,False
+OSM_node_12650722832,Unnamed transformer,,,18.7508077,79.4741102,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650722832,False
+OSM_node_12650722835,Unnamed transformer,,,18.7505461,79.4740003,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650722835,False
+OSM_node_12650722839,Unnamed transformer,,,18.7496114,79.4736784,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650722839,False
+OSM_node_12650722843,Unnamed transformer,,,18.7493523,79.4735711,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650722843,False
+OSM_node_12650941750,Unnamed transformer,,,18.0564341,79.6701745,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650941750,False
+OSM_node_12650941751,Unnamed transformer,,,18.0563296,79.6699867,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650941751,False
+OSM_node_12650941752,Unnamed transformer,,,18.0565361,79.6703676,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12650941752,False
+OSM_node_12652677803,Unnamed transformer,,,17.2331911,78.4809744,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652677803,False
+OSM_node_12652677804,Unnamed transformer,,,17.2330869,78.48145,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652677804,False
+OSM_node_12652677805,Unnamed transformer,,,17.2329862,78.4819578,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652677805,False
+OSM_node_12652677806,Unnamed transformer,,,17.2330443,78.4817129,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652677806,False
+OSM_node_12652677807,Unnamed transformer,,,17.2331467,78.4812229,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652677807,False
+OSM_node_12652715619,Unnamed transformer,,,17.4253447,78.6793272,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715619,False
+OSM_node_12652715620,Unnamed transformer,,,17.4254911,78.6793514,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715620,False
+OSM_node_12652715622,Unnamed transformer,,,17.4249613,78.6804828,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715622,False
+OSM_node_12652715623,Unnamed transformer,,,17.4246823,78.6804265,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715623,False
+OSM_node_12652715625,Unnamed transformer,,,17.4243343,78.6803701,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715625,False
+OSM_node_12652715627,Unnamed transformer,,,17.4240323,78.6803058,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652715627,False
+OSM_node_12652996957,Unnamed transformer,,,18.4542037,79.1771241,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652996957,False
+OSM_node_12652996958,Unnamed transformer,,,18.45429,79.1772623,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652996958,False
+OSM_node_12652996959,Unnamed transformer,,,18.454124,79.176997,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12652996959,False
+OSM_node_12653008838,Unnamed transformer,,,18.7552204,79.4599116,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653008838,False
+OSM_node_12653008841,Unnamed transformer,,,18.7554134,79.4593027,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653008841,False
+OSM_node_12653008842,Unnamed transformer,,,18.7556166,79.4586831,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653008842,False
+OSM_node_12653320622,Unnamed transformer,,,18.166134,78.8727996,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653320622,False
+OSM_node_12653320623,Unnamed transformer,,,18.1664627,78.8721156,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653320623,False
+OSM_node_12653320624,Unnamed transformer,,,18.1662436,78.8725662,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653320624,False
+OSM_node_12653320625,Unnamed transformer,,,18.1663582,78.8723409,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653320625,False
+OSM_node_12653382175,Unnamed transformer,,,17.7598085,79.112898,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653382175,False
+OSM_node_12653382176,Unnamed transformer,,,17.7596399,79.1133915,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653382176,False
+OSM_node_12653382177,Unnamed transformer,,,17.7594049,79.1140942,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653382177,False
+OSM_node_12653954117,Unnamed transformer,,,16.6147181,78.6719408,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653954117,False
+OSM_node_12653954118,Unnamed transformer,,,16.6142503,78.6721071,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12653954118,False
+OSM_node_12654001311,Unnamed transformer,,,17.4538952,78.1491074,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654001311,False
+OSM_node_12654001312,Unnamed transformer,,,17.4541204,78.1491691,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654001312,False
+OSM_node_12654001313,Unnamed transformer,,,17.454604,78.1493166,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654001313,False
+OSM_node_12654001314,Unnamed transformer,,,17.4543455,78.1492415,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654001314,False
+OSM_node_12654028169,Unnamed transformer,,,17.7565968,78.3894785,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654028169,False
+OSM_node_12654028170,Unnamed transformer,,,17.7561197,78.3893486,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654028170,False
+OSM_node_12654028171,Unnamed transformer,,,17.7558851,78.3892998,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654028171,False
+OSM_node_12654037016,Unnamed transformer,,,17.7562491,78.3880349,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654037016,False
+OSM_node_12654037019,Unnamed transformer,,,17.7559579,78.3879464,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654037019,False
+OSM_node_12654040173,Unnamed transformer,,,18.0140072,78.7493286,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654040173,False
+OSM_node_12654041881,Unnamed transformer,,,18.2821428,78.9200584,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041881,False
+OSM_node_12654041884,Unnamed transformer,,,18.2833856,78.9201228,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041884,False
+OSM_node_12654041886,Unnamed transformer,,,18.2831411,78.9201013,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041886,False
+OSM_node_12654041888,Unnamed transformer,,,18.2826572,78.9200745,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041888,False
+OSM_node_12654041890,Unnamed transformer,,,18.2828788,78.9200959,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041890,False
+OSM_node_12654041892,Unnamed transformer,,,18.2823924,78.9200691,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654041892,False
+OSM_node_12654173171,Unnamed transformer,,,18.0042337,79.5865817,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654173171,False
+OSM_node_12654173175,Unnamed transformer,,,18.0045322,79.5864932,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654173175,False
+OSM_node_12654173178,Unnamed transformer,,,18.0043893,79.5865334,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12654173178,False
+OSM_node_12656229182,Unnamed transformer,,,16.4620576,77.9335919,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12656229182,False
+OSM_node_12660070523,Unnamed transformer,,,17.246104,78.4631122,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660070523,False
+OSM_node_12660070524,Unnamed transformer,,,17.2462023,78.4632259,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660070524,False
+OSM_node_12660070529,Unnamed transformer,,,17.2466409,78.4631122,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660070529,False
+OSM_node_12660070530,Unnamed transformer,,,17.2467474,78.4632388,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660070530,False
+OSM_node_12660079298,Unnamed transformer,,,17.3276191,78.4234861,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660079298,False
+OSM_node_12660082001,Unnamed transformer,,,17.3274593,78.4234646,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660082001,False
+OSM_node_12660082003,Unnamed transformer,,,17.3273098,78.423456,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660082003,False
+OSM_node_12660082005,Unnamed transformer,,,17.3277916,78.4234881,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660082005,False
+OSM_node_12660082012,Unnamed transformer,,,17.3272916,78.4248376,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660082012,False
+OSM_node_12660082014,Unnamed transformer,,,17.3273528,78.4242886,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660082014,False
+OSM_node_12660734566,Unnamed transformer,,,17.287392,78.2277713,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734566,False
+OSM_node_12660734567,Unnamed transformer,,,17.2878658,78.2278866,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734567,False
+OSM_node_12660734568,Unnamed transformer,,,17.2880988,78.2279295,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734568,False
+OSM_node_12660734955,Unnamed transformer,,,17.3352227,78.5174799,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734955,False
+OSM_node_12660734956,Unnamed transformer,,,17.335238,78.5180292,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734956,False
+OSM_node_12660734958,Unnamed transformer,,,17.3351998,78.5176204,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734958,False
+OSM_node_12660734970,Unnamed transformer,,,17.3358506,78.51684,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734970,False
+OSM_node_12660734971,Unnamed transformer,,,17.3358706,78.5167197,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734971,False
+OSM_node_12660734972,Unnamed transformer,,,17.3358833,78.5165634,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12660734972,False
+OSM_node_12661172926,Unnamed transformer,,,17.4691392,78.325393,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661172926,False
+OSM_node_12661172927,Unnamed transformer,,,17.4690317,78.32535,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661172927,False
+OSM_node_12661172930,Unnamed transformer,,,17.4698514,78.3258333,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661172930,False
+OSM_node_12661172933,Unnamed transformer,,,17.4695904,78.3257126,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661172933,False
+OSM_node_12661172936,Unnamed transformer,,,17.4697128,78.3257741,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661172936,False
+OSM_node_12661221910,Unnamed transformer,,,17.508157,78.1486038,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661221910,False
+OSM_node_12661221911,Unnamed transformer,,,17.5080178,78.1485926,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661221911,False
+OSM_node_12661221912,Unnamed transformer,,,17.5074051,78.1486036,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661221912,False
+OSM_node_12661245801,Unnamed transformer,,,17.52259,78.4410765,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661245801,False
+OSM_node_12661245802,Unnamed transformer,,,17.5224621,78.4411704,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661245802,False
+OSM_node_12661245804,Unnamed transformer,,,17.5227256,78.4409773,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12661245804,False
+OSM_node_12972280518,Unnamed transformer,,,17.4035909,78.3702699,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/12972280518,False
+OSM_node_13194275820,Unnamed transformer,,,17.6323944,77.9024782,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194275820,False
+OSM_node_13194275821,Unnamed transformer,,,17.6325452,77.9024969,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194275821,False
+OSM_node_13194362300,Unnamed transformer,,,18.6074283,79.1013702,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194362300,False
+OSM_node_13194372001,Unnamed transformer,,,18.6068253,79.1032436,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194372001,False
+OSM_node_13194372002,Unnamed transformer,,,18.6066578,79.1034332,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194372002,False
+OSM_node_13194716729,Unnamed transformer,,,18.8345511,79.4037085,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194716729,False
+OSM_node_13194716730,Unnamed transformer,,,18.834974,79.4034554,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194716730,False
+OSM_node_13194719633,Unnamed transformer,,,18.59637,78.2194881,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719633,False
+OSM_node_13194719634,Unnamed transformer,,,18.596492,78.2193916,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719634,False
+OSM_node_13194719637,Unnamed transformer,,,18.5966293,78.219295,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719637,False
+OSM_node_13194719638,Unnamed transformer,,,18.596764,78.2191931,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719638,False
+OSM_node_13194719640,Unnamed transformer,,,18.5968733,78.2190992,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719640,False
+OSM_node_13194719659,Unnamed transformer,,,17.6232839,80.7052019,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719659,False
+OSM_node_13194719662,Unnamed transformer,,,17.6233657,80.7044938,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719662,False
+OSM_node_13194719674,Unnamed transformer,,,17.6232545,80.7054654,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719674,False
+OSM_node_13194719678,Unnamed transformer,,,17.6239634,80.7043405,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719678,False
+OSM_node_13194719684,Unnamed transformer,,,17.6239868,80.7017558,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719684,False
+OSM_node_13194719685,Unnamed transformer,,,17.6239194,80.7025979,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719685,False
+OSM_node_13194719686,Unnamed transformer,,,17.6239839,80.7019586,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719686,False
+OSM_node_13194719687,Unnamed transformer,,,17.6239751,80.7021276,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194719687,False
+OSM_node_13194720190,Unnamed transformer,,,17.3657046,80.2381617,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194720190,False
+OSM_node_13194731196,Unnamed transformer,,,17.4343649,80.5258422,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194731196,False
+OSM_node_13194731197,Unnamed transformer,,,17.4345568,80.5257617,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194731197,False
+OSM_node_13194746017,Unnamed transformer,,,18.627859,78.2377718,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194746017,False
+OSM_node_13194746018,Unnamed transformer,,,18.627859,78.2380159,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194746018,False
+OSM_node_13194746019,Unnamed transformer,,,18.627864,78.2382841,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194746019,False
+OSM_node_13194746072,Unnamed transformer,,,18.6270393,78.2360324,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194746072,False
+OSM_node_13194746073,Unnamed transformer,,,18.6270393,78.2357173,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194746073,False
+OSM_node_13194751907,Unnamed transformer,,,19.0464499,78.3985986,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194751907,False
+OSM_node_13194751908,Unnamed transformer,,,19.0464474,78.3991082,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194751908,False
+OSM_node_13194751909,Unnamed transformer,,,19.0464474,78.3988427,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194751909,False
+OSM_node_13194783045,Unnamed transformer,,,17.2068347,78.9920047,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194783045,False
+OSM_node_13194783046,Unnamed transformer,,,17.2066015,78.9920047,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194783046,False
+OSM_node_13194783047,Unnamed transformer,,,17.2075777,78.9919752,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194783047,False
+OSM_node_13194783053,Unnamed transformer,,,17.2084501,78.9907306,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194783053,False
+OSM_node_13194783054,Unnamed transformer,,,17.2085936,78.990736,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194783054,False
+OSM_node_13194793522,Unnamed transformer,,,17.6237449,80.6874451,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194793522,False
+OSM_node_13194793523,Unnamed transformer,,,17.6237245,80.6876651,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194793523,False
+OSM_node_13194793543,Unnamed transformer,,,17.609893,80.6970126,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194793543,False
+OSM_node_13194793544,Unnamed transformer,,,17.6104196,80.6967953,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194793544,False
+OSM_node_13194793563,Unnamed transformer,,,17.6096041,80.6972084,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194793563,False
+OSM_node_13194796005,Unnamed transformer,,,17.3666159,80.2370915,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194796005,False
+OSM_node_13194796006,Unnamed transformer,,,17.3667798,80.2368286,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194796006,False
+OSM_node_13194796021,Unnamed transformer,,,17.3654371,80.2357088,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194796021,False
+OSM_node_13194796022,Unnamed transformer,,,17.3655292,80.2355854,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194796022,False
+OSM_node_13194833802,Unnamed transformer,,,16.6163317,78.6718033,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194833802,False
+OSM_node_13194842119,Unnamed transformer,,,16.7051732,79.5752083,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842119,False
+OSM_node_13194842120,Unnamed transformer,,,16.7051784,79.5762007,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842120,False
+OSM_node_13194842121,Unnamed transformer,,,16.7051784,79.5765923,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842121,False
+OSM_node_13194842122,Unnamed transformer,,,16.7051938,79.5794194,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842122,False
+OSM_node_13194842123,Unnamed transformer,,,16.7051938,79.5805138,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842123,False
+OSM_node_13194842124,Unnamed transformer,,,16.7052143,79.5819836,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842124,False
+OSM_node_13194842125,Unnamed transformer,,,16.7052092,79.5812487,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13194842125,False
+OSM_node_13195872078,Unnamed transformer,,,16.7051951,79.5810099,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13195872078,False
+OSM_node_13195905510,Unnamed transformer,,,16.7103549,79.5511757,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13195905510,False
+OSM_node_13195905511,Unnamed transformer,,,16.7101108,79.5511811,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13195905511,False
+OSM_node_13195933026,Unnamed transformer,,,16.8981214,79.8246472,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13195933026,False
+OSM_node_13195933027,Unnamed transformer,,,16.8980016,79.8245605,transformer,,,,OpenStreetMap,https://www.openstreetmap.org/node/13195933027,False
+OSM_node_13342300989,Solar Panel,,,18.0553456,79.5414069,generator,,,,OpenStreetMap,https://www.openstreetmap.org/node/13342300989,True
