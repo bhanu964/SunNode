@@ -32,3 +32,6 @@ Thumbs.db
 # Temporary / Scratch
 logs/
 test_err.js
+WhatsApp Image*
+.vercel
+.env*

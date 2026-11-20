@@ -1,0 +1,16 @@
+# Ignore offline pipeline data, scripts and raw PDFs at repository root
+/data/
+/reports/
+/scripts/
+/tests/
+/outputs/
+/logs/
+/*.pdf
+/applogo.png
+/suryagrid_cloud_telangana_solar_grid_integration_saas.html
+/requirements.txt
+/run_webapp.sh
+/.venv/
+*.py
+test_err.js
+.env*
